@@ -241,6 +241,15 @@ function Landing() {
 
               </a>
 
+              <a 
+                href="/KrishiSetu.apk" 
+                download="KrishiSetu.apk" 
+                style={{ padding: '12px 24px', backgroundColor: '#4CAF50', color: 'white', textDecoration: 'none', borderRadius: '8px', display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 'bold' }}
+              >
+                <Smartphone size={18} />
+                Download Android App
+              </a>
+
             </div>
 
 
