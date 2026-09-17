@@ -17088,7 +17088,8 @@ async function ensureCenterLocationColumns() {
   `);
 }
 
-const REAL_GOV_CENTER_REFERENCES = require('./centers.json');
+const { readFileSync } = await import('fs');
+const REAL_GOV_CENTER_REFERENCES = JSON.parse(readFileSync(new URL('./centers.json', import.meta.url)));
 
 async function ensureVerifiedCenterData() {
   // Keep existing rows for audit/history, but remove unproven/demo rows
