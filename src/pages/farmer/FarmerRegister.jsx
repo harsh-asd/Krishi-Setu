@@ -901,6 +901,14 @@ function FarmerRegister() {
     }
 
 
+    
+    if (
+      form.aadhaarNumber &&
+      !/^\d{12}$/.test(form.aadhaarNumber)
+    ) {
+      nextErrors.aadhaarNumber = "Aadhaar must be exactly 12 digits.";
+    }
+
     return nextErrors;
 
   }
@@ -1167,6 +1175,10 @@ function FarmerRegister() {
           form.estimatedQuantity
             ? Number(form.estimatedQuantity)
             : 0,
+            
+        aadhaar_number: form.aadhaarNumber || null,
+        kyc_verified: form.kycVerified,
+
 
       };
 
@@ -2368,6 +2380,55 @@ function FarmerRegister() {
                   error={errors.confirmPassword}
                 />
               </div>
+
+              <div className="register-field">
+                <label className="register-label">Aadhaar Number (e-KYC)</label>
+                <div style={{ display: 'flex', gap: '8px' }}>
+                  <div className="register-input-wrapper" style={{ flex: 1 }}>
+                    <div className="register-input-icon">
+                      <LockKeyhole size={16} />
+                    </div>
+                    <input
+                      className="register-input"
+                      type="text"
+                      placeholder="12-digit Aadhaar Number"
+                      value={form.aadhaarNumber}
+                      onChange={(e) => {
+                        const val = e.target.value.replace(/\D/g, '');
+                        if (val.length <= 12) updateField("aadhaarNumber", val);
+                      }}
+                      disabled={form.kycVerified}
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if ((form.aadhaarNumber || "").length === 12) {
+                        updateField("kycVerified", true);
+                      } else {
+                        setErrors(prev => ({...prev, aadhaarNumber: "Enter 12 digits to verify"}));
+                      }
+                    }}
+                    disabled={form.kycVerified || (form.aadhaarNumber || "").length !== 12}
+                    style={{
+                      padding: '0 16px',
+                      borderRadius: '8px',
+                      border: 'none',
+                      backgroundColor: form.kycVerified ? '#10b981' : '#3b82f6',
+                      color: 'white',
+                      cursor: form.kycVerified ? 'default' : 'pointer',
+                      fontWeight: '600',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '6px'
+                    }}
+                  >
+                    {form.kycVerified ? <><CheckCircle2 size={16} /> Verified</> : "Verify OTP"}
+                  </button>
+                </div>
+                {errors.aadhaarNumber && <div className="register-error">{errors.aadhaarNumber}</div>}
+              </div>
+
 
               <div className="register-field">
                 <label>Alternate mobile number</label>

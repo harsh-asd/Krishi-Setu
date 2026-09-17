@@ -37,6 +37,8 @@ import {
 } from "react";
 
 import Header from "../../components/Header";
+import WeatherAdvisoryCard from "../../components/WeatherAdvisoryCard";
+import MandiPricesTicker from "../../components/MandiPricesTicker";
 import StatusBadge from "../../components/StatusBadge";
 
 import {
@@ -1563,6 +1565,7 @@ function FarmerHome() {
       <div className="farmer-home-page">
 
         <Header />
+        <MandiPricesTicker />
 
 
         <main className="farmer-home-container">
@@ -1633,6 +1636,7 @@ function FarmerHome() {
       <div className="farmer-home-page">
 
         <Header />
+        <MandiPricesTicker />
 
 
         <main className="farmer-home-container">
@@ -1725,6 +1729,7 @@ function FarmerHome() {
       <div className="farmer-home-page">
 
         <Header />
+        <MandiPricesTicker />
 
 
         <main className="farmer-home-container">
@@ -1797,6 +1802,7 @@ function FarmerHome() {
       <div className="farmer-home-page">
 
         <Header />
+        <MandiPricesTicker />
 
 
         <main className="farmer-home-container">
@@ -1884,10 +1890,12 @@ function FarmerHome() {
     <div className="farmer-home-page">
 
       <Header />
+        <MandiPricesTicker />
 
 
       <main className="farmer-home-container">
-
+        
+        <WeatherAdvisoryCard lat={farmer?.current_lat || farmer?.currentLat} lng={farmer?.current_lng || farmer?.currentLng} />
 
         {/* =================================================
             WELCOME

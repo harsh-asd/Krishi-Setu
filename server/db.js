@@ -230,6 +230,10 @@ export async function initializeDatabase() {
 
       estimated_quantity DOUBLE PRECISION,
 
+      aadhaar_number TEXT,
+
+      kyc_verified BOOLEAN DEFAULT FALSE,
+
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
     );

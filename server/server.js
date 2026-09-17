@@ -4144,8 +4144,31 @@ app.get(
    FARMER ACCOUNT REGISTRATION
 ========================================================= */
 
-app.post(
-  "/api/farmers/register",
+
+/* =========================================================
+   MARKET PRICES (e-NAM Mock API)
+========================================================= */
+app.get("/api/market/prices", (req, res) => {
+  const basePrices = {
+    "Wheat (गेहूँ)": 2275,
+    "Paddy (धान)": 2183,
+    "Maize (मक्का)": 2090,
+    "Cotton (कपास)": 6620,
+    "Soybean (सोयाबीन)": 4600,
+    "Mustard (सरसों)": 5450,
+    "Sugarcane (गन्ना)": 315
+  };
+
+  const prices = Object.entries(basePrices).map(([crop, base]) => {
+    const fluctuation = base * (Math.random() * 0.04 - 0.02);
+    const finalPrice = Math.round(base + fluctuation);
+    return { crop, price: finalPrice, trend: fluctuation >= 0 ? 'up' : 'down' };
+  });
+
+  res.json({ success: true, prices });
+});
+
+app.post("/api/farmers/register",
   async (req, res) => {
     try {
       const body = req.body || {};
@@ -4411,6 +4434,11 @@ app.post(
             : null,
         ]
       );
+
+        // Post-insert Aadhaar fields
+        if (body.aadhaar_number) {
+          await query('UPDATE farmers SET aadhaar_number = $1, kyc_verified = $2 WHERE id = $3', [body.aadhaar_number, body.kyc_verified || false, farmerId]);
+        }
 
       const farmer =
         await findFarmerById(farmerId);
@@ -17797,12 +17825,10 @@ async function startServer() {
     await initializeDatabase();
 
 
-    await Promise.all([
-      ensureBookingChangesTable(),
-      ensureTransportTables(),
-      ensureFarmerProfileColumns(),
-      ensureLocationMasterTables(),
-    ]);
+    await ensureBookingChangesTable();
+    await ensureTransportTables();
+    await ensureFarmerProfileColumns();
+    await ensureLocationMasterTables();
 
     // Center verification depends on center columns being ready.
     await ensureCenterLocationColumns();
@@ -17909,3 +17935,14 @@ async function startServer() {
 
 
 startServer();
+function getTransportStatusMessage(status, lang) {
+  const key = String(status || "").trim().toUpperCase();
+  const messages = {
+    EN_ROUTE_TO_FARMER: "Your transporter is on the way to pick up the crop.",
+    CROP_PICKED_UP: "Your crop has been picked up by the transporter.",
+    EN_ROUTE_TO_CENTER: "Your crop is on the way to the procurement center.",
+    DELIVERED: "Your crop has been delivered to the procurement center.",
+    COMPLETED: "Your transport trip has been completed."
+  };
+  return messages[key] || "Your transport request has been updated.";
+}

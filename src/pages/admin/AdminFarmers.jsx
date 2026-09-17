@@ -662,9 +662,14 @@ function AdminFarmers() {
 
                         <div>
 
-                          <strong>
-                            {farmer.name}
-                          </strong>
+                                                      <strong>
+                              {farmer.name}
+                              {farmer.kyc_verified && (
+                                <span style={{ marginLeft: '6px', display: 'inline-flex', alignItems: 'center', gap: '2px', backgroundColor: '#d1fae5', color: '#065f46', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold', verticalAlign: 'middle' }}>
+                                  <CheckCircle2 size={10} /> KYC Verified
+                                </span>
+                              )}
+                            </strong>
 
                           <span>
                             {farmer.id}
@@ -1197,9 +1202,14 @@ function FarmerDrawer({
 
           <div>
 
-            <strong>
-              {farmer.name}
-            </strong>
+                          <strong>
+                {farmer.name}
+                {farmer.kyc_verified && (
+                  <span style={{ marginLeft: '8px', display: 'inline-flex', alignItems: 'center', gap: '4px', backgroundColor: '#d1fae5', color: '#065f46', padding: '4px 8px', borderRadius: '6px', fontSize: '12px', fontWeight: 'bold' }}>
+                    <CheckCircle2 size={14} /> Aadhaar Verified
+                  </span>
+                )}
+              </strong>
 
             <span>
               {farmer.phone}
