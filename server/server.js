@@ -2888,44 +2888,6 @@ const TWILIO_TRIAL_TEMPLATE =
 
 
 
-async function sendWhatsApp(number, customMessage) {
-  const accountSid = process.env.TWILIO_ACCOUNT_SID;
-  const apiKey = process.env.TWILIO_API_KEY;
-  const apiSecret = process.env.TWILIO_API_SECRET;
-  
-  // The Twilio Sandbox number is usually +14155238886, but it can be configured. 
-  // For the hackathon demo, we format the numbers with the 'whatsapp:' prefix.
-  const from = 'whatsapp:+14155238886'; 
-  
-  // Format Indian number properly (assuming 10 digits)
-  let cleanNumber = number.replace(/\D/g, "");
-  if (cleanNumber.length === 10) cleanNumber = "91" + cleanNumber;
-  if (!cleanNumber.startsWith("+")) cleanNumber = "+" + cleanNumber;
-  const recipient = 'whatsapp:' + cleanNumber;
-
-  if (!accountSid || !apiKey || !apiSecret) {
-    return { sent: false, reason: "Twilio credentials missing" };
-  }
-
-  try {
-    const twilio = (await import("twilio")).default;
-    const client = twilio(apiKey, apiSecret, { accountSid });
-
-    const response = await client.messages.create({
-      from: from,
-      to: recipient,
-      body: customMessage
-    });
-
-    console.log("WhatsApp response:", { sid: response.sid, status: response.status, to: recipient });
-    return { sent: true, sid: response.sid, status: response.status };
-  } catch (error) {
-    console.error("WhatsApp error:", error?.message);
-    return { sent: false, reason: error?.message };
-  }
-}
-
-
 async function sendSms(number, customMessage = null) {
 
   const accountSid =
@@ -17963,38 +17925,7 @@ async function startServer() {
           "Database: PostgreSQL"
         );
 
-        console.log(
-          "Twilio Account configured:",
-          Boolean(
-            process.env.TWILIO_ACCOUNT_SID
-          )
-        );
-
-        console.log(
-          "Twilio API key configured:",
-          Boolean(
-            process.env.TWILIO_API_KEY
-          )
-        );
-
-        console.log(
-          "Twilio API secret configured:",
-          Boolean(
-            process.env.TWILIO_API_SECRET
-          )
-        );
-
-        console.log(
-          "Twilio sender configured:",
-          Boolean(
-            process.env.TWILIO_PHONE_NUMBER
-          )
-        );
-
-        console.log(
-          "Twilio trial template:",
-          TWILIO_TRIAL_TEMPLATE
-        );
+        console.log("Simulation Gateway: ENABLED");
 
         console.log(
           "=========================================="
