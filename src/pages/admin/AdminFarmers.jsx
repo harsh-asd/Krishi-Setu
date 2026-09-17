@@ -1,5 +1,4 @@
-import {
-  useCallback,
+import { useCallback,
   useEffect,
   useMemo,
   useState,
@@ -18,8 +17,7 @@ import {
   Search,
   UserRound,
   Wheat,
-  X,
-} from "lucide-react";
+  X,, MessageSquareText } from "lucide-react";
 
 import AdminLayout from "../../components/admin/AdminLayout";
 
@@ -579,9 +577,58 @@ function AdminFarmers() {
 
             </div>
 
-            <span>
-              {text.readOnly}
-            </span>
+            
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <span>{text.readOnly}</span>
+              <button
+                onClick={() => {
+                  const msg = window.prompt("Enter SMS Broadcast Message for Farmers:\n(e.g., Heavy rain alert, procurement delay)");
+                  if (msg) {
+                    const btn = document.getElementById("broadcast-btn");
+                    btn.innerText = "Sending...";
+                    btn.disabled = true;
+                    fetch(String(import.meta.env.VITE_API_URL || "http://localhost:5000/api").replace(/\/+$/, "") + "/admin/farmers/broadcast", {
+                      method: "POST",
+                      headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${localStorage.getItem("adminToken") || ""}`
+                      },
+                      body: JSON.stringify({ message: msg })
+                    })
+                    .then(r => r.json())
+                    .then(data => {
+                      alert(data.message);
+                      btn.innerText = "Broadcast SMS";
+                      btn.disabled = false;
+                    })
+                    .catch(e => {
+                      alert("Error: " + e.message);
+                      btn.innerText = "Broadcast SMS";
+                      btn.disabled = false;
+                    });
+                  }
+                }}
+                id="broadcast-btn"
+                style={{
+                  backgroundColor: '#3b82f6',
+                  color: 'white',
+                  border: 'none',
+                  padding: '8px 16px',
+                  borderRadius: '6px',
+                  fontWeight: 'bold',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  transition: 'background 0.2s'
+                }}
+                onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#2563eb'}
+                onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#3b82f6'}
+              >
+                <MessageSquareText size={16} /> Broadcast SMS
+              </button>
+            </div>
+
 
           </div>
 

@@ -17818,6 +17818,47 @@ Return ONLY a valid JSON object (no markdown) in this exact format:
    START SERVER
 ========================================================= */
 
+/* =========================================================
+   ADMIN SMS BROADCAST
+========================================================= */
+app.post("/api/admin/farmers/broadcast", async (req, res) => {
+  try {
+    const { message } = req.body;
+    if (!message) return res.status(400).json({ success: false, message: 'Message is required' });
+
+    // In a real app we would paginate, but for the hackathon we just get all farmers with phones
+    const farmers = await getList("SELECT phone, language FROM farmers WHERE phone IS NOT NULL");
+    
+    let successCount = 0;
+    let failCount = 0;
+
+    // Send SMS (max 50 to avoid crazy spam during demo)
+    const limit = Math.min(farmers.length, 50);
+    
+    console.log(`[BROADCAST] Starting SMS broadcast to ${limit} farmers...`);
+    
+    for (let i = 0; i < limit; i++) {
+      const farmer = farmers[i];
+      try {
+        const smsResult = await sendSms(farmer.phone, message);
+        if (smsResult.sent) successCount++;
+        else failCount++;
+      } catch (e) {
+        failCount++;
+      }
+    }
+
+    return res.json({
+      success: true,
+      message: `Broadcast completed. Successfully sent: ${successCount}, Failed: ${failCount} (Trial account limitation expected).`
+    });
+
+  } catch (error) {
+    console.error('Broadcast error:', error);
+    return res.status(500).json({ success: false, message: 'Failed to broadcast SMS.' });
+  }
+});
+
 async function startServer() {
 
   try {
