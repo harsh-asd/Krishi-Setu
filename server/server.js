@@ -2888,299 +2888,92 @@ const TWILIO_TRIAL_TEMPLATE =
 
 
 
-async function sendSms(number, customMessage = null) {
+async function sendWhatsApp(number, customMessage) {
+  const accountSid = process.env.TWILIO_ACCOUNT_SID;
+  const apiKey = process.env.TWILIO_API_KEY;
+  const apiSecret = process.env.TWILIO_API_SECRET;
+  
+  // The Twilio Sandbox number is usually +14155238886, but it can be configured. 
+  // For the hackathon demo, we format the numbers with the 'whatsapp:' prefix.
+  const from = 'whatsapp:+14155238886'; 
+  
+  // Format Indian number properly (assuming 10 digits)
+  let cleanNumber = number.replace(/\D/g, "");
+  if (cleanNumber.length === 10) cleanNumber = "91" + cleanNumber;
+  if (!cleanNumber.startsWith("+")) cleanNumber = "+" + cleanNumber;
+  const recipient = 'whatsapp:' + cleanNumber;
 
-  const accountSid =
-    process.env.TWILIO_ACCOUNT_SID;
-
-  const apiKey =
-    process.env.TWILIO_API_KEY;
-
-  const apiSecret =
-    process.env.TWILIO_API_SECRET;
-
-  const from =
-    process.env.TWILIO_PHONE_NUMBER;
-
-
-  const recipient =
-    getIndianRecipient(
-      number
-    );
-
-
-  console.log(
-    ""
-  );
-
-  console.log(
-    "=========================================="
-  );
-
-  console.log(
-    "             TWILIO SMS"
-  );
-
-  console.log(
-    "=========================================="
-  );
-
-  console.log(
-    "SMS_ENABLED:",
-    SMS_ENABLED
-  );
-
-  console.log(
-    "Recipient:",
-    recipient
-  );
-
-  console.log(
-    "Twilio trial template:",
-    TWILIO_TRIAL_TEMPLATE
-  );
-
-
-  if (
-    !SMS_ENABLED
-  ) {
-
-    return {
-
-      sent:
-        false,
-
-      status:
-        "NOT_SENT",
-
-      reason:
-        "SMS is disabled.",
-
-    };
-
+  if (!accountSid || !apiKey || !apiSecret) {
+    return { sent: false, reason: "Twilio credentials missing" };
   }
-
-
-  if (
-    !accountSid ||
-    !apiKey ||
-    !apiSecret ||
-    !from
-  ) {
-
-    return {
-
-      sent:
-        false,
-
-      status:
-        "NOT_SENT",
-
-      reason:
-        "Twilio credentials are missing.",
-
-    };
-
-  }
-
-
-  const normalizedPhone =
-    normalisePhone(
-      number
-    );
-
-
-  if (
-    ![
-      10,
-      12,
-    ].includes(
-      normalizedPhone.length
-    )
-  ) {
-
-    return {
-
-      sent:
-        false,
-
-      status:
-        "FAILED",
-
-      reason:
-        "Invalid recipient phone number.",
-
-    };
-
-  }
-
 
   try {
+    const twilio = (await import("twilio")).default;
+    const client = twilio(apiKey, apiSecret, { accountSid });
 
-    const twilio =
-      (
-        await import(
-          "twilio"
-        )
-      ).default;
+    const response = await client.messages.create({
+      from: from,
+      to: recipient,
+      body: customMessage
+    });
 
-
-    const client =
-      twilio(
-        apiKey,
-        apiSecret,
-        {
-          accountSid,
-        }
-      );
-
-
-    /*
-      For your current Twilio trial setup,
-      use the predefined template name exactly
-      as required by the trial account.
-    */
-
-    const response =
-      await client.messages.create({
-
-        to:
-          recipient,
-
-        from:
-          from,
-
-        body: customMessage || TWILIO_TRIAL_TEMPLATE,
-
-      });
+    console.log("WhatsApp response:", { sid: response.sid, status: response.status, to: recipient });
+    return { sent: true, sid: response.sid, status: response.status };
+  } catch (error) {
+    console.error("WhatsApp error:", error?.message);
+    return { sent: false, reason: error?.message };
+  }
+}
 
 
-    console.log(
-      "Twilio SMS response:",
-      {
-
-        sid:
-          response.sid,
-
-        status:
-          response.status,
-
-        to:
-          recipient,
-
-      }
-    );
-
-
-    console.log(
-      "=========================================="
-    );
-
-
-    return {
-
-      sent:
-        true,
-
-      status:
-        "SENT",
-
-      data: {
-
-        sid:
-          response.sid,
-
-        twilioStatus:
-          response.status,
-
-        to:
-          recipient,
-
-        template:
-          TWILIO_TRIAL_TEMPLATE,
-
-      },
-
-    };
-
-
-  } catch (
-    error
-  ) {
-
-    console.error(
-      "=========================================="
-    );
-
-    console.error(
-      "             TWILIO SMS ERROR"
-    );
-
-    console.error(
-      "=========================================="
-    );
-
-    console.error(
-      "Code:",
-      error?.code
-    );
-
-    console.error(
-      "Status:",
-      error?.status
-    );
-
-    console.error(
-      "Message:",
-      error?.message
-    );
-
-    console.error(
-      "More info:",
-      error?.moreInfo
-    );
-
-    console.error(
-      "=========================================="
-    );
-
-
-    return {
-
-      sent:
-        false,
-
-      status:
-        "FAILED",
-
-      reason:
-        error?.message ||
-        "Twilio SMS failed.",
-
-      data: {
-
-        code:
-          error?.code ||
-          null,
-
-        status:
-          error?.status ||
-          null,
-
-        message:
-          error?.message ||
-          null,
-
-        moreInfo:
-          error?.moreInfo ||
-          null,
-
-      },
-
-    };
-
+async function sendSms(number, customMessage = null) {
+  const apiKey = process.env.FAST2SMS_API_KEY;
+  
+  if (!apiKey) {
+    console.warn("Fast2SMS API Key is missing in .env! Simulating SMS instead.");
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({ sent: true, status: "simulated (missing key)" });
+      }, 100);
+    });
   }
 
+  let cleanNumber = number.replace(/\D/g, "");
+  if (cleanNumber.length > 10 && cleanNumber.startsWith("91")) {
+    cleanNumber = cleanNumber.substring(2);
+  } else if (cleanNumber.length > 10) {
+    cleanNumber = cleanNumber.slice(-10);
+  }
+
+  try {
+    const response = await fetch("https://www.fast2sms.com/dev/bulkV2", {
+      method: "POST",
+      headers: {
+        "authorization": apiKey,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        route: "v3",
+        sender_id: "TXTIND",
+        message: customMessage || "Your KrishiSetu update is here.",
+        language: "english",
+        flash: 0,
+        numbers: cleanNumber
+      })
+    });
+
+    const data = await response.json();
+    console.log("Fast2SMS Response:", data);
+
+    if (data.return) {
+      return { sent: true, sid: data.request_id };
+    } else {
+      return { sent: false, reason: data.message };
+    }
+  } catch (error) {
+    console.error("Fast2SMS Error:", error);
+    return { sent: false, reason: error.message };
+  }
 }
 
 
@@ -17925,7 +17718,38 @@ async function startServer() {
           "Database: PostgreSQL"
         );
 
-        console.log("Simulation Gateway: ENABLED");
+        console.log(
+          "Twilio Account configured:",
+          Boolean(
+            process.env.TWILIO_ACCOUNT_SID
+          )
+        );
+
+        console.log(
+          "Twilio API key configured:",
+          Boolean(
+            process.env.TWILIO_API_KEY
+          )
+        );
+
+        console.log(
+          "Twilio API secret configured:",
+          Boolean(
+            process.env.TWILIO_API_SECRET
+          )
+        );
+
+        console.log(
+          "Twilio sender configured:",
+          Boolean(
+            process.env.TWILIO_PHONE_NUMBER
+          )
+        );
+
+        console.log(
+          "Twilio trial template:",
+          TWILIO_TRIAL_TEMPLATE
+        );
 
         console.log(
           "=========================================="
