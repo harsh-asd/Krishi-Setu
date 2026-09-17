@@ -2953,8 +2953,7 @@ async function sendSms(number, customMessage = null) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        route: "v3",
-        sender_id: "TXTIND",
+        route: "q",
         message: customMessage || "Your KrishiSetu update is here.",
         language: "english",
         flash: 0,
