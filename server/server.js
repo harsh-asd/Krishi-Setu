@@ -2887,6 +2887,45 @@ const TWILIO_TRIAL_TEMPLATE =
   "sms_event_notifications";
 
 
+
+async function sendWhatsApp(number, customMessage) {
+  const accountSid = process.env.TWILIO_ACCOUNT_SID;
+  const apiKey = process.env.TWILIO_API_KEY;
+  const apiSecret = process.env.TWILIO_API_SECRET;
+  
+  // The Twilio Sandbox number is usually +14155238886, but it can be configured. 
+  // For the hackathon demo, we format the numbers with the 'whatsapp:' prefix.
+  const from = 'whatsapp:+14155238886'; 
+  
+  // Format Indian number properly (assuming 10 digits)
+  let cleanNumber = number.replace(/\D/g, "");
+  if (cleanNumber.length === 10) cleanNumber = "91" + cleanNumber;
+  if (!cleanNumber.startsWith("+")) cleanNumber = "+" + cleanNumber;
+  const recipient = 'whatsapp:' + cleanNumber;
+
+  if (!accountSid || !apiKey || !apiSecret) {
+    return { sent: false, reason: "Twilio credentials missing" };
+  }
+
+  try {
+    const twilio = (await import("twilio")).default;
+    const client = twilio(apiKey, apiSecret, { accountSid });
+
+    const response = await client.messages.create({
+      from: from,
+      to: recipient,
+      body: customMessage
+    });
+
+    console.log("WhatsApp response:", { sid: response.sid, status: response.status, to: recipient });
+    return { sent: true, sid: response.sid, status: response.status };
+  } catch (error) {
+    console.error("WhatsApp error:", error?.message);
+    return { sent: false, reason: error?.message };
+  }
+}
+
+
 async function sendSms(number, customMessage = null) {
 
   const accountSid =
@@ -17826,36 +17865,43 @@ app.post("/api/admin/farmers/broadcast", async (req, res) => {
     const { message } = req.body;
     if (!message) return res.status(400).json({ success: false, message: 'Message is required' });
 
-    // In a real app we would paginate, but for the hackathon we just get all farmers with phones
     const farmers = await getList("SELECT phone, language FROM farmers WHERE phone IS NOT NULL");
     
-    let successCount = 0;
+    let smsSuccess = 0;
+    let waSuccess = 0;
     let failCount = 0;
 
-    // Send SMS (max 50 to avoid crazy spam during demo)
     const limit = Math.min(farmers.length, 50);
     
-    console.log(`[BROADCAST] Starting SMS broadcast to ${limit} farmers...`);
+    console.log(`[BROADCAST] Starting SMS & WhatsApp broadcast to ${limit} farmers...`);
     
     for (let i = 0; i < limit; i++) {
       const farmer = farmers[i];
       try {
-        const smsResult = await sendSms(farmer.phone, message);
-        if (smsResult.sent) successCount++;
+        const smsP = sendSms(farmer.phone, message);
+        const waP = sendWhatsApp(farmer.phone, message);
+        
+        const [smsRes, waRes] = await Promise.all([smsP, waP]);
+        
+        if (smsRes.sent) smsSuccess++;
         else failCount++;
+        
+        if (waRes.sent) waSuccess++;
+        else failCount++;
+        
       } catch (e) {
-        failCount++;
+        failCount += 2;
       }
     }
 
     return res.json({
       success: true,
-      message: `Broadcast completed. Successfully sent: ${successCount}, Failed: ${failCount} (Trial account limitation expected).`
+      message: `Broadcast completed!\n- SMS Sent: ${smsSuccess}\n- WhatsApp Sent: ${waSuccess}\n- Failed: ${failCount} (Trial limitations expected).`
     });
 
   } catch (error) {
     console.error('Broadcast error:', error);
-    return res.status(500).json({ success: false, message: 'Failed to broadcast SMS.' });
+    return res.status(500).json({ success: false, message: 'Failed to broadcast alerts.' });
   }
 });
 

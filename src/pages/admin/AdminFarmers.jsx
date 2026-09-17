@@ -582,7 +582,7 @@ function AdminFarmers() {
               <span>{text.readOnly}</span>
               <button
                 onClick={() => {
-                  const msg = window.prompt("Enter SMS Broadcast Message for Farmers:\n(e.g., Heavy rain alert, procurement delay)");
+                  const msg = window.prompt("Enter Broadcast Message (SMS + WhatsApp) for Farmers:\n(e.g., Heavy rain alert, procurement delay)");
                   if (msg) {
                     const btn = document.getElementById("broadcast-btn");
                     btn.innerText = "Sending...";
@@ -598,12 +598,12 @@ function AdminFarmers() {
                     .then(r => r.json())
                     .then(data => {
                       alert(data.message);
-                      btn.innerText = "Broadcast SMS";
+                      btn.innerText = "Broadcast (SMS+WA)";
                       btn.disabled = false;
                     })
                     .catch(e => {
                       alert("Error: " + e.message);
-                      btn.innerText = "Broadcast SMS";
+                      btn.innerText = "Broadcast (SMS+WA)";
                       btn.disabled = false;
                     });
                   }
@@ -625,7 +625,7 @@ function AdminFarmers() {
                 onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#2563eb'}
                 onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#3b82f6'}
               >
-                <MessageSquareText size={16} /> Broadcast SMS
+                <MessageSquareText size={16} /> Broadcast (SMS+WA)
               </button>
             </div>
 
