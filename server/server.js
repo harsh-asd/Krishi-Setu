@@ -17088,7 +17088,7 @@ async function ensureCenterLocationColumns() {
   `);
 }
 
-const REAL_GOV_CENTER_REFERENCES = require(\'./centers.json\');
+const REAL_GOV_CENTER_REFERENCES = require('./centers.json');
 
 async function ensureVerifiedCenterData() {
   // Keep existing rows for audit/history, but remove unproven/demo rows
