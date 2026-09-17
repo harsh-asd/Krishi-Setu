@@ -17,7 +17,7 @@ import {
   Search,
   UserRound,
   Wheat,
-  X,, MessageSquareText } from "lucide-react";
+  X, MessageSquareText } from "lucide-react";
 
 import AdminLayout from "../../components/admin/AdminLayout";
 
