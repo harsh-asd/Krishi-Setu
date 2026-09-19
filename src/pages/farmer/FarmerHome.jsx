@@ -3907,8 +3907,7 @@ function FarmerHome() {
           <div className="home-center-actions">
 
             <a
-              href={
-                center.mapUrl ||
+              href={center.source_url ||
                 "#"
               }
               className="home-secondary-action"
@@ -3916,7 +3915,7 @@ function FarmerHome() {
                 event => {
 
                   if (
-                    !center.mapUrl
+                    !center.source_url
                   ) {
 
                     event.preventDefault();
