@@ -845,11 +845,7 @@ function AdminPaymentIssues() {
                           <div className="admin-payment-issue-actions">
 
                             <Link
-                              to={
-                                `/admin/booking/${encodeURIComponent(
-                                  issue.booking_id
-                                )}`
-                              }
+                              to="/admin/payments"
                               className="admin-payment-issue-view"
                             >
 
