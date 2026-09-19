@@ -270,14 +270,17 @@ useEffect(() => {
           <div className="landing-hero-content">
 
 
-            <div className="landing-hero-badge">
-
-              <Leaf size={17} />
-
-              <span>
-                DIGITAL PROCUREMENT FOR AGRICULTURE
-              </span>
-
+            <div style={{ display: "flex", gap: "12px", marginBottom: "24px", flexWrap: "wrap" }}>
+              <div className="landing-hero-badge" style={{ margin: 0, padding: '4px 12px' }}>
+                <IndianFlag size={28} />
+                <span style={{ fontWeight: "bold", letterSpacing: "0.5px", color: "#166534" }}>
+                  PROUDLY MADE IN INDIA
+                </span>
+              </div>
+              <div className="landing-hero-badge" style={{ margin: 0 }}>
+                <Leaf size={17} />
+                <span>DIGITAL PROCUREMENT FOR AGRICULTURE</span>
+              </div>
             </div>
 
 
