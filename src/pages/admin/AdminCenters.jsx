@@ -1499,9 +1499,9 @@ function CenterCard({
 
 
         <div className="admin-center-card-icon" style={{ background: 'transparent' }}>
-          {centerId && centerId.startsWith("TS") ? (
+          {center.id && center.id.startsWith("TS") ? (
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Telangana_State_Emblem.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-          ) : centerId && centerId.startsWith("AP") ? (
+          ) : center.id && center.id.startsWith("AP") ? (
             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_Andhra_Pradesh.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
           ) : (
             <MapPin size={20} />
