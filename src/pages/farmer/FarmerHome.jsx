@@ -2547,11 +2547,11 @@ function FarmerHome() {
 
                 <div className="home-detail">
 
-                  <div className="home-detail-icon" style={{ background: 'transparent' }}>
+                  <div className="home-detail-icon" style={{ background: '#ffffff', padding: '4px', borderRadius: '50%' }}>
                       {center && center.id && center.id.startsWith("TS") ? (
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Telangana_State_Emblem.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                        <img src="/ts-logo.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                       ) : center && center.id && center.id.startsWith("AP") ? (
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_Andhra_Pradesh.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                        <img src="/ap-logo.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                       ) : (
                         <MapPin size={18} />
                       )}
@@ -3761,11 +3761,11 @@ function FarmerHome() {
 
           <div className="home-center-main">
 
-            <div className="home-center-icon" style={{ background: 'transparent' }}>
+            <div className="home-center-icon" style={{ background: '#ffffff', padding: '4px', borderRadius: '50%' }}>
                 {center && center.id && center.id.startsWith("TS") ? (
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Telangana_State_Emblem.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/ts-logo.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 ) : center && center.id && center.id.startsWith("AP") ? (
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_Andhra_Pradesh.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/ap-logo.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 ) : (
                   <MapPin size={22} />
                 )}
