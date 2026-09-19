@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import { Thermometer, Droplets, Bug, Sparkles, AlertTriangle, Radio } from "lucide-react";
+import { Thermometer, Droplets, Bug, Sparkles, AlertTriangle, Radio, Search } from "lucide-react";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
 export default function IoTDashboard() {
   const [sensorData, setSensorData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Fetch IoT data every 5 seconds to simulate real-time live updates
   useEffect(() => {
@@ -55,7 +56,7 @@ export default function IoTDashboard() {
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
-        {sensorData.map((center) => (
+        {sensorData.filter(center => center.centerName.toLowerCase().includes(searchQuery.toLowerCase()) || center.centerId.toLowerCase().includes(searchQuery.toLowerCase())).map((center) => (
           <div key={center.centerId} style={{ 
             background: 'white', 
             borderRadius: '12px', 

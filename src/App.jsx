@@ -32,6 +32,7 @@ import TransporterProfile from "./pages/transporter/TransporterProfile";
 import AdminLogin from "./pages/admin/AdminLogin";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AdminQueue from "./pages/admin/AdminQueue";
+import AdminIoT from "./pages/admin/AdminIoT";
 import AdminWeighing from "./pages/admin/AdminWeighing";
 import AdminPayments from "./pages/admin/AdminPayments";
 import AdminReports from "./pages/admin/AdminReports";

@@ -29,7 +29,7 @@ import {
 
 import AdminLayout from "../../components/admin/AdminLayout";
 import AIPredictionPanel from "../../components/admin/AIPredictionPanel";
-import IoTDashboard from "../../components/admin/IoTDashboard";
+
 import AIRedistributionPanel from "../../components/admin/AIRedistributionPanel";
 
 import {
