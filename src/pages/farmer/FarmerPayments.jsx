@@ -42,6 +42,7 @@ const API_URL =
 
 
 function FarmerPayments() {
+  const navigate = useNavigate();
 
   const {
     t,
@@ -1457,11 +1458,7 @@ function FarmerPayments() {
                                 <button
                                   type="button"
                                   className="farmer-payment-issue-button"
-                                  onClick={() =>
-                                    openIssue(
-                                      booking
-                                    )
-                                  }
+                                  onClick={() => navigate(`/farmer/payment-issue/${booking.id}`)}
                                 >
 
                                   <HelpCircle

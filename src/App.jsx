@@ -19,6 +19,7 @@ import FarmerTransportTracking from "./pages/farmer/FarmerTransportTracking";
 import FarmerHelp from "./pages/farmer/FarmerHelp";
 import FarmerHistory from "./pages/farmer/FarmerHistory";
 import FarmerPayments from "./pages/farmer/FarmerPayments";
+import FarmerPaymentIssue from "./pages/farmer/FarmerPaymentIssue";
 import FarmerSettings from "./pages/farmer/FarmerSettings";
 
 import TransporterRegister from "./pages/transporter/TransporterRegister";

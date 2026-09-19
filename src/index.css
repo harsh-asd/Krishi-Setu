@@ -50217,24 +50217,98 @@ body:has(.farmer-book-page) #root {
 ========================================================= */
 
 .farmer-payment-record {
-  display: grid;
-  grid-template-columns: 44px minmax(0, 1fr) 135px 150px auto 18px;
-  align-items: center;
-  gap: 13px;
-  min-height: 92px;
-  padding: 14px 20px;
-  border-bottom: 1px solid #edf1f2;
-  color: inherit;
-  text-decoration: none;
-}
-
-.farmer-payment-record:last-child {
-  border-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  gap: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .farmer-payment-record:hover {
-  background: #fbfcfd;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
+
+.farmer-payment-record-main-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+}
+
+.farmer-payment-record-content {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.farmer-payment-record-amount, .farmer-payment-record-reference {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 120px;
+}
+
+.farmer-payment-record-title strong {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.farmer-payment-record-meta span, .farmer-payment-record-reference span {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.farmer-payment-record-amount strong {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ea580c;
+}
+
+.farmer-payment-record-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px dashed #cbd5e1;
+  width: 100%;
+  gap: 16px;
+}
+
+.farmer-payment-issue-button {
+  background: #fff0ee;
+  color: #c73730;
+  border: 1px solid #ffc8c4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.farmer-payment-issue-button:hover {
+  background: #ffe4e1;
+}
+
+
+
+
 
 .farmer-payment-record-icon {
   width: 42px;
