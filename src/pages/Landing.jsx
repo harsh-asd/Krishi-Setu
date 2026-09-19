@@ -26,6 +26,7 @@ import {
 } from "react";
 
 import Logo from "../components/Logo";
+import IndianFlag from "../components/IndianFlag";
 
 
 function Landing() {
@@ -269,6 +270,14 @@ useEffect(() => {
           <div className="landing-hero-content">
 
 
+            <div style={{ display: "flex", gap: "12px", justifyContent: "center", alignItems: "center", marginBottom: "24px" }}>
+              <div className="landing-hero-badge" style={{ margin: 0 }}>
+                <IndianFlag size={28} />
+                <span style={{ fontWeight: "bold", letterSpacing: "1px", color: "#166534" }}>
+                  PROUDLY MADE IN INDIA
+                </span>
+              </div>
+            </div>
             <div className="landing-hero-badge">
 
               <Leaf size={17} />
