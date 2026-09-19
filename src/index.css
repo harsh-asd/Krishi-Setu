@@ -8,13 +8,13 @@
 :root {
   color-scheme: light;
 
-  --primary: #f97316;
-  --primary-strong: #0f6299;
-  --primary-soft: #e8f5fc;
-  --primary-soft-strong: #d6edf9;
+  --primary: #ea580c;
+  --primary-strong: #c2410c;
+  --primary-soft: #ffedd5;
+  --primary-soft-strong: #fed7aa;
 
-  --success: #16865a;
-  --success-soft: #e9f8f1;
+  --success: #166534;
+  --success-soft: #dcfce7;
 
   --warning: #b97805;
   --warning-soft: #fff5dc;
@@ -41802,7 +41802,7 @@ body:has(.farmer-book-page) #root {
 .admin-settings-save-bar.has-changes
 .admin-settings-save-icon {
   color: #ea580c;
-  background: #e8f4f8;
+  background: #dcfce7;
 }
 
 .admin-settings-save-bar > div:first-child > div:last-child {
@@ -49353,8 +49353,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  color: #2e7fa3;
-  background: #e8f4f8;
+  color: #166534;
+  background: #dcfce7;
 }
 
 .home-center-main > div:last-child {
@@ -49963,8 +49963,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  color: #2d7ea3;
-  background: #e8f4f8;
+  color: #166534;
+  background: #dcfce7;
 }
 
 .farmer-history-stat > div:last-child,
@@ -51026,8 +51026,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-issue-stat.blue .admin-payment-issue-stat-icon {
-  color: #2d7da2;
-  background: #e8f4f8;
+  color: #166534;
+  background: #dcfce7;
 }
 
 
@@ -52467,7 +52467,7 @@ a {
 :root {
 
   --ks-navy: #173f5f;
-  --ks-blue: #216b91;
+  --ks-blue: #166534;
   --ks-blue-dark: #15506f;
   --ks-sky: #eaf5fa;
 
@@ -60242,7 +60242,7 @@ html.dark .farmer-book-error {
 }
 
 .payment-summary-card:nth-child(2) strong {
-  color: #216b91;
+  color: #166534;
 }
 
 .payment-summary-card:nth-child(3) strong {
@@ -60643,7 +60643,7 @@ html.dark .payment-issue-button {
 
 
 .farmer-history-summary-card:nth-child(2) strong {
-  color: #216b91;
+  color: #166534;
 }
 
 
@@ -60873,7 +60873,7 @@ html.dark .payment-issue-button {
   padding: 0 12px;
   border: 1px solid #cbdde2;
   border-radius: 9px;
-  color: #216b91;
+  color: #166534;
   background: #f5fafb;
   font-size: 10px;
   font-weight: 950;
@@ -60882,8 +60882,8 @@ html.dark .payment-issue-button {
 
 .farmer-history-view:hover {
   transform: translateY(-1px);
-  border-color: #216b91;
-  background: #e8f4f8;
+  border-color: #166534;
+  background: #dcfce7;
 }
 
 
@@ -60960,7 +60960,7 @@ html.dark .payment-issue-button {
 
 
 .farmer-history-crop-card:nth-child(2) {
-  border-top: 4px solid #216b91;
+  border-top: 4px solid #166534;
 }
 
 
@@ -91892,9 +91892,9 @@ html {
 
   border-radius: 10px;
 
-  background: #eef6ef;
+  background: #ffedd5;
 
-  color: #56805f;
+  color: #ea580c;
 }
 
 .admin-dashboard-center-name span {
@@ -102586,13 +102586,13 @@ html.dark .token-side-label,
     translateY(-2px);
 
   border-color:
-    #c5d6c8;
+    #fdba74;
 
   background:
-    #eef6ef;
+    #ffedd5;
 
   color:
-    #396b47;
+    #ea580c;
 
   box-shadow:
     0 7px 16px
@@ -193100,7 +193100,7 @@ body:has(.farmer-book-page) #root {
 .admin-settings-save-bar.has-changes
 .admin-settings-save-icon {
   color: #ea580c;
-  background: #e8f4f8;
+  background: #dcfce7;
 }
 
 .admin-settings-save-bar > div:first-child > div:last-child {
@@ -200651,8 +200651,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  color: #2e7fa3;
-  background: #e8f4f8;
+  color: #166534;
+  background: #dcfce7;
 }
 
 .home-center-main > div:last-child {
@@ -201261,8 +201261,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  color: #2d7ea3;
-  background: #e8f4f8;
+  color: #166534;
+  background: #dcfce7;
 }
 
 .farmer-history-stat > div:last-child,
@@ -202324,8 +202324,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-issue-stat.blue .admin-payment-issue-stat-icon {
-  color: #2d7da2;
-  background: #e8f4f8;
+  color: #166534;
+  background: #dcfce7;
 }
 
 
@@ -203765,7 +203765,7 @@ a {
 :root {
 
   --ks-navy: #173f5f;
-  --ks-blue: #216b91;
+  --ks-blue: #166534;
   --ks-blue-dark: #15506f;
   --ks-sky: #eaf5fa;
 
@@ -211540,7 +211540,7 @@ html.dark .farmer-book-error {
 }
 
 .payment-summary-card:nth-child(2) strong {
-  color: #216b91;
+  color: #166534;
 }
 
 .payment-summary-card:nth-child(3) strong {
@@ -211941,7 +211941,7 @@ html.dark .payment-issue-button {
 
 
 .farmer-history-summary-card:nth-child(2) strong {
-  color: #216b91;
+  color: #166534;
 }
 
 
@@ -212171,7 +212171,7 @@ html.dark .payment-issue-button {
   padding: 0 12px;
   border: 1px solid #cbdde2;
   border-radius: 9px;
-  color: #216b91;
+  color: #166534;
   background: #f5fafb;
   font-size: 10px;
   font-weight: 950;
@@ -212180,8 +212180,8 @@ html.dark .payment-issue-button {
 
 .farmer-history-view:hover {
   transform: translateY(-1px);
-  border-color: #216b91;
-  background: #e8f4f8;
+  border-color: #166534;
+  background: #dcfce7;
 }
 
 
@@ -212258,7 +212258,7 @@ html.dark .payment-issue-button {
 
 
 .farmer-history-crop-card:nth-child(2) {
-  border-top: 4px solid #216b91;
+  border-top: 4px solid #166534;
 }
 
 
@@ -243190,9 +243190,9 @@ html {
 
   border-radius: 10px;
 
-  background: #eef6ef;
+  background: #ffedd5;
 
-  color: #56805f;
+  color: #ea580c;
 }
 
 .admin-dashboard-center-name span {
@@ -253884,13 +253884,13 @@ html.dark .token-side-label,
     translateY(-2px);
 
   border-color:
-    #c5d6c8;
+    #fdba74;
 
   background:
-    #eef6ef;
+    #ffedd5;
 
   color:
-    #396b47;
+    #ea580c;
 
   box-shadow:
     0 7px 16px
@@ -355908,6 +355908,18 @@ body:has(.admin-farmer-drawer) .admin-farmers-page {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .landing-image-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .landing-image-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .landing-image-card {
