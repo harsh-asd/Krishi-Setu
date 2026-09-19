@@ -189,6 +189,12 @@ function AdminSidebar({
           icon:
             Wheat,
         },
+        
+        {
+          label: "IoT Monitoring",
+          path: "/admin/iot",
+          icon: Radio,
+        },
 
         {
           label:
