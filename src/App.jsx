@@ -1768,6 +1768,15 @@ function App() {
       />
 
       <Route
+        path="/farmer/payment-issue/:bookingId"
+        element={
+          <FarmerPortalPage>
+            <FarmerPaymentIssue />
+          </FarmerPortalPage>
+        }
+      />
+
+      <Route
         path="/farmer/settings"
         element={
           <FarmerPortalPage>
