@@ -7,7 +7,6 @@ import { getCurrentFarmer } from "../../data/appStore";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
-
 function getText(language, english, hindi, telugu) {
   if (language === "hi" && hindi) return hindi;
   if (language === "te" && telugu) return telugu;
@@ -23,8 +22,41 @@ export default function FarmerPaymentIssue() {
   const [issueText, setIssueText] = useState("");
   const [issueSending, setIssueSending] = useState(false);
   const [issueMessage, setIssueMessage] = useState("");
-  
+  const [bookings, setBookings] = useState([]);
+  const [selectedBooking, setSelectedBooking] = useState(bookingId || "");
+  const [loading, setLoading] = useState(true);
+
+  // Fetch farmer's past bookings to populate the dropdown
+  useEffect(() => {
+    async function loadBookings() {
+      if (!farmer) return;
+      try {
+        const response = await fetch(`${API_URL}/farmer/payments/${farmer.id}`);
+        const data = await response.json();
+        if (data.success) {
+          setBookings(data.data || []);
+          if (!selectedBooking && data.data && data.data.length > 0) {
+            setSelectedBooking(data.data[0].id);
+          }
+        }
+      } catch (err) {
+        console.error("Failed to load bookings", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadBookings();
+  }, [farmer]);
+
   async function submitIssue() {
+    if (!farmer) {
+      setIssueMessage(getText(language, "Please log in again.", "कृपया फिर से लॉग इन करें।", "దయచేసి మళ్లీ లాగిన్ చేయండి."));
+      return;
+    }
+    if (!selectedBooking) {
+      setIssueMessage(getText(language, "Please select a procurement token.", "कृपया खरीद टोकन चुनें।", "దయచేసి సేకరణ టోకెన్‌ను ఎంచుకోండి."));
+      return;
+    }
     if (!issueText.trim()) {
       setIssueMessage(getText(language, "Please describe the payment problem.", "कृपया भुगतान की समस्या का वर्णन करें।", "దయచేసి చెల్లింపు సమస్యను వివరించండి."));
       return;
@@ -39,7 +71,7 @@ export default function FarmerPaymentIssue() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           farmerId: farmer.id,
-          bookingId: bookingId,
+          bookingId: selectedBooking,
           message: issueText.trim(),
         }),
       });
@@ -85,10 +117,27 @@ export default function FarmerPaymentIssue() {
                 {getText(language, "Report a Payment Issue", "भुगतान समस्या की रिपोर्ट करें", "చెల్లింపు సమస్యను నివేదించండి")}
               </h1>
               <p style={{ margin: '4px 0 0 0', color: '#64748b' }}>
-                {getText(language, "Token ID: ", "टोकन आईडी: ", "టోకెన్ ID: ")} #{bookingId}
+                {getText(language, "File a dispute for a specific procurement.", "किसी विशिष्ट खरीद के लिए विवाद दर्ज करें।", "నిర్దిష్ట సేకరణ కోసం వివాదాన్ని దాఖలు చేయండి.")}
               </p>
             </div>
           </div>
+
+          <label style={{ display: 'block', fontWeight: '600', color: '#334155', marginBottom: '12px', fontSize: '1.1rem' }}>
+            {getText(language, "Select Procurement / Token", "खरीद / टोकन चुनें", "సేకరణ / టోకెన్ ఎంచుకోండి")}
+          </label>
+          <select 
+            value={selectedBooking} 
+            onChange={(e) => setSelectedBooking(e.target.value)} 
+            disabled={issueSending || loading}
+            style={{ width: '100%', padding: '16px', borderRadius: '12px', border: '2px solid #e2e8f0', outline: 'none', fontSize: '1rem', marginBottom: '24px', fontFamily: 'inherit', boxSizing: 'border-box', backgroundColor: 'white' }}
+          >
+            <option value="" disabled>{loading ? getText(language, "Loading...", "लोड हो रहा है...", "లోడ్ అవుతోంది...") : getText(language, "Select a procurement", "खरीद चुनें", "సేకరణను ఎంచుకోండి")}</option>
+            {bookings.map(b => (
+              <option key={b.id} value={b.id}>
+                Token #{b.token || b.id} - ₹{b.payment_amount}
+              </option>
+            ))}
+          </select>
 
           <label style={{ display: 'block', fontWeight: '600', color: '#334155', marginBottom: '12px', fontSize: '1.1rem' }}>
             {getText(language, "What went wrong with this payment?", "इस भुगतान में क्या गलत हुआ?", "ఈ చెల్లింపులో ఏ తప్పు జరిగింది?")}
@@ -97,7 +146,7 @@ export default function FarmerPaymentIssue() {
             value={issueText}
             onChange={(e) => setIssueText(e.target.value)}
             disabled={issueSending}
-            placeholder={getText(language, "e.g., I received ₹500 less than expected...", "उदा., मुझे उम्मीद से ₹500 कम मिले...", "ఉదా., నాకు ఊహించిన దానికంటే ₹500 తక్కువ వచ్చింది...")}
+            placeholder={getText(language, "e.g., I received ₹1500 less than expected...", "उदा., मुझे उम्मीद से ₹1500 कम मिले...", "ఉదా., నాకు ఊహించిన దానికంటే ₹1500 తక్కువ వచ్చింది...")}
             rows={6}
             style={{ width: '100%', padding: '16px', borderRadius: '12px', border: '2px solid #e2e8f0', outline: 'none', fontSize: '1rem', resize: 'vertical', marginBottom: '24px', fontFamily: 'inherit', boxSizing: 'border-box' }}
           />
