@@ -210,12 +210,18 @@ function AdminSidebar({
         {
           label:
             t("admin.payments"),
-
           path:
             "/admin/payments",
-
           icon:
             CreditCard,
+        },
+        {
+          label:
+            "Payment Issues",
+          path:
+            "/admin/payment-issues",
+          icon:
+            FileText,
         },
 
       ],
