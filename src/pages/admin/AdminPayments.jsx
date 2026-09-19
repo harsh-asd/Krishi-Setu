@@ -34,6 +34,7 @@ const API_URL =
 
 
 function AdminPayments() {
+  const [searchParams] = useSearchParams();
 
   const [bookings, setBookings] =
     useState([]);
@@ -59,8 +60,7 @@ function AdminPayments() {
     useState("");
 
 
-  const [search, setSearch] =
-    useState("");
+  const [search, setSearch] = useState(searchParams.get("search") || "");
 
 
   const [filter, setFilter] =
