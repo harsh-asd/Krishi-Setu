@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router";
+import goldenOxPlowing from "../../assets/backgrounds/golden-ox-plowing.png";
 import {
   CheckCircle2,
   Globe2,

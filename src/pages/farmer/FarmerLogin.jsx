@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Button from "../../components/Button";
 import { useLanguage } from "../../translations/LanguageContext";
 import { setCurrentFarmer } from "../../data/appStore";
+import ricePlanting from "../../assets/backgrounds/rice-planting.png";
 
 const API_URL = String(import.meta.env.VITE_API_URL || "http://localhost:5000/api").replace(/\/+$/, "");
 
@@ -94,7 +95,7 @@ function FarmerLogin() {
   }
 
   return (
-    <div className="page-wrapper">
+    <div className="page-wrapper" style={{ backgroundImage: `linear-gradient(rgba(244, 252, 240, 0.85), rgba(244, 252, 240, 0.95)), url(${ricePlanting})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <Header showHelp={false} />
       <main className="login-container">
         <div className="login-back-row">

@@ -27,6 +27,7 @@ import {
 
 import Logo from "../components/Logo";
 import IndianFlag from "../components/IndianFlag";
+import cropsSunset from "../assets/backgrounds/crops-sunset.png";
 
 
 function Landing() {
@@ -256,7 +257,13 @@ useEffect(() => {
         <section className="landing-hero">
 
 
-          <div className="landing-hero-background">
+          <div className="landing-hero-background" style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(244, 252, 240, 0.9), rgba(244, 252, 240, 0.98)), url(${cropsSunset})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            opacity: 1
+          }}>
 
             <div className="landing-glow landing-glow-one" />
 
