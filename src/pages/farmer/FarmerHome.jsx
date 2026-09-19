@@ -2547,68 +2547,15 @@ function FarmerHome() {
 
                 <div className="home-detail">
 
-                  <div className="home-detail-icon">
-
-                    <Clock3
-                      size={18}
-                    />
-
-                  </div>
-
-
-                  <div>
-
-                    <span>
-
-                      {
-                        getText(
-                          language,
-                          "Arrival window",
-                          "आने का समय",
-                          "రాక సమయం"
-                        )
-                      }
-
-                    </span>
-
-
-                    <strong>
-
-                      {
-                        formatDate(
-                          activeBooking.date,
-                          language
-                        )
-                      }
-
-                    </strong>
-
-
-                    <small>
-
-                      {
-                        formatTime(
-                          activeBooking.slot_start,
-                          activeBooking.slot_end
-                        )
-                      }
-
-                    </small>
-
-                  </div>
-
-                </div>
-
-
-                <div className="home-detail">
-
-                  <div className="home-detail-icon">
-
-                    <MapPin
-                      size={18}
-                    />
-
-                  </div>
+                  <div className="home-detail-icon" style={{ background: 'transparent' }}>
+                      {booking.center_id && booking.center_id.startsWith("TS") ? (
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Telangana_State_Emblem.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                      ) : booking.center_id && booking.center_id.startsWith("AP") ? (
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_Andhra_Pradesh.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                      ) : (
+                        <MapPin size={18} />
+                      )}
+                    </div>
 
 
                   <div>
@@ -3814,13 +3761,15 @@ function FarmerHome() {
 
           <div className="home-center-main">
 
-            <div className="home-center-icon">
-
-              <MapPin
-                size={22}
-              />
-
-            </div>
+            <div className="home-center-icon" style={{ background: 'transparent' }}>
+                {centerId && centerId.startsWith("TS") ? (
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Telangana_State_Emblem.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                ) : centerId && centerId.startsWith("AP") ? (
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_Andhra_Pradesh.svg" alt="AP Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                ) : (
+                  <MapPin size={22} />
+                )}
+              </div>
 
 
             <div>
