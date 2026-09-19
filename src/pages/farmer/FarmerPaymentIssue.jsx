@@ -29,14 +29,18 @@ export default function FarmerPaymentIssue() {
   // Fetch farmer's past bookings to populate the dropdown
   useEffect(() => {
     async function loadBookings() {
-      if (!farmer) return;
+      if (!farmer) { setLoading(false); return; }
       try {
-        const response = await fetch(`${API_URL}/farmer/payments/${farmer.id}`);
+        const response = await fetch(`${API_URL}/bookings`);
         const data = await response.json();
-        if (data.success) {
-          setBookings(data.data || []);
-          if (!selectedBooking && data.data && data.data.length > 0) {
-            setSelectedBooking(data.data[0].id);
+        if (data) {
+          const allBookings = Array.isArray(data.bookings) ? data.bookings : [];
+          // Filter to only this farmer's bookings
+          const mine = allBookings.filter(b => String(b.farmer_id || b.farmerId) === String(farmer.id));
+          // Filter to only paid/completed ones if needed, but for now we'll just show all of theirs
+          setBookings(mine);
+          if (!selectedBooking && mine.length > 0) {
+            setSelectedBooking(mine[0].id);
           }
         }
       } catch (err) {
