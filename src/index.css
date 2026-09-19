@@ -8,7 +8,7 @@
 :root {
   color-scheme: light;
 
-  --primary: #1677b8;
+  --primary: #f97316;
   --primary-strong: #0f6299;
   --primary-soft: #e8f5fc;
   --primary-soft-strong: #d6edf9;
@@ -10771,7 +10771,7 @@ select,
   border-radius: 15px;
 
   color: #ffffff;
-  background: #1677b8;
+  background: #f97316;
 
   font-size: 16px;
   font-weight: 800;
@@ -10853,7 +10853,7 @@ select,
 }
 
 .admin-form-new input:focus {
-  border-color: #1677b8;
+  border-color: #f97316;
 
   box-shadow:
     0 0 0 4px
@@ -10881,7 +10881,7 @@ select,
   border-radius: 11px;
 
   color: #ffffff;
-  background: #1677b8;
+  background: #f97316;
 
   font-size: 11px;
   font-weight: 800;
@@ -15183,7 +15183,7 @@ select,
 
 .login-intro h1 span {
   display: block;
-  color: #1677b8;
+  color: #f97316;
 }
 
 .login-intro > p {
@@ -15219,7 +15219,7 @@ select,
   border: 1px solid #dce8ef;
   border-radius: 12px;
 
-  color: #1677b8;
+  color: #f97316;
   background: #f5f9fc;
 }
 
@@ -15268,7 +15268,7 @@ select,
   border-radius: 13px;
 
   color: #ffffff;
-  background: #1677b8;
+  background: #f97316;
 }
 
 .login-form-heading .page-eyebrow {
@@ -15322,7 +15322,7 @@ select,
 }
 
 .login-phone-input:focus-within {
-  border-color: #1677b8;
+  border-color: #f97316;
 
   box-shadow:
     0 0 0 4px rgba(22, 119, 184, 0.10);
@@ -15356,7 +15356,7 @@ select,
 
 .login-phone-check {
   margin-right: 14px;
-  color: #1677b8;
+  color: #f97316;
 }
 
 .login-field small {
@@ -15411,8 +15411,8 @@ select,
 }
 
 .login-register-link:hover {
-  border-color: #1677b8;
-  color: #1677b8;
+  border-color: #f97316;
+  color: #f97316;
 }
 
 @media (max-width: 850px) {
@@ -15535,7 +15535,7 @@ select,
 
 .landing-nav-farmer {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-nav-farmer:hover {
@@ -15718,7 +15718,7 @@ select,
 
 .landing-primary-button {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 12px 28px rgba(33, 139, 82, 0.20);
@@ -15760,7 +15760,7 @@ select,
 }
 
 .landing-hero-points svg {
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -16033,7 +16033,7 @@ select,
 }
 
 .card-payment .floating-card-icon {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -16158,12 +16158,12 @@ select,
 }
 
 .purpose-green .purpose-card-icon {
-  color: #218b52;
+  color: #166534;
   background: #d6eedc;
 }
 
 .purpose-green > span {
-  color: #218b52;
+  color: #166534;
 }
 
 .purpose-gold {
@@ -16276,7 +16276,7 @@ select,
 }
 
 .landing-process-step.tone-green .process-step-icon {
-  color: #218b52;
+  color: #166534;
   background: #e3f4e7;
 }
 
@@ -16427,7 +16427,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-icon {
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-portal-card.operations
@@ -16447,7 +16447,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-content > span {
-  color: #218b52;
+  color: #166534;
 }
 
 .landing-portal-card.operations
@@ -16503,7 +16503,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-features svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .landing-portal-card.operations
@@ -16540,7 +16540,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-action > div {
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-portal-card.operations
@@ -16621,7 +16621,7 @@ select,
 }
 
 .tone-green .landing-feature-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e8;
 }
 
@@ -16827,7 +16827,7 @@ select,
 
 .landing-final-farmer-button {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-final-admin-button {
@@ -16867,7 +16867,7 @@ select,
   top: 10px;
   right: 24px;
 
-  color: #218b52;
+  color: #166534;
 
   background: rgba(255, 255, 255, 0.40);
 }
@@ -17090,7 +17090,7 @@ select,
     border-radius: 10px;
 
     color: #ffffff;
-    background: #218b52;
+    background: #166534;
     text-align: center;
   }
 
@@ -17364,7 +17364,7 @@ select,
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2d9a62
     );
 
@@ -17408,7 +17408,7 @@ select,
 }
 
 .farmer-refresh-button:hover {
-  color: #218b52;
+  color: #166534;
   border-color: #bad9c5;
   background: #f3faf5;
 }
@@ -17449,7 +17449,7 @@ select,
 
   border-radius: 18px;
 
-  color: #218b52;
+  color: #166534;
   background: #eaf7ee;
 }
 
@@ -17554,7 +17554,7 @@ select,
 
   border-radius: 16px;
 
-  color: #218b52;
+  color: #166534;
   background: #e3f4e8;
 }
 
@@ -17587,7 +17587,7 @@ select,
 
   border-radius: 11px;
 
-  color: #218b52;
+  color: #166534;
   background: #d9efdf;
 }
 
@@ -17647,7 +17647,7 @@ select,
   border-radius: 12px;
 
   color: #277caf;
-  background: #e6f2f8;
+  background: #ffedd5;
 }
 
 .home-detail > div:last-child {
@@ -17703,7 +17703,7 @@ select,
 
 .home-primary-action {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .home-primary-action:hover {
@@ -17717,7 +17717,7 @@ select,
 }
 
 .home-secondary-action:hover {
-  color: #1677b8;
+  color: #f97316;
   border-color: #b9d1dd;
 }
 
@@ -17794,7 +17794,7 @@ select,
 }
 
 .booking-feature .feature-icon {
-  color: #218b52;
+  color: #166534;
   background: #dcefe1;
 }
 
@@ -17835,7 +17835,7 @@ select,
   margin-top: 24px;
   padding: 29px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 22px;
 
   background: #ffffff;
@@ -17866,7 +17866,7 @@ select,
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #e9f6ed;
 
   font-size: 9px;
@@ -17898,7 +17898,7 @@ select,
 }
 
 .farmer-progress-stage.complete {
-  color: #218b52;
+  color: #166534;
 }
 
 .farmer-progress-icon {
@@ -17920,13 +17920,13 @@ select,
 .farmer-progress-icon {
   border-color: #94c8a4;
   background: #edf8ef;
-  color: #218b52;
+  color: #166534;
 }
 
 .farmer-progress-stage.complete
 .farmer-progress-icon {
-  border-color: #218b52;
-  background: #218b52;
+  border-color: #166534;
+  background: #166534;
   color: #ffffff;
 }
 
@@ -18130,7 +18130,7 @@ select,
 }
 
 .home-support-row a:hover {
-  color: #1677b8;
+  color: #f97316;
 }
 
 
@@ -18316,7 +18316,7 @@ select,
 
   margin-top: 5px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -18367,7 +18367,7 @@ select,
 
   border-radius: 14px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e8f6ec;
 
@@ -18430,7 +18430,7 @@ select,
 
   padding: 34px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 25px;
 
@@ -18479,7 +18479,7 @@ select,
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2c9b63
     );
 
@@ -18577,7 +18577,7 @@ select,
 
 
 .login-phone-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
 
   background: #ffffff;
 
@@ -18639,7 +18639,7 @@ select,
 
   margin-right: 15px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -18754,7 +18754,7 @@ select,
 
 
 .login-register-link:hover {
-  color: #218b52;
+  color: #166534;
 
   border-color: #b9d8c4;
 
@@ -18925,7 +18925,7 @@ select,
 
   margin-top: 4px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -18979,7 +18979,7 @@ select,
 
   border-radius: 14px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e7f5eb;
 
@@ -19043,7 +19043,7 @@ select,
 
   padding: 34px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 26px;
 
@@ -19098,7 +19098,7 @@ select,
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #3a9d68
     );
 
@@ -19228,7 +19228,7 @@ select,
 
 
 .register-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
 
   background: #ffffff;
 
@@ -19573,7 +19573,7 @@ select,
 
 
 .register-dropdown > button > svg {
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -19630,7 +19630,7 @@ select,
 
   border-radius: 10px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #dcefe1;
 }
@@ -19712,7 +19712,7 @@ select,
 
   color: #607987;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
 
@@ -19730,7 +19730,7 @@ select,
 
 
 .language-option.selected {
-  color: #218b52;
+  color: #166534;
 
   border-color: #9cc9aa;
 
@@ -20007,7 +20007,7 @@ select,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 50%;
   color: #8c9da7;
   background: #ffffff;
@@ -20016,20 +20016,20 @@ select,
 }
 
 .booking-step.active {
-  color: #218b52;
+  color: #166534;
 }
 
 .booking-step.active span {
   border-color: #8fc3a1;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .booking-step-line {
   width: 32px;
   height: 1px;
   margin: 0 10px;
-  background: #dce5e9;
+  background: #fed7aa;
 }
 
 
@@ -20052,7 +20052,7 @@ select,
 
 .booking-panel {
   padding: 27px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 23px;
   background: #ffffff;
   box-shadow:
@@ -20082,7 +20082,7 @@ select,
 
   border-radius: 13px;
 
-  color: #218b52;
+  color: #166534;
   background: #e7f5eb;
 }
 
@@ -20144,7 +20144,7 @@ select,
 }
 
 .quantity-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
   background: #ffffff;
   box-shadow:
     0 0 0 4px rgba(33, 139, 82, 0.08);
@@ -20399,7 +20399,7 @@ select,
 .select-option > svg:last-child,
 .center-option > svg:last-child {
   margin-left: auto;
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -20433,7 +20433,7 @@ select,
   border-radius: 13px;
 
   color: #708591;
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
   text-align: left;
@@ -20446,7 +20446,7 @@ select,
 
 .date-option.selected {
   border-color: #9ac8a8;
-  color: #218b52;
+  color: #166534;
   background: #eef8f0;
 }
 
@@ -20486,7 +20486,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -20523,7 +20523,7 @@ select,
 .booking-summary-card {
   padding: 23px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 22px;
 
   background:
@@ -20554,7 +20554,7 @@ select,
 }
 
 .summary-header svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .summary-crop {
@@ -20647,7 +20647,7 @@ select,
   border-radius: 9px;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .summary-available > div:last-child {
@@ -20675,7 +20675,7 @@ select,
   margin-top: 24px;
   padding: 32px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 24px;
 
   background: #ffffff;
@@ -20828,7 +20828,7 @@ select,
   border-radius: 12px;
 
   color: #277caf;
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .slot-check {
@@ -20842,7 +20842,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .slot-time {
@@ -20866,7 +20866,7 @@ select,
 }
 
 .slot-load.normal {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -20930,7 +20930,7 @@ select,
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 }
 
 .availability-info p {
@@ -20976,7 +20976,7 @@ select,
 
 .booking-trust-strip svg {
   flex: 0 0 auto;
-  color: #218b52;
+  color: #166534;
 }
 
 .booking-trust-strip span {
@@ -21189,7 +21189,7 @@ select,
   border: 1px solid #cee7d5;
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
 
   font-size: 8px;
@@ -21204,7 +21204,7 @@ select,
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px rgba(
@@ -21281,7 +21281,7 @@ select,
   align-items: center;
   justify-content: center;
 
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 50%;
 
   color: #8c9da7;
@@ -21292,14 +21292,14 @@ select,
 }
 
 .mini-step.active {
-  color: #218b52;
+  color: #166534;
 }
 
 .mini-step.active span {
   border-color: #94c6a3;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .mini-step-line {
@@ -21308,7 +21308,7 @@ select,
 
   margin: 0 8px;
 
-  background: #dce5e9;
+  background: #fed7aa;
 }
 
 
@@ -21380,7 +21380,7 @@ select,
 }
 
 .booking-info-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -21430,7 +21430,7 @@ select,
 
   overflow: visible;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 24px;
 
   background: #ffffff;
@@ -21484,12 +21484,12 @@ select,
 }
 
 .panel-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e6f5ea;
 }
 
 .panel-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e3f1f8;
 }
 
@@ -21602,7 +21602,7 @@ select,
 }
 
 .quantity-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
 
   background: #ffffff;
 
@@ -21895,7 +21895,7 @@ select,
 .center-option > svg:last-child {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .center-select-icon {
@@ -21910,8 +21910,8 @@ select,
 
   border-radius: 11px;
 
-  color: #277cac;
-  background: #e5f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .center-select-icon.large {
@@ -21935,8 +21935,8 @@ select,
 
   border-radius: 10px;
 
-  color: #277cac;
-  background: #e5f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .booking-menu-empty {
@@ -22042,7 +22042,7 @@ select,
 
   border-radius: 10px;
 
-  color: #277cac;
+  color: #c2410c;
   background: #dcecf5;
 }
 
@@ -22161,7 +22161,7 @@ select,
 
   color: #728792;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
 
@@ -22184,7 +22184,7 @@ select,
 .date-option.selected {
   border-color: #92c5a1;
 
-  color: #218b52;
+  color: #166534;
 
   background: #edf8f0;
 
@@ -22246,7 +22246,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -22289,7 +22289,7 @@ select,
 
   border-radius: 15px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #ddefe2;
 }
@@ -22299,7 +22299,7 @@ select,
 }
 
 .booking-check-copy > span {
-  color: #218b52;
+  color: #166534;
 
   font-size: 8px;
 
@@ -22384,7 +22384,7 @@ select,
 .booking-summary-card {
   padding: 24px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 22px;
 
@@ -22452,7 +22452,7 @@ select,
 
   border-radius: 12px;
 
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -22589,7 +22589,7 @@ select,
 }
 
 .summary-total-row strong {
-  color: #218b52;
+  color: #166534;
 
   font-size: 9px;
 
@@ -22621,7 +22621,7 @@ select,
 .summary-security svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -22714,7 +22714,7 @@ select,
 
   padding: 31px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 24px;
 
@@ -22769,7 +22769,7 @@ select,
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #e9f7ed;
 
   font-size: 7px;
@@ -22813,7 +22813,7 @@ select,
 
   padding: 12px 14px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 13px;
 
@@ -22821,7 +22821,7 @@ select,
 }
 
 .availability-date-card > svg {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .availability-date-card > div {
@@ -22898,12 +22898,12 @@ select,
 }
 
 .availability-overview-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e3f1f8;
 }
 
 .availability-overview-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e3f4e8;
 }
 
@@ -22986,8 +22986,8 @@ select,
 
   border-radius: 8px;
 
-  color: #277cac;
-  background: #e7f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .slot-instruction p {
@@ -23100,13 +23100,13 @@ select,
 
   border-radius: 11px;
 
-  color: #277cac;
-  background: #e5f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .slot-card.selected
 .slot-card-clock {
-  color: #218b52;
+  color: #166534;
   background: #dff1e4;
 }
 
@@ -23121,7 +23121,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .slot-card-time {
@@ -23153,7 +23153,7 @@ select,
 }
 
 .slot-normal-label {
-  color: #218b52;
+  color: #166534;
   background: #e4f5e8;
 }
 
@@ -23252,7 +23252,7 @@ select,
   border-radius: 11px;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .selected-slot-banner > div:nth-child(2) {
@@ -23308,7 +23308,7 @@ select,
 
   padding: 31px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 24px;
 
@@ -23376,7 +23376,7 @@ select,
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eaf7ee;
 
@@ -23430,7 +23430,7 @@ select,
 }
 
 .confirm-review-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -23516,7 +23516,7 @@ select,
 
   border-radius: 10px;
 
-  color: #277cac;
+  color: #c2410c;
   background: #deedf5;
 }
 
@@ -23648,12 +23648,12 @@ select,
 }
 
 .booking-bottom-card.green .bottom-card-icon {
-  color: #218b52;
+  color: #166534;
   background: #def0e3;
 }
 
 .booking-bottom-card.blue .bottom-card-icon {
-  color: #277cac;
+  color: #c2410c;
   background: #e0eef5;
 }
 
@@ -24005,7 +24005,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .farmer-book-page .back-link:hover {
-  color: #218b52;
+  color: #166534;
 }
 /* =========================================================
    FARMER TOKEN PAGE
@@ -24073,7 +24073,7 @@ body:has(.farmer-book-page) #root {
   padding: 5px 9px;
   border: 1px solid #cfe6d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 8px;
   font-weight: 900;
@@ -24084,7 +24084,7 @@ body:has(.farmer-book-page) #root {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #218b52;
+  background: #166534;
   box-shadow:
     0 0 0 4px rgba(33, 139, 82, .10);
 }
@@ -24112,7 +24112,7 @@ body:has(.farmer-book-page) #root {
   gap: 10px;
   min-width: 160px;
   padding: 13px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: rgba(255, 255, 255, .9);
 }
@@ -24124,7 +24124,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #218b52;
+  color: #166534;
   background: #e6f5ea;
 }
 
@@ -24236,11 +24236,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-status-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .token-status-dot.blue {
-  background: #277cac;
+  background: #c2410c;
 }
 
 .token-status-dot.orange {
@@ -24268,7 +24268,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 17px;
-  color: #218b52;
+  color: #166534;
   background: #def0e4;
 }
 
@@ -24300,7 +24300,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-arrival-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e4f2f8;
 }
 
@@ -24310,7 +24310,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-arrival-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -24353,7 +24353,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #218b52;
+  color: #166534;
   background: #dcefe2;
 }
 
@@ -24382,7 +24382,7 @@ body:has(.farmer-book-page) #root {
 .token-status-card,
 .token-details-card {
   padding: 28px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 22px;
   background: #ffffff;
   box-shadow:
@@ -24431,7 +24431,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-refresh-button:hover {
-  color: #218b52;
+  color: #166534;
   border-color: #b9d3c1;
   background: #f0f8f2;
 }
@@ -24453,7 +24453,7 @@ body:has(.farmer-book-page) #root {
 .token-progress-bar > div {
   height: 100%;
   border-radius: inherit;
-  background: #218b52;
+  background: #166534;
   transition: width .3s ease;
 }
 
@@ -24480,7 +24480,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 50%;
   color: #97a7af;
   background: #ffffff;
@@ -24490,13 +24490,13 @@ body:has(.farmer-book-page) #root {
 .token-timeline-marker {
   border-color: #9bc8a8;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .token-timeline-item.active
 .token-timeline-marker {
-  border-color: #218b52;
-  color: #218b52;
+  border-color: #166534;
+  color: #166534;
   background: #eef8f1;
   box-shadow:
     0 0 0 5px rgba(33,139,82,.08);
@@ -24526,7 +24526,7 @@ body:has(.farmer-book-page) #root {
 .token-now-pill {
   padding: 3px 6px;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #e9f7ed;
   font-size: 6px;
   font-weight: 900;
@@ -24573,7 +24573,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #218b52;
+  color: #166534;
   background: #e0f1e5;
 }
 
@@ -24768,7 +24768,7 @@ body:has(.farmer-book-page) #root {
 
 .token-side-card {
   padding: 19px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 18px;
   background: #ffffff;
   box-shadow:
@@ -24792,12 +24792,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-side-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
 .token-side-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e4f2f8;
 }
 
@@ -24915,7 +24915,7 @@ body:has(.farmer-book-page) #root {
 
 .token-primary-action {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .token-primary-action:hover {
@@ -24930,7 +24930,7 @@ body:has(.farmer-book-page) #root {
 
 .token-secondary-action:hover {
   border-color: #b9d0da;
-  color: #277cac;
+  color: #c2410c;
 }
 
 
@@ -24943,7 +24943,7 @@ body:has(.farmer-book-page) #root {
   max-width: 620px;
   margin: 80px auto;
   padding: 45px 32px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 24px;
   background: #ffffff;
   box-shadow:
@@ -24963,7 +24963,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-loading-icon {
-  color: #218b52;
+  color: #166534;
   background: #e7f5eb;
 }
 
@@ -25246,7 +25246,7 @@ body:has(.farmer-book-page) #root {
   border: 1px solid #cfe7d5;
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
 
   font-size: 8px;
@@ -25261,7 +25261,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -25294,7 +25294,7 @@ body:has(.farmer-book-page) #root {
 .help-hero-copy h1 span {
   display: block;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-hero-copy > p {
@@ -25343,7 +25343,7 @@ body:has(.farmer-book-page) #root {
 
 .help-primary-action {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 10px 22px
@@ -25368,7 +25368,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-secondary-action:hover {
-  color: #218b52;
+  color: #166534;
   border-color: #bdd3c3;
 }
 
@@ -25380,7 +25380,7 @@ body:has(.farmer-book-page) #root {
 .help-hero-card {
   padding: 23px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 21px;
 
   background:
@@ -25422,7 +25422,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 13px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e3f3e7;
 }
@@ -25473,7 +25473,7 @@ body:has(.farmer-book-page) #root {
 
   margin-top: 1px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-check-row span {
@@ -25564,7 +25564,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 17px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 17px;
 
   color: #2d4c5f;
@@ -25610,7 +25610,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-topic-card.green .help-topic-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -25697,7 +25697,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 22px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 19px;
 
   background: #ffffff;
@@ -25731,7 +25731,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-guide-card.green {
-  color: #218b52;
+  color: #166534;
 }
 
 .help-guide-card.blue {
@@ -25877,7 +25877,7 @@ body:has(.farmer-book-page) #root {
 .help-faq-item {
   overflow: hidden;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
 
   background: #ffffff;
@@ -25945,7 +25945,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #218b52;
+  color: #166534;
   background: #e7f5eb;
 
   font-size: 7px;
@@ -25973,7 +25973,7 @@ body:has(.farmer-book-page) #root {
 .help-faq-question > svg {
   transform: rotate(180deg);
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-faq-answer {
@@ -26104,7 +26104,7 @@ body:has(.farmer-book-page) #root {
 .help-checklist-card {
   padding: 18px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
 
   background: #ffffff;
@@ -26151,7 +26151,7 @@ body:has(.farmer-book-page) #root {
 
 .help-checklist-card.green
 .help-checklist-icon {
-  color: #218b52;
+  color: #166534;
   background: #dff1e4;
 }
 
@@ -26359,7 +26359,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 30px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 22px;
 
@@ -26436,7 +26436,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-sms-feature-list svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .help-phone-mockup {
@@ -26493,7 +26493,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-sms-message strong {
-  color: #218b52;
+  color: #166534;
 
   font-size: 10px;
 }
@@ -26566,7 +26566,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 12px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e2f2e6;
 }
@@ -26621,7 +26621,7 @@ body:has(.farmer-book-page) #root {
 
   margin-top: 1px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-center-details > div > div {
@@ -26667,7 +26667,7 @@ body:has(.farmer-book-page) #root {
   border-radius: 10px;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 
   font-size: 9px;
   font-weight: 900;
@@ -26690,7 +26690,7 @@ body:has(.farmer-book-page) #root {
 .help-contact-use-card {
   padding: 22px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 18px;
 
@@ -26769,7 +26769,7 @@ body:has(.farmer-book-page) #root {
 .help-contact-reasons svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-contact-reasons span {
@@ -26801,7 +26801,7 @@ body:has(.farmer-book-page) #root {
 .help-emergency-note svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-emergency-note p {
@@ -26828,7 +26828,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 20px 22px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 18px;
 
@@ -26915,7 +26915,7 @@ body:has(.farmer-book-page) #root {
 .help-language-option.active {
   border-color: #9fc9aa;
 
-  color: #218b52;
+  color: #166534;
 
   background: #edf8f0;
 }
@@ -27387,7 +27387,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-login-back:hover {
-  color: #277cac;
+  color: #c2410c;
 }
 
 
@@ -27506,7 +27506,7 @@ body:has(.farmer-book-page) #root {
 .admin-login-intro h1 span {
   display: block;
 
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-login-intro > p {
@@ -27546,7 +27546,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 14px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 14px;
 
@@ -27590,14 +27590,14 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 11px;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-login-feature:nth-child(2)
 .admin-login-feature-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -27648,7 +27648,7 @@ body:has(.farmer-book-page) #root {
     16px
     17px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 16px;
 
@@ -27714,9 +27714,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 
   font-size: 7px;
 
@@ -27797,9 +27797,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 14px;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-login-card-heading > div:last-child {
@@ -27889,7 +27889,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-login-input:focus-within {
-  border-color: #277cac;
+  border-color: #c2410c;
 
   background: #ffffff;
 
@@ -27949,7 +27949,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-show-password:hover {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-login-field small {
@@ -28030,7 +28030,7 @@ body:has(.farmer-book-page) #root {
   width: 14px;
   height: 14px;
 
-  accent-color: #277cac;
+  accent-color: #c2410c;
 
   cursor: pointer;
 }
@@ -28166,7 +28166,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #277cac;
+  color: #c2410c;
 
   background: #e3f1f8;
 }
@@ -28207,7 +28207,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-demo-box b {
-  color: #277cac;
+  color: #c2410c;
 
   font-weight: 900;
 }
@@ -28240,7 +28240,7 @@ body:has(.farmer-book-page) #root {
 .admin-security-row svg {
   flex: 0 0 auto;
 
-  color: #277cac;
+  color: #c2410c;
 }
 
 
@@ -28261,7 +28261,7 @@ body:has(.farmer-book-page) #root {
   padding:
     13px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 15px;
 
@@ -28289,7 +28289,7 @@ body:has(.farmer-book-page) #root {
 .admin-login-trust svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-login-trust span {
@@ -28531,7 +28531,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 18px 13px;
 
-  border-right: 1px solid #dce5e9;
+  border-right: 1px solid #fed7aa;
 
   background:
     #ffffff;
@@ -28669,7 +28669,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #277cac;
+  color: #c2410c;
 
   background:
     #e0eff6;
@@ -28787,14 +28787,14 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-sidebar-link.active {
-  color: #277cac;
+  color: #c2410c;
 
   background:
     #eaf4f8;
 }
 
 .admin-sidebar-link.active svg {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-sidebar-link svg {
@@ -28809,7 +28809,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #277cac;
+  background: #c2410c;
 }
 
 
@@ -28847,7 +28847,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -29054,7 +29054,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-header-refresh:hover:not(:disabled) {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #b9d1db;
@@ -29118,9 +29118,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-operator-profile > div:last-child {
@@ -29348,7 +29348,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eef9f1;
 
@@ -29365,7 +29365,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -29502,7 +29502,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 15px;
 
@@ -29577,8 +29577,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-kpi-card.blue
 .admin-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-kpi-card.orange
@@ -29595,7 +29595,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-kpi-card.green
 .admin-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e3f3e7;
 }
 
@@ -29688,7 +29688,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -29774,12 +29774,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-panel-icon.blue {
-  color: #287eaa;
-  background: #e6f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-panel-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -29817,7 +29817,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-panel-link:hover {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-panel-live {
@@ -29827,7 +29827,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #edf8f0;
 
@@ -29889,13 +29889,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #84969e;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-dashboard-search:focus-within {
@@ -29952,7 +29952,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
@@ -29960,7 +29960,7 @@ body:has(.farmer-book-page) #root {
 
   color: #5f7785;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
 
@@ -30015,7 +30015,7 @@ body:has(.farmer-book-page) #root {
 
   color: #9ba8ae;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   font-size: 6px;
 
@@ -30128,7 +30128,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -30220,7 +30220,7 @@ body:has(.farmer-book-page) #root {
   background:
     linear-gradient(
       90deg,
-      #218b52,
+      #166534,
       #62ad76
     );
 }
@@ -30390,8 +30390,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-alert-row.blue > div {
-  color: #287eaa;
-  background: #e6f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-alert-row.orange > div {
@@ -30456,7 +30456,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-all-good > svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-all-good > div {
@@ -30543,11 +30543,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-activity-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-activity-dot.orange {
@@ -30676,8 +30676,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-quick-action.blue
 .admin-quick-action-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-quick-action.purple
@@ -30694,7 +30694,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-quick-action.green
 .admin-quick-action-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -30766,11 +30766,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-data-footer > div:first-child svg {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-dashboard-data-footer > div:nth-child(2) svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-dashboard-data-footer button {
@@ -30784,7 +30784,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 7px;
 
@@ -30800,7 +30800,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-data-footer button:hover {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #b8d0da;
@@ -31104,7 +31104,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eff9f1;
 
@@ -31121,7 +31121,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -31164,7 +31164,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-queue-refresh-button:hover:not(:disabled) {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #b9d0da;
@@ -31279,7 +31279,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -31348,13 +31348,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-queue-stat.blue
 .admin-queue-stat-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-queue-stat.green
 .admin-queue-stat-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -31435,7 +31435,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 12px;
 
@@ -31470,13 +31470,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #84969e;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-queue-search:focus-within {
@@ -31531,13 +31531,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #81939d;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-queue-filter-control:focus-within {
@@ -31604,7 +31604,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -31706,7 +31706,7 @@ body:has(.farmer-book-page) #root {
 
   color: #99a7ad;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   font-size: 6px;
 
@@ -31783,9 +31783,9 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-token-badge {
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-farmer-avatar {
@@ -31841,7 +31841,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-produce-name svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-produce-name strong {
@@ -31857,7 +31857,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-full-produce-cell small {
-  color: #218b52;
+  color: #166534;
 
   font-size: 5px;
 
@@ -31943,7 +31943,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-row-view-button:hover {
-  color: #287eaa;
+  color: #ea580c;
 
   border-color:
     #b8d0da;
@@ -31956,7 +31956,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-row-action-button.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-row-action-button.purple {
@@ -32052,7 +32052,7 @@ body:has(.farmer-book-page) #root {
 
   color: #ffffff;
 
-  background: #277cac;
+  background: #c2410c;
 
   cursor: pointer;
 
@@ -32153,7 +32153,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -32176,13 +32176,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-queue-info-card.blue
 .admin-queue-info-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-queue-info-card.green
 .admin-queue-info-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -32336,7 +32336,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
 
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
 
   border-radius: 9px;
 
@@ -32370,7 +32370,7 @@ body:has(.farmer-book-page) #root {
     #edf1f3;
 
   background:
-    #fafcfd;
+    #fff7ed;
 }
 
 .admin-drawer-status > span:last-child {
@@ -32425,9 +32425,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e7f2f8;
+  background: #ffedd5;
 }
 
 .admin-drawer-section-heading h3 {
@@ -32532,14 +32532,14 @@ body:has(.farmer-book-page) #root {
   color: #ffffff;
 
   border-color:
-    #218b52;
+    #166534;
 
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-mini-timeline-item.active > div {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #8eb7c8;
@@ -32578,7 +32578,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce7eb;
+    #fed7aa;
 
   border-radius: 12px;
 
@@ -32637,7 +32637,7 @@ body:has(.farmer-book-page) #root {
 
   color: #ffffff;
 
-  background: #218b52;
+  background: #166534;
 
   cursor: pointer;
 
@@ -32733,7 +32733,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   background: #eaf4f8;
 
@@ -32940,7 +32940,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eff9f1;
 
@@ -32957,7 +32957,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -33001,7 +33001,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
 
   border-color:
     #bad0da;
@@ -33113,7 +33113,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 14px;
 
@@ -33145,8 +33145,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-stat.blue
 .admin-weighing-stat-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-weighing-stat.orange
@@ -33163,7 +33163,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-stat.green
 .admin-weighing-stat-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -33214,7 +33214,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -33294,13 +33294,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #8799a1;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-search:focus-within {
@@ -33403,7 +33403,7 @@ body:has(.farmer-book-page) #root {
 
   box-shadow:
     inset 3px 0 0
-    #287eaa;
+    #ea580c;
 }
 
 .admin-weighing-token {
@@ -33419,9 +33419,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 10px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-weighing-booking-main {
@@ -33484,12 +33484,12 @@ body:has(.farmer-book-page) #root {
   border-radius: 50%;
 
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-weighing-status-dot.blue {
   background:
-    #287eaa;
+    #ea580c;
 }
 
 .admin-weighing-status-dot.orange {
@@ -33509,7 +33509,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-status-dot.green {
   background:
-    #218b52;
+    #166534;
 }
 
 
@@ -33666,7 +33666,7 @@ body:has(.farmer-book-page) #root {
 
   gap: 6px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   font-size: 8px;
 
@@ -33785,12 +33785,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-weighing-status-pill.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -34045,7 +34045,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce7eb;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -34171,7 +34171,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weight-input-wrap input:focus {
   border-color:
-    #287eaa;
+    #ea580c;
 
   box-shadow:
     0 0 0 3px
@@ -34248,7 +34248,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weight-difference.positive strong {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-weight-difference.negative {
@@ -34357,7 +34357,7 @@ body:has(.farmer-book-page) #root {
 .admin-quality-option.selected
 .admin-quality-radio {
   border-color:
-    #218b52;
+    #166534;
 }
 
 .admin-quality-radio span {
@@ -34366,7 +34366,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-quality-option > div:last-child {
@@ -34536,7 +34536,7 @@ body:has(.farmer-book-page) #root {
 .admin-weighing-cancel {
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   color: #6c828e;
 
@@ -34548,7 +34548,7 @@ body:has(.farmer-book-page) #root {
     1px solid
     #b9d4df;
 
-  color: #287eaa;
+  color: #ea580c;
 
   background: #edf6fa;
 }
@@ -34558,7 +34558,7 @@ body:has(.farmer-book-page) #root {
 
   color: #ffffff;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 8px 18px
@@ -34613,7 +34613,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 11px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eef9f1;
 }
@@ -34664,7 +34664,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 11px;
 
@@ -34684,9 +34684,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e6f2f8;
+  background: #ffedd5;
 }
 
 .admin-weighing-note > div:last-child {
@@ -34898,7 +34898,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eff9f1;
 
@@ -34915,7 +34915,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -34959,7 +34959,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
 
   border-color:
     #bad0da;
@@ -35071,7 +35071,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 14px;
 
@@ -35109,13 +35109,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-payment-kpi.blue
 .admin-payment-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-payment-kpi.green
 .admin-payment-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -35186,7 +35186,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -35266,13 +35266,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #8799a1;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payment-search:focus-within {
@@ -35371,7 +35371,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-payment-item:hover {
   background:
-    #fafcfd;
+    #fff7ed;
 }
 
 .admin-payment-item.selected {
@@ -35380,7 +35380,7 @@ body:has(.farmer-book-page) #root {
 
   box-shadow:
     inset 3px 0 0
-    #218b52;
+    #166534;
 }
 
 .admin-payment-token {
@@ -35394,9 +35394,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 10px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-payment-item-main {
@@ -35467,7 +35467,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-payment-status-dot.gold {
@@ -35475,7 +35475,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-status-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-payment-status-dot.purple {
@@ -35529,7 +35529,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -35703,7 +35703,7 @@ body:has(.farmer-book-page) #root {
 
   gap: 6px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   font-size: 8px;
 
@@ -35915,7 +35915,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce7eb;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -36039,7 +36039,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-rate-field > div:focus-within {
   border-color:
-    #287eaa;
+    #ea580c;
 
   box-shadow:
     0 0 0 3px
@@ -36115,7 +36115,7 @@ body:has(.farmer-book-page) #root {
 .admin-payment-total-box strong {
   overflow: hidden;
 
-  color: #218b52;
+  color: #166534;
 
   font-family: var(--font-heading);
 
@@ -36238,7 +36238,7 @@ body:has(.farmer-book-page) #root {
 .admin-payment-method.selected
 .admin-payment-method-radio {
   border-color:
-    #218b52;
+    #166534;
 }
 
 .admin-payment-method-radio span {
@@ -36248,7 +36248,7 @@ body:has(.farmer-book-page) #root {
   border-radius: 50%;
 
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-payment-method-icon {
@@ -36262,9 +36262,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e6f2f8;
+  background: #ffedd5;
 }
 
 .admin-payment-method:nth-child(2)
@@ -36460,7 +36460,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   background: #f4f9fb;
 }
@@ -36541,7 +36541,7 @@ body:has(.farmer-book-page) #root {
 .admin-payment-cancel {
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   color: #6b818d;
 
@@ -36566,7 +36566,7 @@ body:has(.farmer-book-page) #root {
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2b9a5e
     );
 
@@ -36642,7 +36642,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 10px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #dff1e4;
 }
@@ -36843,7 +36843,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -36870,7 +36870,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -36882,7 +36882,7 @@ body:has(.farmer-book-page) #root {
 .admin-report-export {
   border: 0;
   color: #ffffff;
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-report-export:hover {
@@ -36949,7 +36949,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -36965,10 +36965,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-reports-search:focus-within {
@@ -37001,10 +37001,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 5px;
   padding: 0 8px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #81939d;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-report-filter:focus-within {
@@ -37058,7 +37058,7 @@ body:has(.farmer-book-page) #root {
   align-items: flex-start;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -37077,12 +37077,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-kpi.blue .admin-report-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-report-kpi.green .admin-report-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -37150,7 +37150,7 @@ body:has(.farmer-book-page) #root {
 .admin-report-panel {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -37180,12 +37180,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-panel-icon.blue {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-report-panel-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -37334,11 +37334,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-status-report-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-status-report-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-status-report-dot.orange {
@@ -37428,7 +37428,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-analysis-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-payment-analysis-dot.gold {
@@ -37436,7 +37436,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-analysis-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-payment-method-heading {
@@ -37628,7 +37628,7 @@ body:has(.farmer-book-page) #root {
 
   color: #99a7ad;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   font-size: 6px;
 
@@ -37694,12 +37694,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-status.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
 .admin-report-status.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -37866,7 +37866,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-reports-footer svg {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -38042,7 +38042,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -38065,7 +38065,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmers-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -38140,7 +38140,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 10px;
   padding: 14px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -38160,13 +38160,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-farmer-kpi.blue
 .admin-farmer-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-farmer-kpi.green
 .admin-farmer-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -38220,7 +38220,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -38236,10 +38236,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmers-search:focus-within {
@@ -38272,10 +38272,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 5px;
   padding: 0 8px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #81939d;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmers-filter:focus-within {
@@ -38319,7 +38319,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-farmers-table-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 17px;
   background: #ffffff;
   box-shadow:
@@ -38386,7 +38386,7 @@ body:has(.farmer-book-page) #root {
   border-top: 1px solid #edf1f3;
   border-bottom: 1px solid #e7edef;
   color: #99a7ad;
-  background: #fafcfd;
+  background: #fff7ed;
   font-size: 6px;
   font-weight: 900;
   letter-spacing: .08em;
@@ -38516,7 +38516,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmer-crop-cell svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-farmer-crop-cell strong {
@@ -38549,7 +38549,7 @@ body:has(.farmer-book-page) #root {
 .admin-farmer-activity-cell small {
   padding: 3px 5px;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f3f8;
   font-size: 5px;
   font-weight: 900;
@@ -38577,7 +38577,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmer-view-button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d1db;
   background: #f8fbfc;
 }
@@ -38810,7 +38810,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   color: #6d8390;
   background: #ffffff;
@@ -38833,7 +38833,7 @@ body:has(.farmer-book-page) #root {
   gap: 10px;
   padding: 14px 21px;
   border-bottom: 1px solid #edf1f3;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmer-profile-avatar {
@@ -38844,8 +38844,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-farmer-profile-summary > div:last-child {
@@ -38922,7 +38922,7 @@ body:has(.farmer-book-page) #root {
   padding: 11px;
   border: 1px solid #dfe7ea;
   border-radius: 10px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmer-profile-stats strong {
@@ -38996,7 +38996,7 @@ body:has(.farmer-book-page) #root {
   min-height: 26px;
   padding: 0 6px;
   border-radius: 7px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
   font-size: 6px;
   font-weight: 900;
@@ -39069,7 +39069,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmer-drawer-footer button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
 }
 
@@ -39228,7 +39228,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -39251,7 +39251,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-centers-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -39326,7 +39326,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -39345,12 +39345,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-kpi.blue .admin-center-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-center-kpi.green .admin-center-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -39398,7 +39398,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -39414,10 +39414,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-search:focus-within {
@@ -39449,9 +39449,9 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   padding: 0 9px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-filter select {
@@ -39497,7 +39497,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-card {
   min-width: 0;
   padding: 16px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -39531,8 +39531,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-center-state {
@@ -39552,12 +39552,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-state.active {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-center-state.active > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-center-state.idle {
@@ -39603,7 +39603,7 @@ body:has(.farmer-book-page) #root {
   padding: 11px;
   border: 1px solid #e2e9ec;
   border-radius: 10px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-center-capacity-heading {
@@ -39710,7 +39710,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-view-button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d1db;
   background: #f7fbfc;
 }
@@ -39729,7 +39729,7 @@ body:has(.farmer-book-page) #root {
   flex-direction: column;
   gap: 7px;
   padding: 30px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   color: #99a8ae;
   background: #ffffff;
@@ -39929,7 +39929,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   color: #6d8390;
   background: #ffffff;
@@ -39952,7 +39952,7 @@ body:has(.farmer-book-page) #root {
   gap: 10px;
   padding: 14px 21px;
   border-bottom: 1px solid #edf1f3;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-center-drawer-icon {
@@ -39963,8 +39963,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-center-drawer-summary > div:last-child {
@@ -40035,7 +40035,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   margin-bottom: 10px;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-center-drawer-section-title h3 {
@@ -40144,7 +40144,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-drawer-footer button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
 }
 
@@ -40431,7 +40431,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius:
     9px;
@@ -40507,7 +40507,7 @@ body:has(.farmer-book-page) #root {
     11px;
 
   color:
-    #287eaa;
+    #ea580c;
 }
 
 .admin-center-form-section-title svg {
@@ -40721,13 +40721,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius:
     10px;
 
   background:
-    #fafcfd;
+    #fff7ed;
 
   cursor:
     pointer;
@@ -40804,7 +40804,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-active-toggle input:checked
 + .admin-center-toggle-track {
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-center-active-toggle input:checked
@@ -40937,7 +40937,7 @@ body:has(.farmer-book-page) #root {
     #bdcfd6;
 
   background:
-    #fafcfd;
+    #fff7ed;
 }
 
 .admin-center-form-save {
@@ -40953,7 +40953,7 @@ body:has(.farmer-book-page) #root {
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2b9b60
     );
 
@@ -40972,7 +40972,7 @@ body:has(.farmer-book-page) #root {
     linear-gradient(
       135deg,
       #197342,
-      #218b52
+      #166534
     );
 
   transform:
@@ -41168,7 +41168,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 11px;
   border: 1px solid #cfe1e7;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
   font-size: 7px;
   font-weight: 900;
@@ -41263,7 +41263,7 @@ body:has(.farmer-book-page) #root {
   gap: 12px;
   margin-bottom: 14px;
   padding: 15px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   background: #ffffff;
   box-shadow:
@@ -41279,8 +41279,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-settings-status-copy {
@@ -41324,12 +41324,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-settings-status-badge.active {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-settings-status-badge.active > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-settings-status-badge.paused {
@@ -41370,7 +41370,7 @@ body:has(.farmer-book-page) #root {
 .admin-settings-section {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -41397,12 +41397,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-settings-section-icon.blue {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-settings-section-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -41498,7 +41498,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-setting-toggle input:checked
 + .admin-setting-toggle-track {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-setting-toggle input:checked
@@ -41627,7 +41627,7 @@ body:has(.farmer-book-page) #root {
   padding: 10px;
   border: 1px solid #e2e9ec;
   border-radius: 9px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-settings-info-icon {
@@ -41638,7 +41638,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #218b52;
+  color: #166534;
   background: #e5f5e9;
 }
 
@@ -41765,7 +41765,7 @@ body:has(.farmer-book-page) #root {
   gap: 16px;
   margin-top: 14px;
   padding: 13px 15px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -41795,13 +41795,13 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-settings-save-bar.has-changes
 .admin-settings-save-icon {
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f4f8;
 }
 
@@ -41855,7 +41855,7 @@ body:has(.farmer-book-page) #root {
   min-width: 105px;
   border: 0;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-settings-reset {
@@ -41866,7 +41866,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-settings-discard:hover:not(:disabled) {
   border-color: #becfd6;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-settings-save:hover:not(:disabled) {
@@ -42134,7 +42134,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -42144,7 +42144,7 @@ body:has(.farmer-book-page) #root {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #218b52;
+  background: #166534;
   box-shadow:
     0 0 0 4px
     rgba(33, 139, 82, .08);
@@ -42167,7 +42167,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -42232,7 +42232,7 @@ body:has(.farmer-book-page) #root {
   align-items: flex-start;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -42252,8 +42252,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-kpi.blue
 .admin-dashboard-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-dashboard-kpi.purple
@@ -42270,7 +42270,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-kpi.green
 .admin-dashboard-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -42320,7 +42320,7 @@ body:has(.farmer-book-page) #root {
 .admin-dashboard-alerts-panel,
 .admin-dashboard-panel {
   min-width: 0;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -42490,7 +42490,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-panel-link:hover {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -42532,7 +42532,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -42631,7 +42631,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-workflow-step.blue
 .admin-dashboard-workflow-dot {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-dashboard-workflow-step.purple
@@ -42646,7 +42646,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-workflow-step.green
 .admin-dashboard-workflow-dot {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-dashboard-workflow-step.orange
@@ -42751,7 +42751,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -42822,7 +42822,7 @@ body:has(.farmer-book-page) #root {
   width: fit-content;
   padding: 5px 7px;
   border-radius: 7px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f3f8;
   font-size: 6px;
   font-weight: 900;
@@ -42859,7 +42859,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-recent-crop svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-dashboard-recent-crop span {
@@ -42876,12 +42876,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-status.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
 .admin-dashboard-status.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -42989,7 +42989,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-footer svg {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -43150,7 +43150,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -43173,7 +43173,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payments-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -43278,7 +43278,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -43297,8 +43297,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-kpi.blue .admin-payment-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-payment-kpi.gold .admin-payment-kpi-icon {
@@ -43307,7 +43307,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-kpi.green .admin-payment-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -43348,7 +43348,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -43364,10 +43364,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payments-search:focus-within {
@@ -43399,9 +43399,9 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   padding: 0 9px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payments-filter select {
@@ -43425,7 +43425,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-payments-table-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -43485,7 +43485,7 @@ body:has(.farmer-book-page) #root {
   border-top: 1px solid #edf1f3;
   border-bottom: 1px solid #e7edef;
   color: #99a7ad;
-  background: #fafcfd;
+  background: #fff7ed;
   font-size: 6px;
   font-weight: 900;
   letter-spacing: .08em;
@@ -43522,7 +43522,7 @@ body:has(.farmer-book-page) #root {
   justify-content: center;
   padding: 0 6px;
   border-radius: 7px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f3f8;
   font-size: 6px;
   font-weight: 900;
@@ -43647,12 +43647,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-status.paid {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-payment-status.paid > span {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -43694,7 +43694,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 9px;
   border: 1px solid #cddfe6;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #f5fafc;
   cursor: pointer;
   font-size: 6px;
@@ -43711,7 +43711,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  color: #218b52;
+  color: #166534;
   font-size: 6px;
   font-weight: 900;
 }
@@ -43899,7 +43899,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   color: #6d8390;
   background: #ffffff;
@@ -43924,7 +43924,7 @@ body:has(.farmer-book-page) #root {
   padding: 11px;
   border: 1px solid #dfe7ea;
   border-radius: 10px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payment-form-token {
@@ -43935,7 +43935,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
   font-size: 7px;
   font-weight: 900;
@@ -44140,14 +44140,14 @@ body:has(.farmer-book-page) #root {
 
 .admin-payment-form-cancel:hover:not(:disabled) {
   border-color: #bdcfd6;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payment-form-submit {
   min-width: 120px;
   border: 0;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-payment-form-submit:hover:not(:disabled) {
@@ -44340,7 +44340,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -44387,7 +44387,7 @@ body:has(.farmer-book-page) #root {
   gap: 9px;
   min-width: 0;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -44404,12 +44404,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-kpi.blue .admin-procurement-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-procurement-kpi.green .admin-procurement-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -44455,7 +44455,7 @@ body:has(.farmer-book-page) #root {
   gap: 9px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #fff;
 }
@@ -44468,10 +44468,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-procurement-search:focus-within {
@@ -44498,7 +44498,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-procurement-table-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .035);
@@ -44558,7 +44558,7 @@ body:has(.farmer-book-page) #root {
   border-top: 1px solid #edf1f3;
   border-bottom: 1px solid #e7edef;
   color: #99a7ad;
-  background: #fafcfd;
+  background: #fff7ed;
   font-size: 5px;
   font-weight: 900;
   letter-spacing: .07em;
@@ -44585,7 +44585,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-booking strong {
-  color: #287eaa;
+  color: #ea580c;
   font-size: 7px;
 }
 
@@ -44617,7 +44617,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-procurement-crop svg {
   flex: 0 0 auto;
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-procurement-crop span {
@@ -44640,7 +44640,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-quality.good {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -44672,12 +44672,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-status.paid {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-procurement-status.paid > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-procurement-status.pending {
@@ -44853,7 +44853,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe1e7;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
   font-size: 7px;
   font-weight: 900;
@@ -44875,7 +44875,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -44953,7 +44953,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -44973,13 +44973,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-activity-kpi.blue
 .admin-activity-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-activity-kpi.green
 .admin-activity-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -45024,7 +45024,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -45040,10 +45040,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-activity-search:focus-within {
@@ -45076,9 +45076,9 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 6px;
   padding: 0 8px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-activity-filter-select svg {
@@ -45126,7 +45126,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-activity-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -45210,11 +45210,11 @@ body:has(.farmer-book-page) #root {
   border: 2px solid #ffffff;
   border-radius: 50%;
   box-shadow:
-    0 0 0 1px #dce6ea;
+    0 0 0 1px #fed7aa;
 }
 
 .admin-activity-event-dot.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -45234,7 +45234,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-event-dot.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -45259,7 +45259,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-activity-event-body:hover {
   border-color: #d5e1e6;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-activity-event-top {
@@ -45288,7 +45288,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-status.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -45308,7 +45308,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-status.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -45653,7 +45653,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-language-selector svg {
   flex: 0 0 auto;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-language-selector select {
@@ -45693,9 +45693,9 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-header-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-header-refresh:disabled {
@@ -45782,7 +45782,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -45812,9 +45812,9 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-refresh:disabled {
@@ -45883,7 +45883,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -45900,8 +45900,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-stat.blue .admin-weighing-stat-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-weighing-stat.orange .admin-weighing-stat-icon {
@@ -45915,7 +45915,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-stat.green .admin-weighing-stat-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -45958,7 +45958,7 @@ body:has(.farmer-book-page) #root {
 .admin-weighing-form-panel {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .035);
@@ -45998,10 +45998,10 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin: 10px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-search:focus-within {
@@ -46060,7 +46060,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-booking-item:hover {
   border-color: #e0e9ec;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-booking-item.selected {
@@ -46075,8 +46075,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-weighing-booking-main {
@@ -46126,7 +46126,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-weighing-status-dot.orange {
@@ -46142,7 +46142,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -46268,7 +46268,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 6px;
   margin-bottom: 7px;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-weighing-form-token strong {
@@ -46320,7 +46320,7 @@ body:has(.farmer-book-page) #root {
   padding: 9px 11px;
   border: 1px solid #e2e9ec;
   border-radius: 9px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-status-banner > span {
@@ -46353,12 +46353,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-pill.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
 .admin-weighing-status-pill.blue > span {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-weighing-status-pill.orange {
@@ -46389,12 +46389,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-weighing-status-pill.green > span {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -46459,7 +46459,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e2f0f6;
 }
 
@@ -46490,7 +46490,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #bdd4de;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #ffffff;
   cursor: pointer;
   font-size: 6px;
@@ -46751,14 +46751,14 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-quality-option.selected .admin-quality-radio {
-  border-color: #287eaa;
+  border-color: #ea580c;
 }
 
 .admin-quality-radio > span {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-quality-option > div:last-child {
@@ -46793,7 +46793,7 @@ body:has(.farmer-book-page) #root {
   min-height: 75px;
   resize: vertical;
   padding: 9px 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   outline: 0;
   color: #516d7b;
@@ -46946,7 +46946,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-total strong {
-  color: #218b52;
+  color: #166534;
   font-family: var(--font-heading);
   font-size: 17px;
 }
@@ -47004,12 +47004,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-cancel:hover:not(:disabled) {
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-save {
   border: 1px solid #bfd7e0;
-  color: #287eaa;
+  color: #ea580c;
   background: #eef8fb;
 }
 
@@ -47020,7 +47020,7 @@ body:has(.farmer-book-page) #root {
 .admin-weighing-complete {
   min-width: 155px;
   border: 1px solid #b8d8c1;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -47045,7 +47045,7 @@ body:has(.farmer-book-page) #root {
   padding: 12px;
   border: 1px solid #cfe4d5;
   border-radius: 10px;
-  color: #218b52;
+  color: #166534;
   background: #eef9f1;
 }
 
@@ -47090,7 +47090,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e6f3f8;
 }
 
@@ -47305,7 +47305,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-centers-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -47316,7 +47316,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-centers-add {
   border: 1px solid #b8d8c1;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -47374,7 +47374,7 @@ body:has(.farmer-book-page) #root {
   gap: 9px;
   min-width: 0;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -47391,12 +47391,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-centers-kpi.blue .admin-centers-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-centers-kpi.green .admin-centers-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -47439,7 +47439,7 @@ body:has(.farmer-book-page) #root {
   gap: 8px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -47453,10 +47453,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-search:focus-within {
@@ -47486,9 +47486,9 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 6px;
   padding: 0 9px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-filter svg {
@@ -47539,7 +47539,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-card {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   background: #ffffff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .035);
@@ -47584,7 +47584,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e6f3f8;
 }
 
@@ -47632,12 +47632,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-status.active {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-center-status.active > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-center-status.inactive {
@@ -47669,7 +47669,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-location svg {
   flex: 0 0 auto;
   margin-top: 1px;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-center-location > div {
@@ -47823,7 +47823,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-contact svg {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-center-contact a {
@@ -47835,7 +47835,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-contact a:hover {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -47879,7 +47879,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-center-manage-link {
   border: 1px solid #c7dce4;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
 }
 
@@ -47901,7 +47901,7 @@ body:has(.farmer-book-page) #root {
   flex-direction: column;
   gap: 7px;
   padding: 30px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   color: #96a5ab;
   background: #ffffff;
@@ -48086,7 +48086,7 @@ body:has(.farmer-book-page) #root {
 .token-month-card {
   margin-top: 14px;
   padding: 17px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   background: #ffffff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .03);
@@ -48246,7 +48246,7 @@ body:has(.farmer-book-page) #root {
   flex: 0 0 auto;
   padding: 5px 8px;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
   font-size: 5px;
   font-weight: 900;
@@ -48380,7 +48380,7 @@ body:has(.farmer-book-page) #root {
 
 .token-completion-book {
   border: 1px solid #b8d8c1;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -48423,7 +48423,7 @@ body:has(.farmer-book-page) #root {
 .token-payment-issue-label select,
 .token-payment-issue-label textarea {
   width: 100%;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   outline: 0;
   color: #58717e;
@@ -49558,7 +49558,7 @@ body:has(.farmer-book-page) #root {
   border: 1px solid #e0e7e9;
   border-radius: 10px;
   color: #a3afb4;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .farmer-progress-stage.active .farmer-progress-icon {
@@ -92029,7 +92029,7 @@ html {
 
 .admin-dashboard-workflow-step.blue {
   color: #547c9e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-dashboard-workflow-step.purple {
@@ -151306,7 +151306,7 @@ span {
 :root {
   color-scheme: light;
 
-  --primary: #1677b8;
+  --primary: #f97316;
   --primary-strong: #0f6299;
   --primary-soft: #e8f5fc;
   --primary-soft-strong: #d6edf9;
@@ -162069,7 +162069,7 @@ select,
   border-radius: 15px;
 
   color: #ffffff;
-  background: #1677b8;
+  background: #f97316;
 
   font-size: 16px;
   font-weight: 800;
@@ -162151,7 +162151,7 @@ select,
 }
 
 .admin-form-new input:focus {
-  border-color: #1677b8;
+  border-color: #f97316;
 
   box-shadow:
     0 0 0 4px
@@ -162179,7 +162179,7 @@ select,
   border-radius: 11px;
 
   color: #ffffff;
-  background: #1677b8;
+  background: #f97316;
 
   font-size: 11px;
   font-weight: 800;
@@ -166481,7 +166481,7 @@ select,
 
 .login-intro h1 span {
   display: block;
-  color: #1677b8;
+  color: #f97316;
 }
 
 .login-intro > p {
@@ -166517,7 +166517,7 @@ select,
   border: 1px solid #dce8ef;
   border-radius: 12px;
 
-  color: #1677b8;
+  color: #f97316;
   background: #f5f9fc;
 }
 
@@ -166566,7 +166566,7 @@ select,
   border-radius: 13px;
 
   color: #ffffff;
-  background: #1677b8;
+  background: #f97316;
 }
 
 .login-form-heading .page-eyebrow {
@@ -166620,7 +166620,7 @@ select,
 }
 
 .login-phone-input:focus-within {
-  border-color: #1677b8;
+  border-color: #f97316;
 
   box-shadow:
     0 0 0 4px rgba(22, 119, 184, 0.10);
@@ -166654,7 +166654,7 @@ select,
 
 .login-phone-check {
   margin-right: 14px;
-  color: #1677b8;
+  color: #f97316;
 }
 
 .login-field small {
@@ -166709,8 +166709,8 @@ select,
 }
 
 .login-register-link:hover {
-  border-color: #1677b8;
-  color: #1677b8;
+  border-color: #f97316;
+  color: #f97316;
 }
 
 @media (max-width: 850px) {
@@ -166833,7 +166833,7 @@ select,
 
 .landing-nav-farmer {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-nav-farmer:hover {
@@ -167016,7 +167016,7 @@ select,
 
 .landing-primary-button {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 12px 28px rgba(33, 139, 82, 0.20);
@@ -167058,7 +167058,7 @@ select,
 }
 
 .landing-hero-points svg {
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -167331,7 +167331,7 @@ select,
 }
 
 .card-payment .floating-card-icon {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -167456,12 +167456,12 @@ select,
 }
 
 .purpose-green .purpose-card-icon {
-  color: #218b52;
+  color: #166534;
   background: #d6eedc;
 }
 
 .purpose-green > span {
-  color: #218b52;
+  color: #166534;
 }
 
 .purpose-gold {
@@ -167574,7 +167574,7 @@ select,
 }
 
 .landing-process-step.tone-green .process-step-icon {
-  color: #218b52;
+  color: #166534;
   background: #e3f4e7;
 }
 
@@ -167725,7 +167725,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-icon {
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-portal-card.operations
@@ -167745,7 +167745,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-content > span {
-  color: #218b52;
+  color: #166534;
 }
 
 .landing-portal-card.operations
@@ -167801,7 +167801,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-features svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .landing-portal-card.operations
@@ -167838,7 +167838,7 @@ select,
 
 .landing-portal-card.farmer
 .portal-card-action > div {
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-portal-card.operations
@@ -167919,7 +167919,7 @@ select,
 }
 
 .tone-green .landing-feature-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e8;
 }
 
@@ -168125,7 +168125,7 @@ select,
 
 .landing-final-farmer-button {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-final-admin-button {
@@ -168165,7 +168165,7 @@ select,
   top: 10px;
   right: 24px;
 
-  color: #218b52;
+  color: #166534;
 
   background: rgba(255, 255, 255, 0.40);
 }
@@ -168388,7 +168388,7 @@ select,
     border-radius: 10px;
 
     color: #ffffff;
-    background: #218b52;
+    background: #166534;
     text-align: center;
   }
 
@@ -168662,7 +168662,7 @@ select,
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2d9a62
     );
 
@@ -168706,7 +168706,7 @@ select,
 }
 
 .farmer-refresh-button:hover {
-  color: #218b52;
+  color: #166534;
   border-color: #bad9c5;
   background: #f3faf5;
 }
@@ -168747,7 +168747,7 @@ select,
 
   border-radius: 18px;
 
-  color: #218b52;
+  color: #166534;
   background: #eaf7ee;
 }
 
@@ -168852,7 +168852,7 @@ select,
 
   border-radius: 16px;
 
-  color: #218b52;
+  color: #166534;
   background: #e3f4e8;
 }
 
@@ -168885,7 +168885,7 @@ select,
 
   border-radius: 11px;
 
-  color: #218b52;
+  color: #166534;
   background: #d9efdf;
 }
 
@@ -168945,7 +168945,7 @@ select,
   border-radius: 12px;
 
   color: #277caf;
-  background: #e6f2f8;
+  background: #ffedd5;
 }
 
 .home-detail > div:last-child {
@@ -169001,7 +169001,7 @@ select,
 
 .home-primary-action {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .home-primary-action:hover {
@@ -169015,7 +169015,7 @@ select,
 }
 
 .home-secondary-action:hover {
-  color: #1677b8;
+  color: #f97316;
   border-color: #b9d1dd;
 }
 
@@ -169092,7 +169092,7 @@ select,
 }
 
 .booking-feature .feature-icon {
-  color: #218b52;
+  color: #166534;
   background: #dcefe1;
 }
 
@@ -169133,7 +169133,7 @@ select,
   margin-top: 24px;
   padding: 29px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 22px;
 
   background: #ffffff;
@@ -169164,7 +169164,7 @@ select,
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #e9f6ed;
 
   font-size: 9px;
@@ -169196,7 +169196,7 @@ select,
 }
 
 .farmer-progress-stage.complete {
-  color: #218b52;
+  color: #166534;
 }
 
 .farmer-progress-icon {
@@ -169218,13 +169218,13 @@ select,
 .farmer-progress-icon {
   border-color: #94c8a4;
   background: #edf8ef;
-  color: #218b52;
+  color: #166534;
 }
 
 .farmer-progress-stage.complete
 .farmer-progress-icon {
-  border-color: #218b52;
-  background: #218b52;
+  border-color: #166534;
+  background: #166534;
   color: #ffffff;
 }
 
@@ -169428,7 +169428,7 @@ select,
 }
 
 .home-support-row a:hover {
-  color: #1677b8;
+  color: #f97316;
 }
 
 
@@ -169614,7 +169614,7 @@ select,
 
   margin-top: 5px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -169665,7 +169665,7 @@ select,
 
   border-radius: 14px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e8f6ec;
 
@@ -169728,7 +169728,7 @@ select,
 
   padding: 34px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 25px;
 
@@ -169777,7 +169777,7 @@ select,
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2c9b63
     );
 
@@ -169875,7 +169875,7 @@ select,
 
 
 .login-phone-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
 
   background: #ffffff;
 
@@ -169937,7 +169937,7 @@ select,
 
   margin-right: 15px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -170052,7 +170052,7 @@ select,
 
 
 .login-register-link:hover {
-  color: #218b52;
+  color: #166534;
 
   border-color: #b9d8c4;
 
@@ -170223,7 +170223,7 @@ select,
 
   margin-top: 4px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -170277,7 +170277,7 @@ select,
 
   border-radius: 14px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e7f5eb;
 
@@ -170341,7 +170341,7 @@ select,
 
   padding: 34px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 26px;
 
@@ -170396,7 +170396,7 @@ select,
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #3a9d68
     );
 
@@ -170526,7 +170526,7 @@ select,
 
 
 .register-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
 
   background: #ffffff;
 
@@ -170871,7 +170871,7 @@ select,
 
 
 .register-dropdown > button > svg {
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -170928,7 +170928,7 @@ select,
 
   border-radius: 10px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #dcefe1;
 }
@@ -171010,7 +171010,7 @@ select,
 
   color: #607987;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
 
@@ -171028,7 +171028,7 @@ select,
 
 
 .language-option.selected {
-  color: #218b52;
+  color: #166534;
 
   border-color: #9cc9aa;
 
@@ -171305,7 +171305,7 @@ select,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 50%;
   color: #8c9da7;
   background: #ffffff;
@@ -171314,20 +171314,20 @@ select,
 }
 
 .booking-step.active {
-  color: #218b52;
+  color: #166534;
 }
 
 .booking-step.active span {
   border-color: #8fc3a1;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .booking-step-line {
   width: 32px;
   height: 1px;
   margin: 0 10px;
-  background: #dce5e9;
+  background: #fed7aa;
 }
 
 
@@ -171350,7 +171350,7 @@ select,
 
 .booking-panel {
   padding: 27px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 23px;
   background: #ffffff;
   box-shadow:
@@ -171380,7 +171380,7 @@ select,
 
   border-radius: 13px;
 
-  color: #218b52;
+  color: #166534;
   background: #e7f5eb;
 }
 
@@ -171442,7 +171442,7 @@ select,
 }
 
 .quantity-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
   background: #ffffff;
   box-shadow:
     0 0 0 4px rgba(33, 139, 82, 0.08);
@@ -171697,7 +171697,7 @@ select,
 .select-option > svg:last-child,
 .center-option > svg:last-child {
   margin-left: auto;
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -171731,7 +171731,7 @@ select,
   border-radius: 13px;
 
   color: #708591;
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
   text-align: left;
@@ -171744,7 +171744,7 @@ select,
 
 .date-option.selected {
   border-color: #9ac8a8;
-  color: #218b52;
+  color: #166534;
   background: #eef8f0;
 }
 
@@ -171784,7 +171784,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -171821,7 +171821,7 @@ select,
 .booking-summary-card {
   padding: 23px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 22px;
 
   background:
@@ -171852,7 +171852,7 @@ select,
 }
 
 .summary-header svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .summary-crop {
@@ -171945,7 +171945,7 @@ select,
   border-radius: 9px;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .summary-available > div:last-child {
@@ -171973,7 +171973,7 @@ select,
   margin-top: 24px;
   padding: 32px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 24px;
 
   background: #ffffff;
@@ -172126,7 +172126,7 @@ select,
   border-radius: 12px;
 
   color: #277caf;
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .slot-check {
@@ -172140,7 +172140,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .slot-time {
@@ -172164,7 +172164,7 @@ select,
 }
 
 .slot-load.normal {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -172228,7 +172228,7 @@ select,
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 }
 
 .availability-info p {
@@ -172274,7 +172274,7 @@ select,
 
 .booking-trust-strip svg {
   flex: 0 0 auto;
-  color: #218b52;
+  color: #166534;
 }
 
 .booking-trust-strip span {
@@ -172487,7 +172487,7 @@ select,
   border: 1px solid #cee7d5;
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
 
   font-size: 8px;
@@ -172502,7 +172502,7 @@ select,
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px rgba(
@@ -172579,7 +172579,7 @@ select,
   align-items: center;
   justify-content: center;
 
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 50%;
 
   color: #8c9da7;
@@ -172590,14 +172590,14 @@ select,
 }
 
 .mini-step.active {
-  color: #218b52;
+  color: #166534;
 }
 
 .mini-step.active span {
   border-color: #94c6a3;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .mini-step-line {
@@ -172606,7 +172606,7 @@ select,
 
   margin: 0 8px;
 
-  background: #dce5e9;
+  background: #fed7aa;
 }
 
 
@@ -172678,7 +172678,7 @@ select,
 }
 
 .booking-info-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -172728,7 +172728,7 @@ select,
 
   overflow: visible;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 24px;
 
   background: #ffffff;
@@ -172782,12 +172782,12 @@ select,
 }
 
 .panel-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e6f5ea;
 }
 
 .panel-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e3f1f8;
 }
 
@@ -172900,7 +172900,7 @@ select,
 }
 
 .quantity-input:focus-within {
-  border-color: #218b52;
+  border-color: #166534;
 
   background: #ffffff;
 
@@ -173193,7 +173193,7 @@ select,
 .center-option > svg:last-child {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .center-select-icon {
@@ -173208,8 +173208,8 @@ select,
 
   border-radius: 11px;
 
-  color: #277cac;
-  background: #e5f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .center-select-icon.large {
@@ -173233,8 +173233,8 @@ select,
 
   border-radius: 10px;
 
-  color: #277cac;
-  background: #e5f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .booking-menu-empty {
@@ -173340,7 +173340,7 @@ select,
 
   border-radius: 10px;
 
-  color: #277cac;
+  color: #c2410c;
   background: #dcecf5;
 }
 
@@ -173459,7 +173459,7 @@ select,
 
   color: #728792;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
 
@@ -173482,7 +173482,7 @@ select,
 .date-option.selected {
   border-color: #92c5a1;
 
-  color: #218b52;
+  color: #166534;
 
   background: #edf8f0;
 
@@ -173544,7 +173544,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -173587,7 +173587,7 @@ select,
 
   border-radius: 15px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #ddefe2;
 }
@@ -173597,7 +173597,7 @@ select,
 }
 
 .booking-check-copy > span {
-  color: #218b52;
+  color: #166534;
 
   font-size: 8px;
 
@@ -173682,7 +173682,7 @@ select,
 .booking-summary-card {
   padding: 24px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 22px;
 
@@ -173750,7 +173750,7 @@ select,
 
   border-radius: 12px;
 
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -173887,7 +173887,7 @@ select,
 }
 
 .summary-total-row strong {
-  color: #218b52;
+  color: #166534;
 
   font-size: 9px;
 
@@ -173919,7 +173919,7 @@ select,
 .summary-security svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 
@@ -174012,7 +174012,7 @@ select,
 
   padding: 31px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 24px;
 
@@ -174067,7 +174067,7 @@ select,
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #e9f7ed;
 
   font-size: 7px;
@@ -174111,7 +174111,7 @@ select,
 
   padding: 12px 14px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 13px;
 
@@ -174119,7 +174119,7 @@ select,
 }
 
 .availability-date-card > svg {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .availability-date-card > div {
@@ -174196,12 +174196,12 @@ select,
 }
 
 .availability-overview-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e3f1f8;
 }
 
 .availability-overview-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e3f4e8;
 }
 
@@ -174284,8 +174284,8 @@ select,
 
   border-radius: 8px;
 
-  color: #277cac;
-  background: #e7f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .slot-instruction p {
@@ -174398,13 +174398,13 @@ select,
 
   border-radius: 11px;
 
-  color: #277cac;
-  background: #e5f2f8;
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .slot-card.selected
 .slot-card-clock {
-  color: #218b52;
+  color: #166534;
   background: #dff1e4;
 }
 
@@ -174419,7 +174419,7 @@ select,
   border-radius: 50%;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .slot-card-time {
@@ -174451,7 +174451,7 @@ select,
 }
 
 .slot-normal-label {
-  color: #218b52;
+  color: #166534;
   background: #e4f5e8;
 }
 
@@ -174550,7 +174550,7 @@ select,
   border-radius: 11px;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .selected-slot-banner > div:nth-child(2) {
@@ -174606,7 +174606,7 @@ select,
 
   padding: 31px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 24px;
 
@@ -174674,7 +174674,7 @@ select,
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eaf7ee;
 
@@ -174728,7 +174728,7 @@ select,
 }
 
 .confirm-review-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -174814,7 +174814,7 @@ select,
 
   border-radius: 10px;
 
-  color: #277cac;
+  color: #c2410c;
   background: #deedf5;
 }
 
@@ -174946,12 +174946,12 @@ select,
 }
 
 .booking-bottom-card.green .bottom-card-icon {
-  color: #218b52;
+  color: #166534;
   background: #def0e3;
 }
 
 .booking-bottom-card.blue .bottom-card-icon {
-  color: #277cac;
+  color: #c2410c;
   background: #e0eef5;
 }
 
@@ -175303,7 +175303,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .farmer-book-page .back-link:hover {
-  color: #218b52;
+  color: #166534;
 }
 /* =========================================================
    FARMER TOKEN PAGE
@@ -175371,7 +175371,7 @@ body:has(.farmer-book-page) #root {
   padding: 5px 9px;
   border: 1px solid #cfe6d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 8px;
   font-weight: 900;
@@ -175382,7 +175382,7 @@ body:has(.farmer-book-page) #root {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #218b52;
+  background: #166534;
   box-shadow:
     0 0 0 4px rgba(33, 139, 82, .10);
 }
@@ -175410,7 +175410,7 @@ body:has(.farmer-book-page) #root {
   gap: 10px;
   min-width: 160px;
   padding: 13px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: rgba(255, 255, 255, .9);
 }
@@ -175422,7 +175422,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #218b52;
+  color: #166534;
   background: #e6f5ea;
 }
 
@@ -175534,11 +175534,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-status-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .token-status-dot.blue {
-  background: #277cac;
+  background: #c2410c;
 }
 
 .token-status-dot.orange {
@@ -175566,7 +175566,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 17px;
-  color: #218b52;
+  color: #166534;
   background: #def0e4;
 }
 
@@ -175598,7 +175598,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-arrival-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e4f2f8;
 }
 
@@ -175608,7 +175608,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-arrival-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -175651,7 +175651,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #218b52;
+  color: #166534;
   background: #dcefe2;
 }
 
@@ -175680,7 +175680,7 @@ body:has(.farmer-book-page) #root {
 .token-status-card,
 .token-details-card {
   padding: 28px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 22px;
   background: #ffffff;
   box-shadow:
@@ -175729,7 +175729,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-refresh-button:hover {
-  color: #218b52;
+  color: #166534;
   border-color: #b9d3c1;
   background: #f0f8f2;
 }
@@ -175751,7 +175751,7 @@ body:has(.farmer-book-page) #root {
 .token-progress-bar > div {
   height: 100%;
   border-radius: inherit;
-  background: #218b52;
+  background: #166534;
   transition: width .3s ease;
 }
 
@@ -175778,7 +175778,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 50%;
   color: #97a7af;
   background: #ffffff;
@@ -175788,13 +175788,13 @@ body:has(.farmer-book-page) #root {
 .token-timeline-marker {
   border-color: #9bc8a8;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .token-timeline-item.active
 .token-timeline-marker {
-  border-color: #218b52;
-  color: #218b52;
+  border-color: #166534;
+  color: #166534;
   background: #eef8f1;
   box-shadow:
     0 0 0 5px rgba(33,139,82,.08);
@@ -175824,7 +175824,7 @@ body:has(.farmer-book-page) #root {
 .token-now-pill {
   padding: 3px 6px;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #e9f7ed;
   font-size: 6px;
   font-weight: 900;
@@ -175871,7 +175871,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #218b52;
+  color: #166534;
   background: #e0f1e5;
 }
 
@@ -176066,7 +176066,7 @@ body:has(.farmer-book-page) #root {
 
 .token-side-card {
   padding: 19px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 18px;
   background: #ffffff;
   box-shadow:
@@ -176090,12 +176090,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-side-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
 .token-side-icon.blue {
-  color: #277cac;
+  color: #c2410c;
   background: #e4f2f8;
 }
 
@@ -176213,7 +176213,7 @@ body:has(.farmer-book-page) #root {
 
 .token-primary-action {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .token-primary-action:hover {
@@ -176228,7 +176228,7 @@ body:has(.farmer-book-page) #root {
 
 .token-secondary-action:hover {
   border-color: #b9d0da;
-  color: #277cac;
+  color: #c2410c;
 }
 
 
@@ -176241,7 +176241,7 @@ body:has(.farmer-book-page) #root {
   max-width: 620px;
   margin: 80px auto;
   padding: 45px 32px;
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 24px;
   background: #ffffff;
   box-shadow:
@@ -176261,7 +176261,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .token-loading-icon {
-  color: #218b52;
+  color: #166534;
   background: #e7f5eb;
 }
 
@@ -176544,7 +176544,7 @@ body:has(.farmer-book-page) #root {
   border: 1px solid #cfe7d5;
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
 
   font-size: 8px;
@@ -176559,7 +176559,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -176592,7 +176592,7 @@ body:has(.farmer-book-page) #root {
 .help-hero-copy h1 span {
   display: block;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-hero-copy > p {
@@ -176641,7 +176641,7 @@ body:has(.farmer-book-page) #root {
 
 .help-primary-action {
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 10px 22px
@@ -176666,7 +176666,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-secondary-action:hover {
-  color: #218b52;
+  color: #166534;
   border-color: #bdd3c3;
 }
 
@@ -176678,7 +176678,7 @@ body:has(.farmer-book-page) #root {
 .help-hero-card {
   padding: 23px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 21px;
 
   background:
@@ -176720,7 +176720,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 13px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e3f3e7;
 }
@@ -176771,7 +176771,7 @@ body:has(.farmer-book-page) #root {
 
   margin-top: 1px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-check-row span {
@@ -176862,7 +176862,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 17px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 17px;
 
   color: #2d4c5f;
@@ -176908,7 +176908,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-topic-card.green .help-topic-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -176995,7 +176995,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 22px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 19px;
 
   background: #ffffff;
@@ -177029,7 +177029,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-guide-card.green {
-  color: #218b52;
+  color: #166534;
 }
 
 .help-guide-card.blue {
@@ -177175,7 +177175,7 @@ body:has(.farmer-book-page) #root {
 .help-faq-item {
   overflow: hidden;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
 
   background: #ffffff;
@@ -177243,7 +177243,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #218b52;
+  color: #166534;
   background: #e7f5eb;
 
   font-size: 7px;
@@ -177271,7 +177271,7 @@ body:has(.farmer-book-page) #root {
 .help-faq-question > svg {
   transform: rotate(180deg);
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-faq-answer {
@@ -177402,7 +177402,7 @@ body:has(.farmer-book-page) #root {
 .help-checklist-card {
   padding: 18px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
 
   background: #ffffff;
@@ -177449,7 +177449,7 @@ body:has(.farmer-book-page) #root {
 
 .help-checklist-card.green
 .help-checklist-icon {
-  color: #218b52;
+  color: #166534;
   background: #dff1e4;
 }
 
@@ -177657,7 +177657,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 30px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 22px;
 
@@ -177734,7 +177734,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-sms-feature-list svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .help-phone-mockup {
@@ -177791,7 +177791,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .help-sms-message strong {
-  color: #218b52;
+  color: #166534;
 
   font-size: 10px;
 }
@@ -177864,7 +177864,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 12px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #e2f2e6;
 }
@@ -177919,7 +177919,7 @@ body:has(.farmer-book-page) #root {
 
   margin-top: 1px;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-center-details > div > div {
@@ -177965,7 +177965,7 @@ body:has(.farmer-book-page) #root {
   border-radius: 10px;
 
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 
   font-size: 9px;
   font-weight: 900;
@@ -177988,7 +177988,7 @@ body:has(.farmer-book-page) #root {
 .help-contact-use-card {
   padding: 22px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 18px;
 
@@ -178067,7 +178067,7 @@ body:has(.farmer-book-page) #root {
 .help-contact-reasons svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-contact-reasons span {
@@ -178099,7 +178099,7 @@ body:has(.farmer-book-page) #root {
 .help-emergency-note svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .help-emergency-note p {
@@ -178126,7 +178126,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 20px 22px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 18px;
 
@@ -178213,7 +178213,7 @@ body:has(.farmer-book-page) #root {
 .help-language-option.active {
   border-color: #9fc9aa;
 
-  color: #218b52;
+  color: #166534;
 
   background: #edf8f0;
 }
@@ -178685,7 +178685,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-login-back:hover {
-  color: #277cac;
+  color: #c2410c;
 }
 
 
@@ -178804,7 +178804,7 @@ body:has(.farmer-book-page) #root {
 .admin-login-intro h1 span {
   display: block;
 
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-login-intro > p {
@@ -178844,7 +178844,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 14px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 14px;
 
@@ -178888,14 +178888,14 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 11px;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-login-feature:nth-child(2)
 .admin-login-feature-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -178946,7 +178946,7 @@ body:has(.farmer-book-page) #root {
     16px
     17px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 16px;
 
@@ -179012,9 +179012,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 
   font-size: 7px;
 
@@ -179095,9 +179095,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 14px;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-login-card-heading > div:last-child {
@@ -179187,7 +179187,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-login-input:focus-within {
-  border-color: #277cac;
+  border-color: #c2410c;
 
   background: #ffffff;
 
@@ -179247,7 +179247,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-show-password:hover {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-login-field small {
@@ -179328,7 +179328,7 @@ body:has(.farmer-book-page) #root {
   width: 14px;
   height: 14px;
 
-  accent-color: #277cac;
+  accent-color: #c2410c;
 
   cursor: pointer;
 }
@@ -179464,7 +179464,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #277cac;
+  color: #c2410c;
 
   background: #e3f1f8;
 }
@@ -179505,7 +179505,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-demo-box b {
-  color: #277cac;
+  color: #c2410c;
 
   font-weight: 900;
 }
@@ -179538,7 +179538,7 @@ body:has(.farmer-book-page) #root {
 .admin-security-row svg {
   flex: 0 0 auto;
 
-  color: #277cac;
+  color: #c2410c;
 }
 
 
@@ -179559,7 +179559,7 @@ body:has(.farmer-book-page) #root {
   padding:
     13px;
 
-  border: 1px solid #dce7eb;
+  border: 1px solid #fed7aa;
 
   border-radius: 15px;
 
@@ -179587,7 +179587,7 @@ body:has(.farmer-book-page) #root {
 .admin-login-trust svg {
   flex: 0 0 auto;
 
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-login-trust span {
@@ -179829,7 +179829,7 @@ body:has(.farmer-book-page) #root {
 
   padding: 18px 13px;
 
-  border-right: 1px solid #dce5e9;
+  border-right: 1px solid #fed7aa;
 
   background:
     #ffffff;
@@ -179967,7 +179967,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #277cac;
+  color: #c2410c;
 
   background:
     #e0eff6;
@@ -180085,14 +180085,14 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-sidebar-link.active {
-  color: #277cac;
+  color: #c2410c;
 
   background:
     #eaf4f8;
 }
 
 .admin-sidebar-link.active svg {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-sidebar-link svg {
@@ -180107,7 +180107,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #277cac;
+  background: #c2410c;
 }
 
 
@@ -180145,7 +180145,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -180352,7 +180352,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-header-refresh:hover:not(:disabled) {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #b9d1db;
@@ -180416,9 +180416,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #277cac;
+  color: #c2410c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-operator-profile > div:last-child {
@@ -180646,7 +180646,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eef9f1;
 
@@ -180663,7 +180663,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -180800,7 +180800,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 15px;
 
@@ -180875,8 +180875,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-kpi-card.blue
 .admin-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-kpi-card.orange
@@ -180893,7 +180893,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-kpi-card.green
 .admin-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e3f3e7;
 }
 
@@ -180986,7 +180986,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -181072,12 +181072,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-panel-icon.blue {
-  color: #287eaa;
-  background: #e6f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-panel-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -181115,7 +181115,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-panel-link:hover {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-panel-live {
@@ -181125,7 +181125,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #edf8f0;
 
@@ -181187,13 +181187,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #84969e;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-dashboard-search:focus-within {
@@ -181250,7 +181250,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
@@ -181258,7 +181258,7 @@ body:has(.farmer-book-page) #root {
 
   color: #5f7785;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   cursor: pointer;
 
@@ -181313,7 +181313,7 @@ body:has(.farmer-book-page) #root {
 
   color: #9ba8ae;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   font-size: 6px;
 
@@ -181426,7 +181426,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -181518,7 +181518,7 @@ body:has(.farmer-book-page) #root {
   background:
     linear-gradient(
       90deg,
-      #218b52,
+      #166534,
       #62ad76
     );
 }
@@ -181688,8 +181688,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-alert-row.blue > div {
-  color: #287eaa;
-  background: #e6f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-alert-row.orange > div {
@@ -181754,7 +181754,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-all-good > svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-all-good > div {
@@ -181841,11 +181841,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-activity-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-activity-dot.orange {
@@ -181974,8 +181974,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-quick-action.blue
 .admin-quick-action-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-quick-action.purple
@@ -181992,7 +181992,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-quick-action.green
 .admin-quick-action-icon {
-  color: #218b52;
+  color: #166534;
   background: #e5f4e9;
 }
 
@@ -182064,11 +182064,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-data-footer > div:first-child svg {
-  color: #277cac;
+  color: #c2410c;
 }
 
 .admin-dashboard-data-footer > div:nth-child(2) svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-dashboard-data-footer button {
@@ -182082,7 +182082,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 7px;
 
@@ -182098,7 +182098,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-data-footer button:hover {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #b8d0da;
@@ -182402,7 +182402,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eff9f1;
 
@@ -182419,7 +182419,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -182462,7 +182462,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-queue-refresh-button:hover:not(:disabled) {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #b9d0da;
@@ -182577,7 +182577,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -182646,13 +182646,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-queue-stat.blue
 .admin-queue-stat-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-queue-stat.green
 .admin-queue-stat-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -182733,7 +182733,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 12px;
 
@@ -182768,13 +182768,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #84969e;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-queue-search:focus-within {
@@ -182829,13 +182829,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #81939d;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-queue-filter-control:focus-within {
@@ -182902,7 +182902,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -183004,7 +183004,7 @@ body:has(.farmer-book-page) #root {
 
   color: #99a7ad;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   font-size: 6px;
 
@@ -183081,9 +183081,9 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-token-badge {
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-farmer-avatar {
@@ -183139,7 +183139,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-produce-name svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-produce-name strong {
@@ -183155,7 +183155,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-full-produce-cell small {
-  color: #218b52;
+  color: #166534;
 
   font-size: 5px;
 
@@ -183241,7 +183241,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-row-view-button:hover {
-  color: #287eaa;
+  color: #ea580c;
 
   border-color:
     #b8d0da;
@@ -183254,7 +183254,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-row-action-button.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-row-action-button.purple {
@@ -183350,7 +183350,7 @@ body:has(.farmer-book-page) #root {
 
   color: #ffffff;
 
-  background: #277cac;
+  background: #c2410c;
 
   cursor: pointer;
 
@@ -183451,7 +183451,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -183474,13 +183474,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-queue-info-card.blue
 .admin-queue-info-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-queue-info-card.green
 .admin-queue-info-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -183634,7 +183634,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
 
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
 
   border-radius: 9px;
 
@@ -183668,7 +183668,7 @@ body:has(.farmer-book-page) #root {
     #edf1f3;
 
   background:
-    #fafcfd;
+    #fff7ed;
 }
 
 .admin-drawer-status > span:last-child {
@@ -183723,9 +183723,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e7f2f8;
+  background: #ffedd5;
 }
 
 .admin-drawer-section-heading h3 {
@@ -183830,14 +183830,14 @@ body:has(.farmer-book-page) #root {
   color: #ffffff;
 
   border-color:
-    #218b52;
+    #166534;
 
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-mini-timeline-item.active > div {
-  color: #277cac;
+  color: #c2410c;
 
   border-color:
     #8eb7c8;
@@ -183876,7 +183876,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce7eb;
+    #fed7aa;
 
   border-radius: 12px;
 
@@ -183935,7 +183935,7 @@ body:has(.farmer-book-page) #root {
 
   color: #ffffff;
 
-  background: #218b52;
+  background: #166534;
 
   cursor: pointer;
 
@@ -184031,7 +184031,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   background: #eaf4f8;
 
@@ -184238,7 +184238,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eff9f1;
 
@@ -184255,7 +184255,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -184299,7 +184299,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
 
   border-color:
     #bad0da;
@@ -184411,7 +184411,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 14px;
 
@@ -184443,8 +184443,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-stat.blue
 .admin-weighing-stat-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-weighing-stat.orange
@@ -184461,7 +184461,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-stat.green
 .admin-weighing-stat-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -184512,7 +184512,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -184592,13 +184592,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #8799a1;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-search:focus-within {
@@ -184701,7 +184701,7 @@ body:has(.farmer-book-page) #root {
 
   box-shadow:
     inset 3px 0 0
-    #287eaa;
+    #ea580c;
 }
 
 .admin-weighing-token {
@@ -184717,9 +184717,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 10px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-weighing-booking-main {
@@ -184782,12 +184782,12 @@ body:has(.farmer-book-page) #root {
   border-radius: 50%;
 
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-weighing-status-dot.blue {
   background:
-    #287eaa;
+    #ea580c;
 }
 
 .admin-weighing-status-dot.orange {
@@ -184807,7 +184807,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-status-dot.green {
   background:
-    #218b52;
+    #166534;
 }
 
 
@@ -184964,7 +184964,7 @@ body:has(.farmer-book-page) #root {
 
   gap: 6px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   font-size: 8px;
 
@@ -185083,12 +185083,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-weighing-status-pill.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -185343,7 +185343,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce7eb;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -185469,7 +185469,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weight-input-wrap input:focus {
   border-color:
-    #287eaa;
+    #ea580c;
 
   box-shadow:
     0 0 0 3px
@@ -185546,7 +185546,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weight-difference.positive strong {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-weight-difference.negative {
@@ -185655,7 +185655,7 @@ body:has(.farmer-book-page) #root {
 .admin-quality-option.selected
 .admin-quality-radio {
   border-color:
-    #218b52;
+    #166534;
 }
 
 .admin-quality-radio span {
@@ -185664,7 +185664,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-quality-option > div:last-child {
@@ -185834,7 +185834,7 @@ body:has(.farmer-book-page) #root {
 .admin-weighing-cancel {
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   color: #6c828e;
 
@@ -185846,7 +185846,7 @@ body:has(.farmer-book-page) #root {
     1px solid
     #b9d4df;
 
-  color: #287eaa;
+  color: #ea580c;
 
   background: #edf6fa;
 }
@@ -185856,7 +185856,7 @@ body:has(.farmer-book-page) #root {
 
   color: #ffffff;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 8px 18px
@@ -185911,7 +185911,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 11px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eef9f1;
 }
@@ -185962,7 +185962,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 11px;
 
@@ -185982,9 +185982,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 8px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e6f2f8;
+  background: #ffedd5;
 }
 
 .admin-weighing-note > div:last-child {
@@ -186196,7 +186196,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 999px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #eff9f1;
 
@@ -186213,7 +186213,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #218b52;
+  background: #166534;
 
   box-shadow:
     0 0 0 4px
@@ -186257,7 +186257,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
 
   border-color:
     #bad0da;
@@ -186369,7 +186369,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 14px;
 
@@ -186407,13 +186407,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-payment-kpi.blue
 .admin-payment-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-payment-kpi.green
 .admin-payment-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -186484,7 +186484,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius: 17px;
 
@@ -186564,13 +186564,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius: 8px;
 
   color: #8799a1;
 
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payment-search:focus-within {
@@ -186669,7 +186669,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-payment-item:hover {
   background:
-    #fafcfd;
+    #fff7ed;
 }
 
 .admin-payment-item.selected {
@@ -186678,7 +186678,7 @@ body:has(.farmer-book-page) #root {
 
   box-shadow:
     inset 3px 0 0
-    #218b52;
+    #166534;
 }
 
 .admin-payment-token {
@@ -186692,9 +186692,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 10px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e5f2f8;
+  background: #ffedd5;
 }
 
 .admin-payment-item-main {
@@ -186765,7 +186765,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 50%;
 
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-payment-status-dot.gold {
@@ -186773,7 +186773,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-status-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-payment-status-dot.purple {
@@ -186827,7 +186827,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -187001,7 +187001,7 @@ body:has(.farmer-book-page) #root {
 
   gap: 6px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   font-size: 8px;
 
@@ -187213,7 +187213,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce7eb;
+    #fed7aa;
 
   border-radius: 13px;
 
@@ -187337,7 +187337,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-rate-field > div:focus-within {
   border-color:
-    #287eaa;
+    #ea580c;
 
   box-shadow:
     0 0 0 3px
@@ -187413,7 +187413,7 @@ body:has(.farmer-book-page) #root {
 .admin-payment-total-box strong {
   overflow: hidden;
 
-  color: #218b52;
+  color: #166534;
 
   font-family: var(--font-heading);
 
@@ -187536,7 +187536,7 @@ body:has(.farmer-book-page) #root {
 .admin-payment-method.selected
 .admin-payment-method-radio {
   border-color:
-    #218b52;
+    #166534;
 }
 
 .admin-payment-method-radio span {
@@ -187546,7 +187546,7 @@ body:has(.farmer-book-page) #root {
   border-radius: 50%;
 
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-payment-method-icon {
@@ -187560,9 +187560,9 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #287eaa;
+  color: #ea580c;
 
-  background: #e6f2f8;
+  background: #ffedd5;
 }
 
 .admin-payment-method:nth-child(2)
@@ -187758,7 +187758,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 9px;
 
-  color: #287eaa;
+  color: #ea580c;
 
   background: #f4f9fb;
 }
@@ -187839,7 +187839,7 @@ body:has(.farmer-book-page) #root {
 .admin-payment-cancel {
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   color: #6b818d;
 
@@ -187864,7 +187864,7 @@ body:has(.farmer-book-page) #root {
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2b9a5e
     );
 
@@ -187940,7 +187940,7 @@ body:has(.farmer-book-page) #root {
 
   border-radius: 10px;
 
-  color: #218b52;
+  color: #166534;
 
   background: #dff1e4;
 }
@@ -188141,7 +188141,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -188168,7 +188168,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -188180,7 +188180,7 @@ body:has(.farmer-book-page) #root {
 .admin-report-export {
   border: 0;
   color: #ffffff;
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-report-export:hover {
@@ -188247,7 +188247,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -188263,10 +188263,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-reports-search:focus-within {
@@ -188299,10 +188299,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 5px;
   padding: 0 8px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #81939d;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-report-filter:focus-within {
@@ -188356,7 +188356,7 @@ body:has(.farmer-book-page) #root {
   align-items: flex-start;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -188375,12 +188375,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-kpi.blue .admin-report-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-report-kpi.green .admin-report-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -188448,7 +188448,7 @@ body:has(.farmer-book-page) #root {
 .admin-report-panel {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -188478,12 +188478,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-panel-icon.blue {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-report-panel-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -188632,11 +188632,11 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-status-report-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-status-report-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-status-report-dot.orange {
@@ -188726,7 +188726,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-analysis-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-payment-analysis-dot.gold {
@@ -188734,7 +188734,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-analysis-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-payment-method-heading {
@@ -188926,7 +188926,7 @@ body:has(.farmer-book-page) #root {
 
   color: #99a7ad;
 
-  background: #fafcfd;
+  background: #fff7ed;
 
   font-size: 6px;
 
@@ -188992,12 +188992,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-report-status.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
 .admin-report-status.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -189164,7 +189164,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-reports-footer svg {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -189340,7 +189340,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -189363,7 +189363,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmers-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -189438,7 +189438,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 10px;
   padding: 14px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -189458,13 +189458,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-farmer-kpi.blue
 .admin-farmer-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-farmer-kpi.green
 .admin-farmer-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -189518,7 +189518,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -189534,10 +189534,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmers-search:focus-within {
@@ -189570,10 +189570,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 5px;
   padding: 0 8px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #81939d;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmers-filter:focus-within {
@@ -189617,7 +189617,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-farmers-table-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 17px;
   background: #ffffff;
   box-shadow:
@@ -189684,7 +189684,7 @@ body:has(.farmer-book-page) #root {
   border-top: 1px solid #edf1f3;
   border-bottom: 1px solid #e7edef;
   color: #99a7ad;
-  background: #fafcfd;
+  background: #fff7ed;
   font-size: 6px;
   font-weight: 900;
   letter-spacing: .08em;
@@ -189814,7 +189814,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmer-crop-cell svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-farmer-crop-cell strong {
@@ -189847,7 +189847,7 @@ body:has(.farmer-book-page) #root {
 .admin-farmer-activity-cell small {
   padding: 3px 5px;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f3f8;
   font-size: 5px;
   font-weight: 900;
@@ -189875,7 +189875,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmer-view-button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d1db;
   background: #f8fbfc;
 }
@@ -190108,7 +190108,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   color: #6d8390;
   background: #ffffff;
@@ -190131,7 +190131,7 @@ body:has(.farmer-book-page) #root {
   gap: 10px;
   padding: 14px 21px;
   border-bottom: 1px solid #edf1f3;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmer-profile-avatar {
@@ -190142,8 +190142,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-farmer-profile-summary > div:last-child {
@@ -190220,7 +190220,7 @@ body:has(.farmer-book-page) #root {
   padding: 11px;
   border: 1px solid #dfe7ea;
   border-radius: 10px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-farmer-profile-stats strong {
@@ -190294,7 +190294,7 @@ body:has(.farmer-book-page) #root {
   min-height: 26px;
   padding: 0 6px;
   border-radius: 7px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
   font-size: 6px;
   font-weight: 900;
@@ -190367,7 +190367,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-farmer-drawer-footer button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
 }
 
@@ -190526,7 +190526,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -190549,7 +190549,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-centers-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -190624,7 +190624,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -190643,12 +190643,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-kpi.blue .admin-center-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-center-kpi.green .admin-center-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -190696,7 +190696,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -190712,10 +190712,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-search:focus-within {
@@ -190747,9 +190747,9 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   padding: 0 9px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-filter select {
@@ -190795,7 +190795,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-card {
   min-width: 0;
   padding: 16px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -190829,8 +190829,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-center-state {
@@ -190850,12 +190850,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-state.active {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-center-state.active > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-center-state.idle {
@@ -190901,7 +190901,7 @@ body:has(.farmer-book-page) #root {
   padding: 11px;
   border: 1px solid #e2e9ec;
   border-radius: 10px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-center-capacity-heading {
@@ -191008,7 +191008,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-view-button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d1db;
   background: #f7fbfc;
 }
@@ -191027,7 +191027,7 @@ body:has(.farmer-book-page) #root {
   flex-direction: column;
   gap: 7px;
   padding: 30px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   color: #99a8ae;
   background: #ffffff;
@@ -191227,7 +191227,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   color: #6d8390;
   background: #ffffff;
@@ -191250,7 +191250,7 @@ body:has(.farmer-book-page) #root {
   gap: 10px;
   padding: 14px 21px;
   border-bottom: 1px solid #edf1f3;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-center-drawer-icon {
@@ -191261,8 +191261,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-center-drawer-summary > div:last-child {
@@ -191333,7 +191333,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   margin-bottom: 10px;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-center-drawer-section-title h3 {
@@ -191442,7 +191442,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-drawer-footer button:hover {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
 }
 
@@ -191729,7 +191729,7 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce5e9;
+    #fed7aa;
 
   border-radius:
     9px;
@@ -191805,7 +191805,7 @@ body:has(.farmer-book-page) #root {
     11px;
 
   color:
-    #287eaa;
+    #ea580c;
 }
 
 .admin-center-form-section-title svg {
@@ -192019,13 +192019,13 @@ body:has(.farmer-book-page) #root {
 
   border:
     1px solid
-    #dce6ea;
+    #fed7aa;
 
   border-radius:
     10px;
 
   background:
-    #fafcfd;
+    #fff7ed;
 
   cursor:
     pointer;
@@ -192102,7 +192102,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-active-toggle input:checked
 + .admin-center-toggle-track {
   background:
-    #218b52;
+    #166534;
 }
 
 .admin-center-active-toggle input:checked
@@ -192235,7 +192235,7 @@ body:has(.farmer-book-page) #root {
     #bdcfd6;
 
   background:
-    #fafcfd;
+    #fff7ed;
 }
 
 .admin-center-form-save {
@@ -192251,7 +192251,7 @@ body:has(.farmer-book-page) #root {
   background:
     linear-gradient(
       135deg,
-      #218b52,
+      #166534,
       #2b9b60
     );
 
@@ -192270,7 +192270,7 @@ body:has(.farmer-book-page) #root {
     linear-gradient(
       135deg,
       #197342,
-      #218b52
+      #166534
     );
 
   transform:
@@ -192466,7 +192466,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 11px;
   border: 1px solid #cfe1e7;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
   font-size: 7px;
   font-weight: 900;
@@ -192561,7 +192561,7 @@ body:has(.farmer-book-page) #root {
   gap: 12px;
   margin-bottom: 14px;
   padding: 15px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   background: #ffffff;
   box-shadow:
@@ -192577,8 +192577,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-settings-status-copy {
@@ -192622,12 +192622,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-settings-status-badge.active {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-settings-status-badge.active > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-settings-status-badge.paused {
@@ -192668,7 +192668,7 @@ body:has(.farmer-book-page) #root {
 .admin-settings-section {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -192695,12 +192695,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-settings-section-icon.blue {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-settings-section-icon.green {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -192796,7 +192796,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-setting-toggle input:checked
 + .admin-setting-toggle-track {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-setting-toggle input:checked
@@ -192925,7 +192925,7 @@ body:has(.farmer-book-page) #root {
   padding: 10px;
   border: 1px solid #e2e9ec;
   border-radius: 9px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-settings-info-icon {
@@ -192936,7 +192936,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #218b52;
+  color: #166534;
   background: #e5f5e9;
 }
 
@@ -193063,7 +193063,7 @@ body:has(.farmer-book-page) #root {
   gap: 16px;
   margin-top: 14px;
   padding: 13px 15px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -193093,13 +193093,13 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-settings-save-bar.has-changes
 .admin-settings-save-icon {
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f4f8;
 }
 
@@ -193153,7 +193153,7 @@ body:has(.farmer-book-page) #root {
   min-width: 105px;
   border: 0;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-settings-reset {
@@ -193164,7 +193164,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-settings-discard:hover:not(:disabled) {
   border-color: #becfd6;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-settings-save:hover:not(:disabled) {
@@ -193432,7 +193432,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -193442,7 +193442,7 @@ body:has(.farmer-book-page) #root {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #218b52;
+  background: #166534;
   box-shadow:
     0 0 0 4px
     rgba(33, 139, 82, .08);
@@ -193465,7 +193465,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -193530,7 +193530,7 @@ body:has(.farmer-book-page) #root {
   align-items: flex-start;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -193550,8 +193550,8 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-kpi.blue
 .admin-dashboard-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-dashboard-kpi.purple
@@ -193568,7 +193568,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-kpi.green
 .admin-dashboard-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -193618,7 +193618,7 @@ body:has(.farmer-book-page) #root {
 .admin-dashboard-alerts-panel,
 .admin-dashboard-panel {
   min-width: 0;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -193788,7 +193788,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-panel-link:hover {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -193830,7 +193830,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -193929,7 +193929,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-workflow-step.blue
 .admin-dashboard-workflow-dot {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-dashboard-workflow-step.purple
@@ -193944,7 +193944,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-dashboard-workflow-step.green
 .admin-dashboard-workflow-dot {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-dashboard-workflow-step.orange
@@ -194049,7 +194049,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -194120,7 +194120,7 @@ body:has(.farmer-book-page) #root {
   width: fit-content;
   padding: 5px 7px;
   border-radius: 7px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f3f8;
   font-size: 6px;
   font-weight: 900;
@@ -194157,7 +194157,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-recent-crop svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-dashboard-recent-crop span {
@@ -194174,12 +194174,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-status.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
 .admin-dashboard-status.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -194287,7 +194287,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-dashboard-footer svg {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -194448,7 +194448,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -194471,7 +194471,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payments-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -194576,7 +194576,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -194595,8 +194595,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-kpi.blue .admin-payment-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-payment-kpi.gold .admin-payment-kpi-icon {
@@ -194605,7 +194605,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-kpi.green .admin-payment-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -194646,7 +194646,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -194662,10 +194662,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payments-search:focus-within {
@@ -194697,9 +194697,9 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   padding: 0 9px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payments-filter select {
@@ -194723,7 +194723,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-payments-table-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -194783,7 +194783,7 @@ body:has(.farmer-book-page) #root {
   border-top: 1px solid #edf1f3;
   border-bottom: 1px solid #e7edef;
   color: #99a7ad;
-  background: #fafcfd;
+  background: #fff7ed;
   font-size: 6px;
   font-weight: 900;
   letter-spacing: .08em;
@@ -194820,7 +194820,7 @@ body:has(.farmer-book-page) #root {
   justify-content: center;
   padding: 0 6px;
   border-radius: 7px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e8f3f8;
   font-size: 6px;
   font-weight: 900;
@@ -194945,12 +194945,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-payment-status.paid {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-payment-status.paid > span {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -194992,7 +194992,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 9px;
   border: 1px solid #cddfe6;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #f5fafc;
   cursor: pointer;
   font-size: 6px;
@@ -195009,7 +195009,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  color: #218b52;
+  color: #166534;
   font-size: 6px;
   font-weight: 900;
 }
@@ -195197,7 +195197,7 @@ body:has(.farmer-book-page) #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   color: #6d8390;
   background: #ffffff;
@@ -195222,7 +195222,7 @@ body:has(.farmer-book-page) #root {
   padding: 11px;
   border: 1px solid #dfe7ea;
   border-radius: 10px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payment-form-token {
@@ -195233,7 +195233,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
   font-size: 7px;
   font-weight: 900;
@@ -195438,14 +195438,14 @@ body:has(.farmer-book-page) #root {
 
 .admin-payment-form-cancel:hover:not(:disabled) {
   border-color: #bdcfd6;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-payment-form-submit {
   min-width: 120px;
   border: 0;
   color: #ffffff;
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-payment-form-submit:hover:not(:disabled) {
@@ -195638,7 +195638,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -195685,7 +195685,7 @@ body:has(.farmer-book-page) #root {
   gap: 9px;
   min-width: 0;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -195702,12 +195702,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-kpi.blue .admin-procurement-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-procurement-kpi.green .admin-procurement-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -195753,7 +195753,7 @@ body:has(.farmer-book-page) #root {
   gap: 9px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #fff;
 }
@@ -195766,10 +195766,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-procurement-search:focus-within {
@@ -195796,7 +195796,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-procurement-table-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .035);
@@ -195856,7 +195856,7 @@ body:has(.farmer-book-page) #root {
   border-top: 1px solid #edf1f3;
   border-bottom: 1px solid #e7edef;
   color: #99a7ad;
-  background: #fafcfd;
+  background: #fff7ed;
   font-size: 5px;
   font-weight: 900;
   letter-spacing: .07em;
@@ -195883,7 +195883,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-booking strong {
-  color: #287eaa;
+  color: #ea580c;
   font-size: 7px;
 }
 
@@ -195915,7 +195915,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-procurement-crop svg {
   flex: 0 0 auto;
-  color: #218b52;
+  color: #166534;
 }
 
 .admin-procurement-crop span {
@@ -195938,7 +195938,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-quality.good {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -195970,12 +195970,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-status.paid {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-procurement-status.paid > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-procurement-status.pending {
@@ -196151,7 +196151,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe1e7;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
   font-size: 7px;
   font-weight: 900;
@@ -196173,7 +196173,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -196251,7 +196251,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow:
@@ -196271,13 +196271,13 @@ body:has(.farmer-book-page) #root {
 
 .admin-activity-kpi.blue
 .admin-activity-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-activity-kpi.green
 .admin-activity-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -196322,7 +196322,7 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow:
@@ -196338,10 +196338,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-activity-search:focus-within {
@@ -196374,9 +196374,9 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 6px;
   padding: 0 8px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-activity-filter-select svg {
@@ -196424,7 +196424,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-activity-panel {
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow:
@@ -196508,11 +196508,11 @@ body:has(.farmer-book-page) #root {
   border: 2px solid #ffffff;
   border-radius: 50%;
   box-shadow:
-    0 0 0 1px #dce6ea;
+    0 0 0 1px #fed7aa;
 }
 
 .admin-activity-event-dot.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -196532,7 +196532,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-event-dot.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -196557,7 +196557,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-activity-event-body:hover {
   border-color: #d5e1e6;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-activity-event-top {
@@ -196586,7 +196586,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-status.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
@@ -196606,7 +196606,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-activity-status.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -196951,7 +196951,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-language-selector svg {
   flex: 0 0 auto;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-language-selector select {
@@ -196991,9 +196991,9 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-header-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-header-refresh:disabled {
@@ -197080,7 +197080,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #cfe4d5;
   border-radius: 999px;
-  color: #218b52;
+  color: #166534;
   background: #eff9f1;
   font-size: 7px;
   font-weight: 900;
@@ -197110,9 +197110,9 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #b9d0da;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-refresh:disabled {
@@ -197181,7 +197181,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 9px;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -197198,8 +197198,8 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-stat.blue .admin-weighing-stat-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-weighing-stat.orange .admin-weighing-stat-icon {
@@ -197213,7 +197213,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-stat.green .admin-weighing-stat-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -197256,7 +197256,7 @@ body:has(.farmer-book-page) #root {
 .admin-weighing-form-panel {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .035);
@@ -197296,10 +197296,10 @@ body:has(.farmer-book-page) #root {
   gap: 7px;
   margin: 10px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-search:focus-within {
@@ -197358,7 +197358,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-weighing-booking-item:hover {
   border-color: #e0e9ec;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-booking-item.selected {
@@ -197373,8 +197373,8 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-weighing-booking-main {
@@ -197424,7 +197424,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-dot.blue {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-weighing-status-dot.orange {
@@ -197440,7 +197440,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-dot.green {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -197566,7 +197566,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 6px;
   margin-bottom: 7px;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-weighing-form-token strong {
@@ -197618,7 +197618,7 @@ body:has(.farmer-book-page) #root {
   padding: 9px 11px;
   border: 1px solid #e2e9ec;
   border-radius: 9px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-status-banner > span {
@@ -197651,12 +197651,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-pill.blue {
-  color: #287eaa;
+  color: #ea580c;
   background: #e7f3f8;
 }
 
 .admin-weighing-status-pill.blue > span {
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-weighing-status-pill.orange {
@@ -197687,12 +197687,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-status-pill.green {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-weighing-status-pill.green > span {
-  background: #218b52;
+  background: #166534;
 }
 
 
@@ -197757,7 +197757,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 9px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e2f0f6;
 }
 
@@ -197788,7 +197788,7 @@ body:has(.farmer-book-page) #root {
   padding: 0 10px;
   border: 1px solid #bdd4de;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #ffffff;
   cursor: pointer;
   font-size: 6px;
@@ -198049,14 +198049,14 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-quality-option.selected .admin-quality-radio {
-  border-color: #287eaa;
+  border-color: #ea580c;
 }
 
 .admin-quality-radio > span {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #287eaa;
+  background: #ea580c;
 }
 
 .admin-quality-option > div:last-child {
@@ -198091,7 +198091,7 @@ body:has(.farmer-book-page) #root {
   min-height: 75px;
   resize: vertical;
   padding: 9px 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 9px;
   outline: 0;
   color: #516d7b;
@@ -198244,7 +198244,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-procurement-total strong {
-  color: #218b52;
+  color: #166534;
   font-family: var(--font-heading);
   font-size: 17px;
 }
@@ -198302,12 +198302,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-weighing-cancel:hover:not(:disabled) {
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-weighing-save {
   border: 1px solid #bfd7e0;
-  color: #287eaa;
+  color: #ea580c;
   background: #eef8fb;
 }
 
@@ -198318,7 +198318,7 @@ body:has(.farmer-book-page) #root {
 .admin-weighing-complete {
   min-width: 155px;
   border: 1px solid #b8d8c1;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -198343,7 +198343,7 @@ body:has(.farmer-book-page) #root {
   padding: 12px;
   border: 1px solid #cfe4d5;
   border-radius: 10px;
-  color: #218b52;
+  color: #166534;
   background: #eef9f1;
 }
 
@@ -198388,7 +198388,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e6f3f8;
 }
 
@@ -198603,7 +198603,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-centers-refresh:hover:not(:disabled) {
-  color: #287eaa;
+  color: #ea580c;
   border-color: #bad0da;
 }
 
@@ -198614,7 +198614,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-centers-add {
   border: 1px solid #b8d8c1;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -198672,7 +198672,7 @@ body:has(.farmer-book-page) #root {
   gap: 9px;
   min-width: 0;
   padding: 13px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 14px;
   background: #ffffff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -198689,12 +198689,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-centers-kpi.blue .admin-centers-kpi-icon {
-  color: #287eaa;
-  background: #e5f2f8;
+  color: #ea580c;
+  background: #ffedd5;
 }
 
 .admin-centers-kpi.green .admin-centers-kpi-icon {
-  color: #218b52;
+  color: #166534;
   background: #e4f4e8;
 }
 
@@ -198737,7 +198737,7 @@ body:has(.farmer-book-page) #root {
   gap: 8px;
   margin-bottom: 14px;
   padding: 9px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 12px;
   background: #ffffff;
   box-shadow: 0 7px 22px rgba(30, 62, 77, .03);
@@ -198751,10 +198751,10 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   color: #84969e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-search:focus-within {
@@ -198784,9 +198784,9 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   gap: 6px;
   padding: 0 9px;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-centers-filter svg {
@@ -198837,7 +198837,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-card {
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   background: #ffffff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .035);
@@ -198882,7 +198882,7 @@ body:has(.farmer-book-page) #root {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  color: #287eaa;
+  color: #ea580c;
   background: #e6f3f8;
 }
 
@@ -198930,12 +198930,12 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-status.active {
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
 .admin-center-status.active > span {
-  background: #218b52;
+  background: #166534;
 }
 
 .admin-center-status.inactive {
@@ -198967,7 +198967,7 @@ body:has(.farmer-book-page) #root {
 .admin-center-location svg {
   flex: 0 0 auto;
   margin-top: 1px;
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-center-location > div {
@@ -199121,7 +199121,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-contact svg {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 .admin-center-contact a {
@@ -199133,7 +199133,7 @@ body:has(.farmer-book-page) #root {
 }
 
 .admin-center-contact a:hover {
-  color: #287eaa;
+  color: #ea580c;
 }
 
 
@@ -199177,7 +199177,7 @@ body:has(.farmer-book-page) #root {
 
 .admin-center-manage-link {
   border: 1px solid #c7dce4;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
 }
 
@@ -199199,7 +199199,7 @@ body:has(.farmer-book-page) #root {
   flex-direction: column;
   gap: 7px;
   padding: 30px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   color: #96a5ab;
   background: #ffffff;
@@ -199384,7 +199384,7 @@ body:has(.farmer-book-page) #root {
 .token-month-card {
   margin-top: 14px;
   padding: 17px;
-  border: 1px solid #dce6ea;
+  border: 1px solid #fed7aa;
   border-radius: 15px;
   background: #ffffff;
   box-shadow: 0 9px 26px rgba(30, 62, 77, .03);
@@ -199544,7 +199544,7 @@ body:has(.farmer-book-page) #root {
   flex: 0 0 auto;
   padding: 5px 8px;
   border-radius: 999px;
-  color: #287eaa;
+  color: #ea580c;
   background: #edf7fa;
   font-size: 5px;
   font-weight: 900;
@@ -199678,7 +199678,7 @@ body:has(.farmer-book-page) #root {
 
 .token-completion-book {
   border: 1px solid #b8d8c1;
-  color: #218b52;
+  color: #166534;
   background: #eaf7ed;
 }
 
@@ -199721,7 +199721,7 @@ body:has(.farmer-book-page) #root {
 .token-payment-issue-label select,
 .token-payment-issue-label textarea {
   width: 100%;
-  border: 1px solid #dce5e9;
+  border: 1px solid #fed7aa;
   border-radius: 8px;
   outline: 0;
   color: #58717e;
@@ -200856,7 +200856,7 @@ body:has(.farmer-book-page) #root {
   border: 1px solid #e0e7e9;
   border-radius: 10px;
   color: #a3afb4;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .farmer-progress-stage.active .farmer-progress-icon {
@@ -243327,7 +243327,7 @@ html {
 
 .admin-dashboard-workflow-step.blue {
   color: #547c9e;
-  background: #fafcfd;
+  background: #fff7ed;
 }
 
 .admin-dashboard-workflow-step.purple {
@@ -302779,7 +302779,7 @@ span {
 }
 
 .landing-portal-card.farmer .portal-card-icon {
-  background: #218b52;
+  background: #166534;
 }
 
 .landing-portal-card.transporter .portal-card-icon {
@@ -302792,7 +302792,7 @@ span {
 }
 
 .landing-portal-card.farmer .portal-card-content > span {
-  color: #218b52;
+  color: #166534;
 }
 
 .landing-portal-card.transporter .portal-card-content > span {
@@ -302804,7 +302804,7 @@ span {
 }
 
 .landing-portal-card.farmer .portal-card-features svg {
-  color: #218b52;
+  color: #166534;
 }
 
 .landing-portal-card.transporter .portal-card-features svg {
@@ -303158,7 +303158,7 @@ span {
 
 .landing-portal-card.farmer .portal-card-icon,
 .landing-portal-card.farmer .portal-card-action > div {
-  background: #218b52 !important;
+  background: #166534 !important;
 }
 
 /* ---- Transporter: unique warm terracotta identity ---- */
@@ -332756,7 +332756,7 @@ html.dark .at-modal-btn.muted{
 }
 
 .transporter-login-brand-section h1 span{
-  color:#1677b8 !important;
+  color:#f97316 !important;
 }
 
 .transporter-login-brand-section > div:last-child > p{
@@ -332801,7 +332801,7 @@ html.dark .at-modal-btn.muted{
   border:1px solid #d6e7ee !important;
   border-radius:13px !important;
   background:rgba(255,255,255,.88) !important;
-  color:#1677b8 !important;
+  color:#f97316 !important;
 
   box-shadow:0 6px 18px rgba(31,77,99,.06) !important;
 }
@@ -332966,7 +332966,7 @@ html.dark .at-modal-btn.muted{
 }
 
 .transporter-login-card > div:nth-child(2) > div:first-child svg{
-  color:#1677b8 !important;
+  color:#f97316 !important;
 }
 
 .transporter-login-card > div:nth-child(2) > div:last-child{
@@ -333000,8 +333000,8 @@ html.dark .at-modal-btn.muted{
 .transporter-login-card > div:nth-child(2) > div:last-child button[style*="rgb(33, 107, 61)"],
 .transporter-login-card > div:nth-child(2) > div:last-child button[style*="#216b3d"]{
   color:#ffffff !important;
-  border-color:#1677b8 !important;
-  background:#1677b8 !important;
+  border-color:#f97316 !important;
+  background:#f97316 !important;
 }
 
 
@@ -333032,7 +333032,7 @@ html.dark .at-modal-btn.muted{
 
 .transporter-login-card > div:nth-child(3) svg{
   flex:0 0 auto !important;
-  color:#1677b8 !important;
+  color:#f97316 !important;
   margin-top:1px !important;
 }
 
@@ -333137,7 +333137,7 @@ html.dark .at-modal-btn.muted{
   min-height:42px !important;
   padding:0 14px !important;
 
-  color:#1677b8 !important;
+  color:#f97316 !important;
   font-weight:900 !important;
 }
 
@@ -333161,7 +333161,7 @@ html.dark .at-modal-btn.muted{
 .transporter-login-card form input[type="checkbox"]{
   width:16px !important;
   height:16px !important;
-  accent-color:#1677b8 !important;
+  accent-color:#f97316 !important;
 }
 
 .transporter-login-card form label:has(input[type="checkbox"]){
@@ -333175,7 +333175,7 @@ html.dark .at-modal-btn.muted{
 }
 
 .transporter-login-card form button[type="button"]{
-  color:#1677b8 !important;
+  color:#f97316 !important;
 }
 
 .transporter-login-card form button[type="button"]:hover{
@@ -333280,7 +333280,7 @@ html.dark .at-modal-btn.muted{
 }
 
 .transporter-login-card > button:last-of-type:hover{
-  color:#1677b8 !important;
+  color:#f97316 !important;
 }
 
 
