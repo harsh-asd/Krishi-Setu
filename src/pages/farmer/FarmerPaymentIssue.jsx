@@ -7,10 +7,17 @@ import { getCurrentFarmer } from "../../data/appStore";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
+
+function getText(language, english, hindi, telugu) {
+  if (language === "hi" && hindi) return hindi;
+  if (language === "te" && telugu) return telugu;
+  return english;
+}
+
 export default function FarmerPaymentIssue() {
   const { bookingId } = useParams();
   const navigate = useNavigate();
-  const { t, language, getText } = useLanguage();
+  const { t, language } = useLanguage();
   const farmer = getCurrentFarmer();
 
   const [issueText, setIssueText] = useState("");
