@@ -4024,18 +4024,8 @@ Date: ${booking.date}
 
             <button
               type="button"
-              className="token-payment-issue-button"
-              onClick={() => {
-
-                setIssueSubmitted(
-                  false
-                );
-
-                setShowPaymentIssue(
-                  true
-                );
-
-              }}
+              className="farmer-payment-issue-button" style={{ marginTop: "16px", width: "100%", justifyContent: "center", padding: "14px" }}
+              onClick={() => navigate(`/farmer/payment-issue/${booking.id}`)}
             >
 
               <HelpCircle
