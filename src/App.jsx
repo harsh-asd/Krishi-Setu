@@ -1894,6 +1894,15 @@ function App() {
       />
 
       <Route
+        path="/admin/iot"
+        element={
+          <PageTransition>
+            <AdminIoT />
+          </PageTransition>
+        }
+      />
+
+      <Route
         path="/admin/weighing"
         element={
           <PageTransition>

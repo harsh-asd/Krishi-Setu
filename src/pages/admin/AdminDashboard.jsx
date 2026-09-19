@@ -727,11 +727,7 @@ function AdminDashboard() {
 
         <AIPredictionPanel />
 
-        {/* =====================================================
-            IOT STORAGE MONITORING (SIH REQUIREMENT)
-        ====================================================== */}
-
-        <IoTDashboard />
+        
 
         {/* =====================================================
             AI REDISTRIBUTION ENGINE (SIH REQUIREMENT)

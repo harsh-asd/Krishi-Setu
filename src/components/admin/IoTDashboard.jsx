@@ -56,7 +56,7 @@ export default function IoTDashboard() {
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
-        {sensorData.filter(center => center.centerName.toLowerCase().includes(searchQuery.toLowerCase()) || center.centerId.toLowerCase().includes(searchQuery.toLowerCase())).map((center) => (
+        {sensorData.filter(center => (center.centerName || "").toLowerCase().includes(searchQuery.toLowerCase()) || (center.centerId || "").toLowerCase().includes(searchQuery.toLowerCase())).map((center) => (
           <div key={center.centerId} style={{ 
             background: 'white', 
             borderRadius: '12px', 
