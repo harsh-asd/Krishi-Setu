@@ -20,6 +20,7 @@ import {
   useState,
 } from "react";
 
+import farmerPortrait from "../../assets/backgrounds/farmer-portrait.png";
 import Logo from "../../components/Logo";
 
 function AdminLogin() {
