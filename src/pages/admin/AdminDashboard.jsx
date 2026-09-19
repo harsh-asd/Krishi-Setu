@@ -1271,20 +1271,18 @@ function AdminDashboard() {
                           >
 
                             <div className="admin-dashboard-center-name">
-
-                              <div>
-
-                                <MapPin
-                                  size={14}
-                                />
-
-                              </div>
-
-
+                              {row.id && row.id.startsWith("TS") ? (
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Telangana_State_Emblem.svg" alt="TS Logo" style={{ width: 36, height: 36, objectFit: 'contain', padding: 4, borderRadius: 10, background: '#fff', border: '1px solid #e1e8e3' }} />
+                              ) : row.id && row.id.startsWith("AP") ? (
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_Andhra_Pradesh.svg" alt="AP Logo" style={{ width: 36, height: 36, objectFit: 'contain', padding: 4, borderRadius: 10, background: '#fff', border: '1px solid #e1e8e3' }} />
+                              ) : (
+                                <div>
+                                  <MapPin size={14} />
+                                </div>
+                              )}
                               <span>
                                 {row.name}
                               </span>
-
                             </div>
 
 
