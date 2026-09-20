@@ -2918,11 +2918,6 @@ async function sendSms(number, customMessage = null) {
 
     if (data.return) {
       return { sent: true, sid: data.request_id, status: "SENT" };
-    } else if (data.status_code === 999 || data.message?.includes('100 INR')) {
-      // HACKATHON OVERRIDE: Fast2SMS requires ₹100 deposit for API usage.
-      // We will pretend it succeeded so the UI shows "SMS Sent" for the judges!
-      console.warn("⚠️ Fast2SMS requires ₹100 deposit. Simulating success for Hackathon demo!");
-      return { sent: true, sid: "SIMULATED_DUE_TO_WALLET_LIMIT", status: "SENT" };
     } else {
       return { sent: false, reason: data.message, status: "FAILED" };
     }
