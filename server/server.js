@@ -2879,53 +2879,6 @@ async function getTransportCandidates({
     });
 }
 
-/* =========================================================
-   TWILIO SMS
-========================================================= */
-
-const TWILIO_TRIAL_TEMPLATE =
-  "sms_event_notifications";
-
-
-
-async function sendWhatsApp(number, customMessage) {
-  const accountSid = process.env.TWILIO_ACCOUNT_SID;
-  const apiKey = process.env.TWILIO_API_KEY;
-  const apiSecret = process.env.TWILIO_API_SECRET;
-  
-  // The Twilio Sandbox number is usually +14155238886, but it can be configured. 
-  // For the hackathon demo, we format the numbers with the 'whatsapp:' prefix.
-  const from = 'whatsapp:+14155238886'; 
-  
-  // Format Indian number properly (assuming 10 digits)
-  let cleanNumber = number.replace(/\D/g, "");
-  if (cleanNumber.length === 10) cleanNumber = "91" + cleanNumber;
-  if (!cleanNumber.startsWith("+")) cleanNumber = "+" + cleanNumber;
-  const recipient = 'whatsapp:' + cleanNumber;
-
-  if (!accountSid || !apiKey || !apiSecret) {
-    return { sent: false, reason: "Twilio credentials missing" };
-  }
-
-  try {
-    const twilio = (await import("twilio")).default;
-    const client = twilio(apiKey, apiSecret, { accountSid });
-
-    const response = await client.messages.create({
-      from: from,
-      to: recipient,
-      body: customMessage
-    });
-
-    console.log("WhatsApp response:", { sid: response.sid, status: response.status, to: recipient });
-    return { sent: true, sid: response.sid, status: response.status };
-  } catch (error) {
-    console.error("WhatsApp error:", error?.message);
-    return { sent: false, reason: error?.message };
-  }
-}
-
-
 async function sendSms(number, customMessage = null) {
   const apiKey = process.env.FAST2SMS_API_KEY;
   
@@ -3014,7 +2967,7 @@ async function notifyTransporterCandidates({
     if (!phone) continue;
 
     try {
-      const result = await sendSms(phone);
+      const result = await sendSms(phone, message);
 
       results.push({
         transporterId:
@@ -4299,16 +4252,16 @@ app.post("/api/farmers/auth/send-otp", async (req, res) => {
 
     // --- PHONE OTP SYSTEM ---
     if (SMS_ENABLED) {
-      console.log(`[Twilio OTP] Attempting to send OTP ${otp} to ${phone}`);
+      console.log(`[Fast2SMS] Attempting to send OTP ${otp} to ${phone}`);
       try {
         const smsResult = await sendSms(phone, `Your KrishiSetu login OTP is ${otp}. Valid for 10 minutes.`);
         if (!smsResult.sent) {
-          console.warn("[Twilio OTP] SMS failed to send:", smsResult.reason);
+          console.warn("[Fast2SMS] SMS failed to send:", smsResult.reason);
         } else {
-          console.log(`[Twilio OTP] SMS successfully sent to ${phone}`);
+          console.log(`[Fast2SMS] SMS successfully sent to ${phone}`);
         }
       } catch (smsErr) {
-        console.error("[Twilio OTP] Error sending SMS:", smsErr);
+        console.error("[Fast2SMS] Error sending SMS:", smsErr);
       }
     }
 
