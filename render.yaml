@@ -1,9 +1,9 @@
-services:
+databases:
   # 1. PostgreSQL Database
-  - type: psql
-    name: krishisetu-db
+  - name: krishisetu-db
     plan: free
 
+services:
   # 2. Node.js Backend Server
   - type: web
     name: krishisetu-backend
@@ -26,7 +26,6 @@ services:
     name: krishisetu-frontend
     env: static
     plan: free
-    # Injects the backend URL + /api into Vite at build time
     buildCommand: export VITE_API_URL=${API_BACKEND_URL}/api && npm install && npm run build
     staticPublishPath: ./dist
     envVars:
