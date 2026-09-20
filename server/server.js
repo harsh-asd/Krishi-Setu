@@ -17518,37 +17518,11 @@ async function startServer() {
           "Database: PostgreSQL"
         );
 
-        console.log(
-          "Twilio Account configured:",
+                console.log(
+          "Fast2SMS API key configured:",
           Boolean(
-            process.env.TWILIO_ACCOUNT_SID
+            process.env.FAST2SMS_API_KEY
           )
-        );
-
-        console.log(
-          "Twilio API key configured:",
-          Boolean(
-            process.env.TWILIO_API_KEY
-          )
-        );
-
-        console.log(
-          "Twilio API secret configured:",
-          Boolean(
-            process.env.TWILIO_API_SECRET
-          )
-        );
-
-        console.log(
-          "Twilio sender configured:",
-          Boolean(
-            process.env.TWILIO_PHONE_NUMBER
-          )
-        );
-
-        console.log(
-          "Twilio trial template:",
-          TWILIO_TRIAL_TEMPLATE
         );
 
         console.log(
