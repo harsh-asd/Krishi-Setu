@@ -4290,36 +4290,11 @@ app.post("/api/farmers/auth/send-otp", async (req, res) => {
     });
 
     // Configure real email transport using Gmail (or fallback to test account if not set)
-    let transporter;
-    if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
-      transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-          user: process.env.EMAIL_USER,
-          pass: process.env.EMAIL_PASS
-        }
-      });
+        if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+      const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS } });
+      await transporter.sendMail({ from: '"KrishiSetu System" <' + process.env.EMAIL_USER + '>', to: email, subject: "Your OTP", text: `Your OTP is: ${otp}` });
     } else {
-      console.warn("⚠️ No real email credentials found in .env, using test account...");
-      const testAccount = await nodemailer.createTestAccount();
-      transporter = nodemailer.createTransport({
-        host: testAccount.smtp.host,
-        port: testAccount.smtp.port,
-        secure: testAccount.smtp.secure,
-        auth: { user: testAccount.user, pass: testAccount.pass }
-      });
-    }
-
-    const info = await transporter.sendMail({
-      from: '"KrishiSetu System" <' + (process.env.EMAIL_USER || 'noreply@krishisetu.gov.in') + '>',
-      to: email,
-      subject: "Your KrishiSetu OTP",
-      text: `Hello ${name},\n\nYour OTP is: ${otp}\n\nThis OTP is valid for 10 minutes.\n\n- KrishiSetu Team`
-    });
-
-    console.log("OTP Email sent to:", email);
-    if (!process.env.EMAIL_USER) {
-      console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+      console.log("OTP IS:", otp);
     }
 
     // --- PHONE OTP SYSTEM ---
