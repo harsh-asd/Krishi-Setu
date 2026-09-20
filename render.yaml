@@ -25,7 +25,6 @@ services:
   - type: web
     name: krishisetu-frontend
     env: static
-    plan: free
     buildCommand: export VITE_API_URL=${API_BACKEND_URL}/api && npm install && npm run build
     staticPublishPath: ./dist
     envVars:
