@@ -250,8 +250,7 @@ const DEFAULT_SETTINGS = {
   requireActualWeight:
     true,
 
-  smsEnabled:
-    false,
+  smsEnabled: true,
 
   bookingConfirmationSms:
     true,
@@ -2918,9 +2917,9 @@ async function sendSms(number, customMessage = null) {
     console.log("Fast2SMS Response:", data);
 
     if (data.return) {
-      return { sent: true, sid: data.request_id };
+      return { sent: true, sid: data.request_id, status: "SENT" };
     } else {
-      return { sent: false, reason: data.message };
+      return { sent: false, reason: data.message, status: "FAILED" };
     }
   } catch (error) {
     console.error("Fast2SMS Error:", error);
