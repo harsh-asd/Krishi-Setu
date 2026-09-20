@@ -356426,3 +356426,232 @@ body header.app-header {
     flex-direction: column;
   }
 }
+
+
+/* =========================================================
+   CUSTOM FARMER HOME BACKGROUND (Requested Update)
+========================================================= */
+
+/* 1. Add a beautiful, high-quality wheat field image as the background for the Farmer Home Page */
+.farmer-home-page {
+    /* Using a subtle white gradient overlay to keep it soft and elegant in Light Mode */
+    background-image: 
+        linear-gradient(to bottom, rgba(248, 250, 252, 0.4), rgba(248, 250, 252, 0.8)),
+        url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-attachment: fixed !important;
+}
+
+/* 2. Dark/Midnight/Forest Mode adaptations so the image dynamically darkens based on the theme */
+[data-theme="dark"] .farmer-home-page,
+[data-theme="midnight"] .farmer-home-page,
+body.dark .farmer-home-page {
+    background-image: 
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.95)),
+        url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
+}
+
+[data-theme="forest"] .farmer-home-page {
+    background-image: 
+        linear-gradient(to bottom, rgba(6, 78, 59, 0.8), rgba(6, 78, 59, 0.95)),
+        url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
+}
+
+/* 3. Make the dashboard cards pop with a modern "Glassmorphism" solid/frosted effect 
+      so they look incredible floating over the background image (like the reference images) */
+.farmer-home-page .home-feature-card,
+.farmer-home-page .home-dashboard-section,
+.farmer-home-page .booking-card,
+.farmer-home-page .home-month-summary-card {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 16px !important;
+}
+
+/* Glassmorphism adjustments for Dark/Forest themes */
+[data-theme="dark"] .farmer-home-page .home-feature-card,
+[data-theme="midnight"] .farmer-home-page .home-feature-card,
+[data-theme="dark"] .farmer-home-page .home-dashboard-section,
+[data-theme="midnight"] .farmer-home-page .home-dashboard-section,
+body.dark .farmer-home-page .home-feature-card,
+body.dark .farmer-home-page .home-dashboard-section {
+    background-color: rgba(30, 41, 59, 0.85) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+[data-theme="forest"] .farmer-home-page .home-feature-card,
+[data-theme="forest"] .farmer-home-page .home-dashboard-section {
+    background-color: rgba(12, 40, 24, 0.85) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* =========================================================
+   CUSTOM HEADER AESTHETIC (Modern Glassmorphism)
+========================================================= */
+
+/* Upgrade the plain white header to a beautiful frosted glass effect */
+.app-header {
+    background-color: rgba(255, 255, 255, 0.65) !important;
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Ensure the header blends beautifully in Dark Mode too */
+[data-theme="dark"] .app-header,
+[data-theme="midnight"] .app-header,
+body.dark .app-header {
+    background-color: rgba(15, 23, 42, 0.65) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+[data-theme="forest"] .app-header {
+    background-color: rgba(6, 78, 59, 0.65) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Make the buttons in the header pop slightly more against the glass */
+.app-header-actions button,
+.language-selector-button {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-theme="dark"] .app-header-actions button,
+[data-theme="midnight"] .app-header-actions button,
+[data-theme="forest"] .app-header-actions button,
+body.dark .app-header-actions button {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+
+
+/* =========================================================
+   THEME HARMONY FIXES FOR ALL INNER CARDS
+========================================================= */
+
+/* 1. Fix inner boxes (Weighing status, Procurement Center, Weather, etc.) so they inherit glassmorphism */
+.booking-status-message,
+.home-center-details,
+.home-center-details > div,
+.booking-main-details,
+.booking-main-details > div,
+.home-dashboard-card,
+.home-dashboard-card > div:not(.loading-spin) {
+    background: rgba(255, 255, 255, 0.4) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Ensure text inside these boxes is perfectly readable in light mode */
+.booking-status-message strong,
+.booking-status-message span,
+.home-center-details strong,
+.home-center-details span,
+.home-center-details small,
+.home-dashboard-card h3,
+.home-dashboard-card p,
+.home-dashboard-card div,
+.home-dashboard-card strong {
+    color: #1e293b !important;
+}
+
+/* 2. Fix the jarriing light icon containers inside the feature cards in Dark Mode */
+.home-feature-card .feature-card-icon,
+.home-feature-card > div:first-child {
+    background: rgba(255, 255, 255, 0.8) !important; /* Slightly transparent in light mode */
+    border: none !important;
+}
+
+/* 3. Adapt ALL of these to perfectly blend into Dark/Midnight/Forest mode */
+[data-theme="dark"] .booking-status-message,
+[data-theme="midnight"] .booking-status-message,
+[data-theme="forest"] .booking-status-message,
+[data-theme="dark"] .home-center-details,
+[data-theme="midnight"] .home-center-details,
+[data-theme="forest"] .home-center-details,
+[data-theme="dark"] .home-center-details > div,
+[data-theme="midnight"] .home-center-details > div,
+[data-theme="forest"] .home-center-details > div,
+[data-theme="dark"] .home-dashboard-card,
+[data-theme="midnight"] .home-dashboard-card,
+[data-theme="forest"] .home-dashboard-card,
+[data-theme="dark"] .home-dashboard-card > div:not(.loading-spin),
+[data-theme="midnight"] .home-dashboard-card > div:not(.loading-spin),
+[data-theme="forest"] .home-dashboard-card > div:not(.loading-spin),
+body.dark .booking-status-message,
+body.dark .home-center-details,
+body.dark .home-dashboard-card {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Make the icon containers dark and elegant in Dark Mode */
+[data-theme="dark"] .home-feature-card .feature-card-icon,
+[data-theme="midnight"] .home-feature-card .feature-card-icon,
+[data-theme="forest"] .home-feature-card .feature-card-icon,
+[data-theme="dark"] .home-feature-card > div:first-child,
+[data-theme="midnight"] .home-feature-card > div:first-child,
+[data-theme="forest"] .home-feature-card > div:first-child {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: #f1f5f9 !important;
+}
+
+/* Fix SVG colors inside the icon containers in Dark Mode */
+[data-theme="dark"] .home-feature-card > div:first-child svg,
+[data-theme="midnight"] .home-feature-card > div:first-child svg,
+[data-theme="forest"] .home-feature-card > div:first-child svg {
+    color: #f1f5f9 !important;
+    stroke: #f1f5f9 !important;
+}
+
+/* Ensure ALL text inside these inner boxes strictly turns white/light gray in dark themes */
+[data-theme="dark"] .booking-status-message strong,
+[data-theme="midnight"] .booking-status-message strong,
+[data-theme="forest"] .booking-status-message strong,
+[data-theme="dark"] .booking-status-message span,
+[data-theme="midnight"] .booking-status-message span,
+[data-theme="forest"] .booking-status-message span,
+[data-theme="dark"] .home-center-details strong,
+[data-theme="midnight"] .home-center-details strong,
+[data-theme="forest"] .home-center-details strong,
+[data-theme="dark"] .home-center-details span,
+[data-theme="midnight"] .home-center-details span,
+[data-theme="forest"] .home-center-details span,
+[data-theme="dark"] .home-center-details small,
+[data-theme="midnight"] .home-center-details small,
+[data-theme="forest"] .home-center-details small,
+[data-theme="dark"] .home-dashboard-card h3,
+[data-theme="midnight"] .home-dashboard-card h3,
+[data-theme="forest"] .home-dashboard-card h3,
+[data-theme="dark"] .home-dashboard-card p,
+[data-theme="midnight"] .home-dashboard-card p,
+[data-theme="forest"] .home-dashboard-card p,
+[data-theme="dark"] .home-dashboard-card div,
+[data-theme="midnight"] .home-dashboard-card div,
+[data-theme="forest"] .home-dashboard-card div,
+[data-theme="dark"] .home-dashboard-card strong,
+[data-theme="midnight"] .home-dashboard-card strong,
+[data-theme="forest"] .home-dashboard-card strong,
+body.dark .booking-status-message strong,
+body.dark .booking-status-message span,
+body.dark .home-center-details strong,
+body.dark .home-center-details span {
+    color: #f8fafc !important;
+}
+
+/* Fix for icons inside Weather Advisory that might be black */
+[data-theme="dark"] .home-dashboard-card svg,
+[data-theme="midnight"] .home-dashboard-card svg,
+[data-theme="forest"] .home-dashboard-card svg {
+    color: #f8fafc !important;
+}
