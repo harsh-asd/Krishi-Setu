@@ -356295,3 +356295,134 @@ body header.app-header {
     box-shadow: 0 8px 30px var(--card-shadow) !important;
     z-index: 99999999 !important;
 }
+
+
+/* =========================================================
+   CUSTOM GREEN FOOTER
+========================================================= */
+
+.custom-green-footer {
+  background-color: #0c2f1d;
+  background-image: url('https://www.transparenttextures.com/patterns/leaves.png');
+  color: #ffffff;
+  padding: 60px 40px 20px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.custom-green-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.custom-footer-col {
+  flex: 1;
+  min-width: 150px;
+}
+
+.custom-footer-col.brand-col {
+  flex: 2;
+  min-width: 280px;
+}
+
+.custom-footer-brand-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 20px 0;
+  max-width: 300px;
+}
+
+.custom-footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-footer-icon-circle {
+  width: 28px;
+  height: 28px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0c2f1d;
+  flex-shrink: 0;
+}
+
+.custom-footer-col h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.custom-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-footer-links li {
+  margin-bottom: 12px;
+}
+
+.custom-footer-links a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s;
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.custom-footer-links a:hover {
+  color: #4ade80;
+  border-bottom-color: #4ade80;
+}
+
+.custom-footer-social {
+  display: flex;
+  gap: 12px;
+}
+
+.custom-footer-social a {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.custom-footer-social a:hover {
+  background-color: #4ade80;
+  color: #0c2f1d;
+}
+
+.custom-footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .custom-green-footer-inner {
+    flex-direction: column;
+  }
+}

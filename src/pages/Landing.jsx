@@ -1,5 +1,12 @@
 
 import {
+  MessageCircle,
+  Video,
+  Camera,
+  Users,
+  Mail,
+  Globe2,
+  Phone,
   ArrowDown,
   ArrowRight,
   CalendarCheck2,
@@ -1417,151 +1424,90 @@ useEffect(() => {
           FOOTER
       ======================================================== */}
 
-      <footer className="landing-footer">
-
-
-        <div className="landing-footer-main">
-
-
-          <div className="landing-footer-brand">
-
-            <Link
-              to="/"
-              className="landing-footer-logo"
-            >
-
-              <Logo
-                size={58}
-                showName
-              />
-
-            </Link>
-
-
-            <p>
-
-              A digital bridge between farmers
-              and agricultural procurement.
-
-            </p>
-
-          </div>
-
-
-          <div className="landing-footer-column">
-
-            <strong>
-              PLATFORM
-            </strong>
-
-
-            <a href="#purpose">
-              Our Purpose
-            </a>
-
-
-            <a href="#how-it-works">
-              How It Works
-            </a>
-
-
-            <a href="#features">
-              Features
-            </a>
-
-          </div>
-
-
-          <div className="landing-footer-column">
-
-            <strong>
-              FARMERS
-            </strong>
-
-
-            <Link to="/farmer/login">
-              Farmer Login
-            </Link>
-
-
-            <Link to="/farmer/register">
-              Create Account
-            </Link>
-
-
-            <Link to="/farmer/help">
-              Farmer Help
-            </Link>
-
-          </div>
-
-
-          <div className="landing-footer-column">
-
-            <strong>
-              TRANSPORTERS
-            </strong>
-
-            <Link to="/transporter/login">
-              Transporter Login
-            </Link>
-
-            <Link to="/transporter/register">
-              Register Vehicle
-            </Link>
-
-            <Link to="/transporter/jobs">
-              Transport Jobs
-            </Link>
-
-          </div>
-
-
-          <div className="landing-footer-column">
-
-            <strong>
-              OPERATIONS
-            </strong>
-
-
-            <Link to="/admin/login">
-              Operations Login
-            </Link>
-
-
-            <Link to="/admin/dashboard">
-              Dashboard
-            </Link>
-
-
-            <Link to="/admin/reports">
-              Reports
-            </Link>
-
-          </div>
-
+      <footer className="custom-green-footer">
+  <div className="custom-green-footer-inner">
+    
+    <div className="custom-footer-col brand-col">
+      <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "15px" }}>
+        <span style={{ color: "#4ade80", fontSize: "32px", fontWeight: "800", letterSpacing: "-1px" }}>KRISHI</span>
+        <span style={{ color: "#ea580c", fontSize: "32px", fontWeight: "800", letterSpacing: "-1px" }}>SETU</span>
+      </div>
+      
+      <p className="custom-footer-brand-text">
+        Krishisetu is one of the largest and innovative Indian full-stack AgriTech platforms transforming agriculture in India.
+      </p>
+      
+      <div className="custom-footer-contact">
+        <div className="custom-footer-icon-circle">
+          <Phone size={14} />
         </div>
-
-
-        <div className="landing-footer-bottom">
-
-          <span>
-            © {new Date().getFullYear()} KrishiSetu
-          </span>
-
-
-          <span>
-            Smart Procurement System
-          </span>
-
-
-          <span>
-            SIH Prototype
-          </span>
-
+        <span>+91 9752560248</span>
+      </div>
+      
+      <div className="custom-footer-contact">
+        <div className="custom-footer-icon-circle">
+          <Globe2 size={14} />
         </div>
-
-      </footer>
+        <span>krishisetu.parkhya.co.in</span>
+      </div>
+      
+      <div className="custom-footer-contact">
+        <div className="custom-footer-icon-circle">
+          <Mail size={14} />
+        </div>
+        <span>krishisetu@gmail.com</span>
+      </div>
+    </div>
+    
+    <div className="custom-footer-col">
+      <h3>Quick Links</h3>
+      <ul className="custom-footer-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><a href="#portals">Services</a></li>
+        <li><a href="#portals">Products</a></li>
+        <li><Link to="/brands">Brands</Link></li>
+      </ul>
+    </div>
+    
+    <div className="custom-footer-col">
+      <h3>Support</h3>
+      <ul className="custom-footer-links">
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/faq">FAQ</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
+        <li><Link to="/team">Team</Link></li>
+        <li><Link to="/security">Security</Link></li>
+      </ul>
+    </div>
+    
+    <div className="custom-footer-col">
+      <h3>Policies</h3>
+      <ul className="custom-footer-links">
+        <li><Link to="/privacy">Privacy Policy</Link></li>
+        <li><Link to="/refund">Return & Refund</Link></li>
+        <li><Link to="/delivery">Delivery Policy</Link></li>
+        <li><Link to="/terms">Terms of Service</Link></li>
+        <li><Link to="/vendor">Vendor Agreement</Link></li>
+      </ul>
+    </div>
+    
+    <div className="custom-footer-col">
+      <h3>Social Media</h3>
+      <div className="custom-footer-social">
+  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><Users size={16} /></a>
+  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Camera size={16} /></a>
+  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><Video size={16} /></a>
+  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><MessageCircle size={16} /></a>
+</div>
+    </div>
+    
+  </div>
+  
+  <div className="custom-footer-bottom">
+    Copyright © 2026 Krishisetu
+  </div>
+</footer>
 
     </div>
   );
