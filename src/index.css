@@ -1111,9 +1111,9 @@ select,
 
   align-items: center;
 
-  gap: 55px;
+  gap: 30px;
 
-  padding: 30px 0 30px;
+  padding: 15px 0 15px;
 }
 
 .landing-hero::before {
@@ -1189,7 +1189,7 @@ select,
 .landing-hero h1 {
   max-width: 700px;
 
-  margin: 17px 0 15px;
+  margin: 5px 0 10px;
 
   color: var(--text-main);
 
@@ -13915,7 +13915,7 @@ select,
 
   align-items: center;
 
-  gap: 55px;
+  gap: 30px;
 }
 
 .landing-hero-copy-final h1 {
@@ -16911,7 +16911,7 @@ select,
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
 
-  gap: 55px;
+  gap: 30px;
 
   padding: 70px 7vw;
 }
@@ -152483,9 +152483,9 @@ select,
 
   align-items: center;
 
-  gap: 55px;
+  gap: 30px;
 
-  padding: 30px 0 30px;
+  padding: 15px 0 15px;
 }
 
 .landing-hero::before {
@@ -152561,7 +152561,7 @@ select,
 .landing-hero h1 {
   max-width: 700px;
 
-  margin: 17px 0 15px;
+  margin: 5px 0 10px;
 
   color: var(--text-main);
 
@@ -165287,7 +165287,7 @@ select,
 
   align-items: center;
 
-  gap: 55px;
+  gap: 30px;
 }
 
 .landing-hero-copy-final h1 {
@@ -168283,7 +168283,7 @@ select,
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
 
-  gap: 55px;
+  gap: 30px;
 
   padding: 70px 7vw;
 }
@@ -356050,4 +356050,248 @@ body:has(.admin-farmer-drawer) .admin-farmers-page {
   .landing-image-card {
     aspect-ratio: 16/9;
   }
+}
+
+
+/* =========================================================
+   NEW BEAUTIFUL UI FULL-PAGE BACKGROUNDS
+========================================================= */
+
+/* FARMER PORTAL */
+.farmer-home-page,
+.farmer-book-page,
+.farmer-history-page,
+.farmer-settings-page,
+.farmer-token-page,
+.farmer-transport-page,
+.farmer-payments-page,
+.farmer-logistics-page {
+    background-image: 
+      linear-gradient(rgba(247, 251, 248, 0.93), rgba(247, 251, 248, 0.97)), 
+      url('/src/assets/backgrounds/crops-sunset.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* FARMER SOLID WHITE CARDS FOR ELEGANCE */
+.home-feature-card,
+.next-booking-card,
+.home-month-summary-card,
+.home-dashboard-section,
+.home-center-card,
+.booking-card,
+.farmer-history-item,
+.transport-request-card,
+.payment-card {
+    background-color: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 4px 15px rgba(20, 60, 40, 0.04) !important;
+}
+
+/* TRANSPORTER PORTAL */
+.transporter-dashboard-page,
+.transporter-jobs-page,
+.transporter-earnings-page,
+.transporter-profile-page {
+    background-image: 
+      linear-gradient(rgba(255, 252, 245, 0.93), rgba(255, 252, 245, 0.97)), 
+      url('/src/assets/backgrounds/golden-ox-plowing.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* ADMIN PORTAL */
+.admin-dashboard-page,
+.admin-queue-page,
+.admin-iot-page,
+.admin-weighing-page,
+.admin-procurement-page,
+.admin-farmers-page,
+.admin-centers-page,
+.admin-settings-page,
+.admin-payment-issues-page {
+    background-image: 
+      linear-gradient(rgba(245, 248, 250, 0.94), rgba(245, 248, 250, 0.98)), 
+      url('/src/assets/backgrounds/farmer-portrait.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* Make sure old decorative gradients don't block the new background */
+.farmer-home-page::before,
+.farmer-token-page::before,
+.admin-dashboard-page::before,
+.admin-queue-page::before,
+.admin-payment-issues-page::before {
+    display: none !important;
+}
+\n\n.app-header { z-index: 999999 !important; }\n
+/* =========================================================
+   NEW BEAUTIFUL UI FULL-PAGE BACKGROUNDS (THEME AWARE)
+========================================================= */
+
+/* --- LIGHT THEME (or default) --- */
+:root, [data-theme="light"] {
+  --overlay-farmer: linear-gradient(rgba(247, 251, 248, 0.92), rgba(247, 251, 248, 0.96));
+  --overlay-transporter: linear-gradient(rgba(255, 252, 245, 0.92), rgba(255, 252, 245, 0.96));
+  --overlay-admin: linear-gradient(rgba(245, 248, 250, 0.93), rgba(245, 248, 250, 0.97));
+}
+
+/* --- DARK THEME --- */
+[data-theme="dark"] {
+  --overlay-farmer: linear-gradient(rgba(15, 18, 16, 0.93), rgba(15, 18, 16, 0.97));
+  --overlay-transporter: linear-gradient(rgba(18, 17, 15, 0.93), rgba(18, 17, 15, 0.97));
+  --overlay-admin: linear-gradient(rgba(15, 17, 18, 0.93), rgba(15, 17, 18, 0.97));
+}
+
+/* --- FOREST THEME --- */
+[data-theme="forest"] {
+  --overlay-farmer: linear-gradient(rgba(12, 28, 18, 0.93), rgba(12, 28, 18, 0.97));
+  --overlay-transporter: linear-gradient(rgba(20, 28, 15, 0.93), rgba(20, 28, 15, 0.97));
+  --overlay-admin: linear-gradient(rgba(15, 28, 24, 0.93), rgba(15, 28, 24, 0.97));
+}
+
+/* --- MIDNIGHT THEME --- */
+[data-theme="midnight"] {
+  --overlay-farmer: linear-gradient(rgba(12, 16, 30, 0.93), rgba(12, 16, 30, 0.97));
+  --overlay-transporter: linear-gradient(rgba(18, 16, 30, 0.93), rgba(18, 16, 30, 0.97));
+  --overlay-admin: linear-gradient(rgba(14, 18, 30, 0.93), rgba(14, 18, 30, 0.97));
+}
+
+
+/* FARMER PORTAL */
+.farmer-home-page,
+.farmer-book-page,
+.farmer-history-page,
+.farmer-settings-page,
+.farmer-token-page,
+.farmer-transport-page,
+.farmer-payments-page,
+.farmer-logistics-page {
+    background-image: var(--overlay-farmer), url('/src/assets/backgrounds/crops-sunset.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* TRANSPORTER PORTAL */
+.transporter-dashboard-page,
+.transporter-jobs-page,
+.transporter-earnings-page,
+.transporter-profile-page {
+    background-image: var(--overlay-transporter), url('/src/assets/backgrounds/golden-ox-plowing.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* ADMIN PORTAL */
+.admin-dashboard-page,
+.admin-queue-page,
+.admin-iot-page,
+.admin-weighing-page,
+.admin-procurement-page,
+.admin-farmers-page,
+.admin-centers-page,
+.admin-settings-page,
+.admin-payment-issues-page {
+    background-image: var(--overlay-admin), url('/src/assets/backgrounds/farmer-portrait.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* Fix old overlapping gradients */
+.farmer-home-page::before,
+.farmer-token-page::before,
+.admin-dashboard-page::before,
+.admin-queue-page::before,
+.admin-payment-issues-page::before {
+    display: none !important;
+}
+
+/* =========================================================
+   ULTIMATE Z-INDEX AND THEME FIXES
+========================================================= */
+
+/* 1. Defeat the aggressive .farmer-home-page > * z-index trap */
+.farmer-home-page > header.app-header,
+.farmer-book-page > header.app-header,
+.farmer-history-page > header.app-header,
+.farmer-settings-page > header.app-header,
+.farmer-token-page > header.app-header,
+.farmer-transport-page > header.app-header,
+.farmer-payments-page > header.app-header,
+.farmer-logistics-page > header.app-header,
+.farmer-home-container > header.app-header,
+body header.app-header {
+    position: relative !important;
+    z-index: 9999999 !important;
+}
+
+/* Ensure main content doesn't fight the header */
+.farmer-home-page > main,
+.farmer-book-page > main,
+.farmer-history-page > main,
+.farmer-settings-page > main,
+.farmer-token-page > main,
+.farmer-transport-page > main,
+.farmer-payments-page > main,
+.farmer-logistics-page > main {
+    z-index: 1 !important;
+}
+
+/* 2. Restore beautiful solid boxes so text is always perfectly readable */
+/* Light Mode */
+:root, [data-theme="light"] {
+  --card-bg-solid: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.05);
+  --card-shadow: rgba(0, 0, 0, 0.04);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --card-bg-solid: #151816;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-shadow: rgba(0, 0, 0, 0.2);
+}
+
+/* Forest Mode */
+[data-theme="forest"] {
+  --card-bg-solid: #0c1a12;
+  --card-border: rgba(100, 200, 150, 0.1);
+  --card-shadow: rgba(0, 0, 0, 0.25);
+}
+
+/* Midnight Mode */
+[data-theme="midnight"] {
+  --card-bg-solid: #0a0e1c;
+  --card-border: rgba(100, 150, 255, 0.1);
+  --card-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.home-feature-card,
+.next-booking-card,
+.home-month-summary-card,
+.home-dashboard-section,
+.home-center-card,
+.booking-card,
+.farmer-history-item,
+.transport-request-card,
+.payment-card,
+.empty-state-card {
+    background-color: var(--card-bg-solid) !important;
+    border: 1px solid var(--card-border) !important;
+    box-shadow: 0 4px 15px var(--card-shadow) !important;
+}
+
+/* Also ensure language dropdown stands out cleanly */
+.language-dropdown {
+    background-color: var(--card-bg-solid) !important;
+    border: 1px solid var(--card-border) !important;
+    box-shadow: 0 8px 30px var(--card-shadow) !important;
+    z-index: 99999999 !important;
 }
