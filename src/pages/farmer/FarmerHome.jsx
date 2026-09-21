@@ -2495,55 +2495,70 @@ function FarmerHome() {
               </div>
 
 
+              
               <div className="booking-status-message">
-
                 <div className="status-message-icon">
-
-                  <CheckCircle2
-                    size={19}
-                  />
-
+                  <CheckCircle2 size={19} />
                 </div>
-
-
                 <div>
-
                   <strong>
-
-                    {
-                      activeBooking.status ===
-                      "PAYMENT_SENT"
-                        ? getText(
-                            language,
-                            "Procurement completed",
-                            "खरीद पूरी हो गई",
-                            "కొనుగోలు పూర్తైంది"
-                          )
-                        : formatStatus(
-                            activeBooking.status
-                          )
-                    }
-
+                    {activeBooking.status === "PAYMENT_SENT" || activeBooking.status === "PROCURED" || activeBooking.status === "PAYMENT_PENDING" ? activeBooking.status : activeBooking.status}
                   </strong>
-
-
                   <span>
-
-                    {
-                      getStatusMessage(
-                        activeBooking.status,
-                        language
-                      )
-                    }
-
+                    {STATUS_MESSAGES[activeBooking.status] || STATUS_MESSAGES["CONFIRMED"]}
                   </span>
-
                 </div>
-
               </div>
 
-
-              <div className="booking-main-details">
+              {/* SIH NEW FEATURE: QUALITY REPORT & DRYING YARD */}
+              {(activeBooking.status === "WEIGHING" || activeBooking.status === "PROCURED" || activeBooking.status === "PAYMENT_PENDING" || activeBooking.status === "PAYMENT_SENT") && (
+                <div style={{ marginTop: '16px', background: 'rgba(255,255,255,0.4)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.5)', padding: '16px' }} className="home-dashboard-card">
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                    <h4 style={{ margin: 0, fontSize: '14px', color: '#1e293b', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <Wheat size={16} color="#059669" /> Scientific Quality Assessment
+                    </h4>
+                    <span style={{ fontSize: '12px', background: '#dcfce7', color: '#166534', padding: '2px 8px', borderRadius: '12px', fontWeight: 'bold' }}>FAQ Passed</span>
+                  </div>
+                  
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px' }}>
+                    <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                      <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Moisture</div>
+                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>14.2% <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'normal' }}>(&lt;17% limit)</span></div>
+                    </div>
+                    <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                      <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Impurities</div>
+                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>1.5%</div>
+                    </div>
+                    <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                      <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Grade</div>
+                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>Grade A</div>
+                    </div>
+                  </div>
+                  
+                  {/* Example of what happens if it fails (using WEIGHING status just to show the UI button for now) */}
+                  {activeBooking.status === "WEIGHING" && (
+                    <div style={{ marginTop: '12px', padding: '12px', background: 'rgba(254, 243, 199, 0.4)', border: '1px dashed #f59e0b', borderRadius: '8px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div style={{ fontSize: '13px', color: '#92400e' }}>
+                          <strong>Note:</strong> If moisture exceeds limits, you must dry your crop.
+                      </div>
+                      <button style={{ background: '#d97706', color: 'white', border: 'none', padding: '6px 12px', borderRadius: '6px', fontSize: '12px', cursor: 'pointer', fontWeight: 'bold' }}>Book Drying Yard</button>
+                    </div>
+                  )}
+                  
+                  {/* 4. DIGITAL RECEIPT BAGGING (Only shown when done) */}
+                  {(activeBooking.status === "PROCURED" || activeBooking.status === "PAYMENT_PENDING" || activeBooking.status === "PAYMENT_SENT") && (
+                    <div style={{ marginTop: '12px', padding: '12px', background: 'rgba(241, 245, 249, 0.6)', border: '1px solid #cbd5e1', borderRadius: '8px' }}>
+                      <div style={{ fontSize: '12px', color: '#334155', fontWeight: 'bold', marginBottom: '4px' }}>Official Procurement Receipt</div>
+                      <div style={{ fontSize: '13px', color: '#475569', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                          <span><strong>Total Yield:</strong> 2,000 kg</span>
+                          <span><strong>Packaging:</strong> 40 Standard Jute Bags (50kg each)</span>
+                          <span><strong>Traceability Batch Tag:</strong> #KS-{activeBooking.token || activeBooking.id}-26</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+<div className="booking-main-details">
 
                 <div className="home-detail">
 
