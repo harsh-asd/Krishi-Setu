@@ -2505,7 +2505,7 @@ function FarmerHome() {
                     {activeBooking.status === "PAYMENT_SENT" || activeBooking.status === "PROCURED" || activeBooking.status === "PAYMENT_PENDING" ? activeBooking.status : activeBooking.status}
                   </strong>
                   <span>
-                    {STATUS_MESSAGES[activeBooking.status] || STATUS_MESSAGES["CONFIRMED"]}
+                    {getStatusMessage(activeBooking.status, language)}
                   </span>
                 </div>
               </div>
