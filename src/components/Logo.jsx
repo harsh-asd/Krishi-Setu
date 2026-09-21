@@ -1,6 +1,6 @@
 
 import { useLanguage } from "../translations/LanguageContext";
-import logo from "../assets/krishisetu-logo.png";
+import logo from "../assets/krishisetu-logo-new.jpg";
 
 function Logo({
   size = 40,
@@ -19,7 +19,7 @@ function Logo({
       }
     >
 
-      <img
+      <img style={{ borderRadius: '50%', objectFit: 'cover' }}
         className="krishisetu-logo-mark"
         src={logo}
         width={size}
