@@ -37,6 +37,7 @@ import {
 } from "react";
 
 import Header from "../../components/Header";
+import DryingYardModal from "../../components/DryingYardModal";
 import WeatherAdvisoryCard from "../../components/WeatherAdvisoryCard";
 import MandiPricesTicker from "../../components/MandiPricesTicker";
 import StatusBadge from "../../components/StatusBadge";
