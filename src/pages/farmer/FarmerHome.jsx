@@ -2555,8 +2555,8 @@ function FarmerHome() {
                     <div style={{ marginTop: '12px', padding: '12px', background: 'rgba(241, 245, 249, 0.6)', border: '1px solid #cbd5e1', borderRadius: '8px' }}>
                       <div style={{ fontSize: '12px', color: '#334155', fontWeight: 'bold', marginBottom: '4px' }}>Official Procurement Receipt</div>
                       <div style={{ fontSize: '13px', color: '#475569', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                          <span><strong>Total Yield:</strong> 2,000 kg</span>
-                          <span><strong>Packaging:</strong> 40 Standard Jute Bags (50kg each)</span>
+                          <span><strong>Total Yield:</strong> {Number(activeBooking.actual_quantity || activeBooking.estimated_quantity || 0).toLocaleString()} kg</span>
+                          <span><strong>Packaging:</strong> {Math.ceil(Number(activeBooking.actual_quantity || activeBooking.estimated_quantity || 0) / 50)} Standard Jute Bags (50kg each)</span>
                           <span><strong>Traceability Batch Tag:</strong> #KS-{activeBooking.token || activeBooking.id}-26</span>
                       </div>
                     </div>
