@@ -1448,7 +1448,7 @@ useEffect(() => {
         <div className="custom-footer-icon-circle">
           <Globe2 size={14} />
         </div>
-        <span>krishisetu.com</span>
+        <span>krishisetu-937n.onrender.com</span>
       </div>
       
       <div className="custom-footer-contact">
