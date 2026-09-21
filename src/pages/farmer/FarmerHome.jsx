@@ -105,6 +105,8 @@ function FarmerHome() {
       : null;
 
 
+  const [isDryingYardOpen, setIsDryingYardOpen] = useState(false);
+
   const [
     farmer,
     setFarmer,
@@ -1618,6 +1620,8 @@ function FarmerHome() {
 
           </section>
 
+          {/* SIH FEATURE: Drying Yard Modal */}
+        <DryingYardModal isOpen={isDryingYardOpen} onClose={() => setIsDryingYardOpen(false)} />
         </main>
 
       </div>
@@ -2541,7 +2545,7 @@ function FarmerHome() {
                       <div style={{ fontSize: '13px', color: '#92400e' }}>
                           <strong>Note:</strong> If moisture exceeds limits, you must dry your crop.
                       </div>
-                      <button style={{ background: '#d97706', color: 'white', border: 'none', padding: '6px 12px', borderRadius: '6px', fontSize: '12px', cursor: 'pointer', fontWeight: 'bold' }}>Book Drying Yard</button>
+                      <button onClick={() => setIsDryingYardOpen(true)} style={{ background: '#d97706', color: 'white', border: 'none', padding: '6px 12px', borderRadius: '6px', fontSize: '12px', cursor: 'pointer', fontWeight: 'bold' }}>Book Drying Yard</button>
                     </div>
                   )}
                   
