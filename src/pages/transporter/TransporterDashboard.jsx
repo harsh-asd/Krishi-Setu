@@ -1174,14 +1174,22 @@ function JobCard({
           <span style={styles.jobMetaLabel}>
             {copy.quantity}
           </span>
-
           <strong style={styles.jobMetaValue}>
-            {formatNumber(
-              request.quantity_kg ||
-                request.quantityKg
-            )}{" "}
-            {copy.kg}
+            {formatNumber(request.quantity_kg || request.quantityKg)} {copy.kg}
           </strong>
+        </div>
+
+        {/* SIH: Standardized Bag Tracking */}
+        <div>
+          <span style={styles.jobMetaLabel} title="Standardized Jute Bag Tracking">
+            Load Details (Traceable)
+          </span>
+          <strong style={{...styles.jobMetaValue, color: '#0369a1', background: '#e0f2fe', padding: '2px 6px', borderRadius: '4px', fontSize: '11px', display: 'inline-block', marginTop: '2px'}}>
+            {Math.ceil(Number(request.quantity_kg || request.quantityKg || 0) / 50)} Jute Bags
+          </strong>
+          <div style={{fontSize: '9px', color: '#64748b', marginTop: '2px', fontFamily: 'monospace'}}>
+            BATCH #{request.id.slice(0,6).toUpperCase()}-FCI
+          </div>
         </div>
 
         <div>
@@ -1267,11 +1275,25 @@ function JobCard({
               {copy.destination}
             </span>
 
-            <strong
-              style={styles.routeText}
-            >
-              {centerName}
-            </strong>
+            <strong style={styles.routeText}>{centerName}</strong>
+            {/* SIH FCI ROUTING INSTRUCTION */}
+            <div style={{marginTop: '4px', display: 'flex', alignItems: 'center', gap: '4px'}}>
+              <span style={{fontSize: '10px', background: '#fef9c3', color: '#854d0e', padding: '2px 6px', borderRadius: '12px', fontWeight: 'bold', border: '1px solid #fde047'}}>
+                FCI / Warehouse Routing
+              </span>
+            </div>
+            {/* SIH FCI ROUTING INSTRUCTION */}
+            <div style={{marginTop: '4px', display: 'flex', alignItems: 'center', gap: '4px'}}>
+              <span style={{fontSize: '10px', background: '#fef9c3', color: '#854d0e', padding: '2px 6px', borderRadius: '12px', fontWeight: 'bold', border: '1px solid #fde047'}}>
+                FCI / Warehouse Routing
+              </span>
+            </div>
+            {/* SIH FCI ROUTING INSTRUCTION */}
+            <div style={{marginTop: '4px', display: 'flex', alignItems: 'center', gap: '4px'}}>
+              <span style={{fontSize: '10px', background: '#fef9c3', color: '#854d0e', padding: '2px 6px', borderRadius: '12px', fontWeight: 'bold', border: '1px solid #fde047'}}>
+                FCI / Warehouse Routing
+              </span>
+            </div>
 
             {request.center_address ? (
               <small
