@@ -23,7 +23,7 @@ services:
 
   # 3. React Frontend (Vite)
   - type: web
-    name: krishisetu-frontend
+    name: krishisetu
     env: static
     buildCommand: export VITE_API_URL=${API_BACKEND_URL}/api && npm install && npm run build
     staticPublishPath: ./dist
