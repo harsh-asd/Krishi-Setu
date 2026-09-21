@@ -2525,7 +2525,7 @@ function FarmerHome() {
                     <span style={{ fontSize: '12px', background: '#dcfce7', color: '#166534', padding: '2px 8px', borderRadius: '12px', fontWeight: 'bold' }}>FAQ Passed</span>
                   </div>
                   
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px' }}>
+                  <div className="sih-quality-grid">
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
                       <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Moisture</div>
                       <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.moisture_content ? activeBooking.moisture_content + '%' : '14.2%'} {(!activeBooking.moisture_content || activeBooking.moisture_content <= 17) && <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'normal' }}>(&lt;17% limit)</span>}{activeBooking.moisture_content > 17 && <span style={{ fontSize: '12px', color: '#ef4444', fontWeight: 'bold' }}>(High!)</span>}</div>

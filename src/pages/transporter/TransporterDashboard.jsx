@@ -1152,7 +1152,7 @@ function JobCard({
         />
       </div>
 
-      <div style={styles.jobMain}>
+      <div style={styles.jobMain} className="sih-transporter-job-main">
         <div style={styles.cropBlock}>
           <div style={styles.cropIcon}>
             <Truck size={19} />
@@ -4955,9 +4955,8 @@ const styles = {
   },
 
   jobMain: {
-    display: "grid",
-    gridTemplateColumns:
-      "1.2fr 0.75fr 0.8fr 0.75fr",
+    // Moved to index.css .sih-transporter-job-main
+
     gap: "13px",
     marginTop: "20px",
     padding: "13px",

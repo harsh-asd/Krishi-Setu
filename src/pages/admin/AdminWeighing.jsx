@@ -2108,7 +2108,7 @@ function WeighingForm({
           {/* SIH QUALITY METRICS */}
           <div className="admin-form-group" style={{ marginTop: '24px', padding: '16px', background: 'rgba(59, 130, 246, 0.05)', borderRadius: '12px', border: '1px solid rgba(59, 130, 246, 0.2)' }}>
             <h4 style={{ margin: '0 0 16px 0', color: '#1e293b' }}>Scientific Quality Assessment</h4>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div className="sih-admin-quality-grid">
               <div>
                 <label style={{ display: 'block', fontSize: '13px', color: '#64748b', marginBottom: '8px', fontWeight: 'bold' }}>Moisture Content (%)</label>
                 <div style={{ display: 'flex', alignItems: 'center', background: '#fff', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
