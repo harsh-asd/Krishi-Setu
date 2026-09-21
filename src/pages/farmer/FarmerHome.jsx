@@ -2528,20 +2528,20 @@ function FarmerHome() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px' }}>
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
                       <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Moisture</div>
-                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>14.2% <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'normal' }}>(&lt;17% limit)</span></div>
+                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.moisture_content ? activeBooking.moisture_content + '%' : '14.2%'} {(!activeBooking.moisture_content || activeBooking.moisture_content <= 17) && <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'normal' }}>(&lt;17% limit)</span>}{activeBooking.moisture_content > 17 && <span style={{ fontSize: '12px', color: '#ef4444', fontWeight: 'bold' }}>(High!)</span>}</div>
                     </div>
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
                       <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Impurities</div>
-                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>1.5%</div>
+                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.impurity_content ? activeBooking.impurity_content + '%' : '1.5%'}</div>
                     </div>
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
                       <div style={{ fontSize: '11px', color: '#64748b', textTransform: 'uppercase', fontWeight: 'bold' }}>Grade</div>
-                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>Grade A</div>
+                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.crop_grade ? 'Grade ' + activeBooking.crop_grade : (activeBooking.quality ? 'Grade ' + activeBooking.quality : 'Grade A')}</div>
                     </div>
                   </div>
                   
-                  {/* Example of what happens if it fails (using WEIGHING status just to show the UI button for now) */}
-                  {activeBooking.status === "WEIGHING" && (
+                  {/* Show Warning ONLY if moisture exceeds limit */}
+                  {activeBooking.moisture_content > 17 && (
                     <div style={{ marginTop: '12px', padding: '12px', background: 'rgba(254, 243, 199, 0.4)', border: '1px dashed #f59e0b', borderRadius: '8px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                       <div style={{ fontSize: '13px', color: '#92400e' }}>
                           <strong>Note:</strong> If moisture exceeds limits, you must dry your crop.

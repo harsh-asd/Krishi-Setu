@@ -86,7 +86,9 @@ function AdminWeighing() {
     success,
     setSuccess,
   ] = useState("");
-
+  const [moistureContent, setMoistureContent] = useState("");
+  const [impurityContent, setImpurityContent] = useState("");
+  const [cropGrade, setCropGrade] = useState("");
 
   const [
     actualQuantity,
@@ -378,6 +380,9 @@ function AdminWeighing() {
 
       setActualQuantity("");
       setQuality("");
+      setMoistureContent("");
+      setImpurityContent("");
+      setCropGrade("");
       setNotes("");
       setRate("");
       setAdjustment("0");
@@ -578,8 +583,10 @@ function AdminWeighing() {
 
             body:
               JSON.stringify({
-                actualQuantity:
-                  quantity,
+                actualQuantity: quantity,
+moistureContent: moistureContent || null,
+impurityContent: impurityContent || null,
+cropGrade: cropGrade || quality || null,
 
                 quality:
                   quality ||
@@ -2097,6 +2104,46 @@ function WeighingForm({
             </div>
 
           </div>
+
+          {/* SIH QUALITY METRICS */}
+          <div className="admin-form-group" style={{ marginTop: '24px', padding: '16px', background: 'rgba(59, 130, 246, 0.05)', borderRadius: '12px', border: '1px solid rgba(59, 130, 246, 0.2)' }}>
+            <h4 style={{ margin: '0 0 16px 0', color: '#1e293b' }}>Scientific Quality Assessment</h4>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <div>
+                <label style={{ display: 'block', fontSize: '13px', color: '#64748b', marginBottom: '8px', fontWeight: 'bold' }}>Moisture Content (%)</label>
+                <div style={{ display: 'flex', alignItems: 'center', background: '#fff', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
+                  <input 
+                    type="number" 
+                    step="0.1" 
+                    placeholder="e.g. 14.2" 
+                    value={moistureContent} 
+                    onChange={e => setMoistureContent(e.target.value)}
+                    disabled={!canEnterWeight || alreadyProcured}
+                    style={{ border: 'none', outline: 'none', padding: '10px 0', width: '100%', background: 'transparent' }} 
+                  />
+                  <span style={{ color: '#94a3b8', fontSize: '14px', fontWeight: 'bold' }}>%</span>
+                </div>
+                {moistureContent && Number(moistureContent) > 17 && <small style={{ color: '#ef4444', marginTop: '4px', display: 'block' }}>Exceeds 17% limit! Farmer must dry crop.</small>}
+              </div>
+
+              <div>
+                <label style={{ display: 'block', fontSize: '13px', color: '#64748b', marginBottom: '8px', fontWeight: 'bold' }}>Impurity Content (%)</label>
+                <div style={{ display: 'flex', alignItems: 'center', background: '#fff', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
+                  <input 
+                    type="number" 
+                    step="0.1" 
+                    placeholder="e.g. 1.5" 
+                    value={impurityContent} 
+                    onChange={e => setImpurityContent(e.target.value)}
+                    disabled={!canEnterWeight || alreadyProcured}
+                    style={{ border: 'none', outline: 'none', padding: '10px 0', width: '100%', background: 'transparent' }} 
+                  />
+                  <span style={{ color: '#94a3b8', fontSize: '14px', fontWeight: 'bold' }}>%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
         </div>
 

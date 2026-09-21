@@ -11745,6 +11745,11 @@ app.patch(
 
     try {
 
+      
+      const moistureContent = req.body?.moistureContent ? Number(req.body.moistureContent) : null;
+      const impurityContent = req.body?.impurityContent ? Number(req.body.impurityContent) : null;
+      const cropGrade = String(req.body?.cropGrade || req.body?.quality || '').trim() || null;
+
       const actualQuantity =
         Number(
           req.body?.actualQuantity
@@ -17464,6 +17469,12 @@ async function startServer() {
   try {
 
     await initializeDatabase();
+
+    // SIH Quality Metrics Migration
+    try { await db.query('ALTER TABLE bookings ADD COLUMN moisture_content DOUBLE PRECISION;'); } catch(e) {}
+    try { await db.query('ALTER TABLE bookings ADD COLUMN impurity_content DOUBLE PRECISION;'); } catch(e) {}
+    try { await db.query('ALTER TABLE bookings ADD COLUMN crop_grade TEXT;'); } catch(e) {}
+
 
 
     await ensureBookingChangesTable();
