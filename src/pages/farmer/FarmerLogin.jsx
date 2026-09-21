@@ -43,9 +43,7 @@ function FarmerLogin() {
       const data = await response.json();
       if (data.success) {
         setStep(2);
-        // FALLBACK: Uncomment the line below if email APIs crash during your live pitch
-        // setSuccessMsg(`OTP Sent! ${data.demoOtp ? "(Demo OTP: " + data.demoOtp + ")" : ""}`);
-        setSuccessMsg("OTP Sent securely. Please check your email.");
+        setSuccessMsg(`OTP Sent! ${data.demoOtp ? "(Demo OTP: " + data.demoOtp + ")" : ""}`);
       } else {
         setError(data.message || "Failed to send OTP.");
       }
