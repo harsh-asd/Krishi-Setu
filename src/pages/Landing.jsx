@@ -1441,21 +1441,21 @@ useEffect(() => {
         <div className="custom-footer-icon-circle">
           <Phone size={14} />
         </div>
-        <span>+91 9752560248</span>
+        <span>+91 9125428551</span>
       </div>
       
       <div className="custom-footer-contact">
         <div className="custom-footer-icon-circle">
           <Globe2 size={14} />
         </div>
-        <span>krishisetu.parkhya.co.in</span>
+        <span>krishisetu.com</span>
       </div>
       
       <div className="custom-footer-contact">
         <div className="custom-footer-icon-circle">
           <Mail size={14} />
         </div>
-        <span>krishisetu@gmail.com</span>
+        <span>blizardsasd@gmail.com</span>
       </div>
     </div>
     
