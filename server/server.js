@@ -4241,8 +4241,42 @@ app.post("/api/farmers/auth/send-otp", async (req, res) => {
       expires: Date.now() + 10 * 60 * 1000 // 10 mins
     });
 
-    // Configure real email transport using Gmail (or fallback to test account if not set)
-        if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+        // Configure real email transport using Brevo HTTP API (Bypasses Render SMTP Block)
+    if (process.env.BREVO_API_KEY) {
+      console.log("[Brevo] Sending OTP via HTTP API...");
+      try {
+        const brevoResponse = await fetch("https://api.brevo.com/v3/smtp/email", {
+          method: "POST",
+          headers: {
+            "accept": "application/json",
+            "api-key": process.env.BREVO_API_KEY,
+            "content-type": "application/json"
+          },
+          body: JSON.stringify({
+            sender: { name: "KrishiSetu System", email: "blizardsasd@gmail.com" },
+            to: [{ email: email, name: name }],
+            subject: "KrishiSetu - Your Login OTP",
+            htmlContent: `<div style="font-family: sans-serif; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px; max-width: 500px;">
+              <h2 style="color: #16a34a; margin-top: 0;">KrishiSetu Authentication</h2>
+              <p>Hello <strong>${name}</strong>,</p>
+              <p>Your secure login OTP is:</p>
+              <div style="font-size: 28px; font-weight: bold; color: #15803d; background: #f0fdf4; padding: 12px; border-radius: 6px; text-align: center; letter-spacing: 4px;">${otp}</div>
+              <p style="color: #64748b; font-size: 12px; margin-top: 20px;">This code is valid for 10 minutes. Please do not share it.</p>
+            </div>`
+          })
+        });
+        
+        if (!brevoResponse.ok) {
+          const errData = await brevoResponse.text();
+          console.error("[Brevo] Failed to send:", errData);
+        } else {
+          console.log("[Brevo] OTP Email successfully dispatched to", email);
+        }
+      } catch (brevoErr) {
+        console.error("[Brevo] Network error:", brevoErr);
+      }
+    } else if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+      // Local fallback using nodemailer
       const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS } });
       await transporter.sendMail({ from: '"KrishiSetu System" <' + process.env.EMAIL_USER + '>', to: email, subject: "Your OTP", text: `Your OTP is: ${otp}` });
     } else {
