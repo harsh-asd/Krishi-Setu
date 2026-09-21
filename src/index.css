@@ -357143,3 +357143,17 @@ body.dark .digital-token {
     gap: 16px !important;
   }
 }
+
+@keyframes noticePulse {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.2); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.notice-pulse-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  animation: noticePulse 1.5s infinite ease-in-out;
+}
