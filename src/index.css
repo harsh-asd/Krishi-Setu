@@ -356655,3 +356655,55 @@ body.dark .home-center-details span {
 [data-theme="forest"] .home-dashboard-card svg {
     color: #f8fafc !important;
 }
+
+
+/* =========================================================
+   GLOBAL THEME VISIBILITY FIX (All Dashboards)
+========================================================= */
+
+/* 
+  Force all major text elements inside ANY card to adapt correctly to the theme, 
+  overriding any pesky inline styles that cause invisible text. 
+*/
+
+/* 1. LIGHT MODE: Ensure all text in cards/panels is dark and readable */
+:is([data-theme="light"], body:not(.dark):not([data-theme="dark"]):not([data-theme="forest"]):not([data-theme="midnight"])) 
+:is(.card, .panel, .box, .home-dashboard-card, .dashboard-card, .booking-status-message, .home-center-details) 
+:is(h1, h2, h3, p, span, strong, div, small) {
+    color: #1e293b; 
+}
+
+/* Specific overrides for light mode backgrounds that need to be transparent to show glassmorphism */
+:is([data-theme="light"], body:not(.dark):not([data-theme="dark"]):not([data-theme="forest"]):not([data-theme="midnight"])) 
+:is(.home-dashboard-card, .booking-status-message, .home-center-details, .dashboard-card) > div {
+    background-color: transparent !important;
+}
+
+/* 2. ALL DARK MODES (Dark, Midnight, Forest): Force text to be light and readable */
+:is([data-theme="dark"], [data-theme="midnight"], [data-theme="forest"], body.dark) 
+:is(.card, .panel, .box, .home-dashboard-card, .dashboard-card, .transporter-card, .admin-card, .booking-status-message, .home-center-details, .farmer-notification-panel) 
+:is(h1, h2, h3, h4, p, span, strong, small) {
+    color: #f8fafc !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* subtle shadow ensures readability over images */
+}
+
+/* Prevent any div inside a card from keeping a hardcoded white/light background in dark mode */
+:is([data-theme="dark"], [data-theme="midnight"], [data-theme="forest"], body.dark) 
+:is(.card, .panel, .box, .home-dashboard-card, .dashboard-card, .booking-status-message, .home-center-details) > div {
+    background: transparent !important;
+    border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Ensure all SVG icons turn light in dark modes so they don't disappear */
+:is([data-theme="dark"], [data-theme="midnight"], [data-theme="forest"], body.dark) 
+:is(.card, .panel, .box, .home-dashboard-card, .dashboard-card, .booking-status-message, .home-center-details) svg {
+    color: #f8fafc !important;
+    stroke: #f8fafc !important;
+}
+
+/* Except buttons! Buttons should keep their distinct colors */
+:is([data-theme="dark"], [data-theme="midnight"], [data-theme="forest"], body.dark) button span,
+:is([data-theme="dark"], [data-theme="midnight"], [data-theme="forest"], body.dark) button svg {
+    color: inherit !important;
+    text-shadow: none !important;
+}
