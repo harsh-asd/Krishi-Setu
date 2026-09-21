@@ -448,12 +448,22 @@ useEffect(() => {
                 <div style={{ fontSize: '15px', color: '#334155', lineHeight: '1.6' }}>
                   <strong>Kharif 2026-27:</strong> Minimum Support Price (MSP) for Paddy (Common) has been fixed at <strong>₹2,300 per quintal</strong>. Procurement begins Oct 1st.
                 </div>
+                <div style={{ marginTop: '16px', borderTop: '1px dashed #fde047', paddingTop: '12px' }}>
+                  <a href="#" onClick={(e) => { e.preventDefault(); alert('Opening Secure Document Viewer:\n\n[Official_Gazette_Kharif_MSP.pdf]\nSigned by Ministry of Agriculture.'); }} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '13px', color: '#0369a1', textDecoration: 'none', fontWeight: 'bold', background: '#f0f9ff', padding: '6px 12px', borderRadius: '6px', border: '1px solid #bae6fd' }}>
+                    📎 View Official Gazette (PDF)
+                  </a>
+                </div>
               </div>
 
               <div style={{ background: '#ffffff', border: '1px solid #fef08a', padding: '20px', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)' }}>
                 <div style={{ fontSize: '13px', color: '#b45309', fontWeight: 'bold', marginBottom: '10px' }}>💧 SCIENTIFIC QUALITY LIMITS</div>
                 <div style={{ fontSize: '15px', color: '#334155', lineHeight: '1.6' }}>
                   Maximum permissible <strong>moisture content is strictly 17%</strong>. Crops exceeding this limit must be dried at official Drying Yards before weighing.
+                </div>
+                <div style={{ marginTop: '16px', borderTop: '1px dashed #fde047', paddingTop: '12px' }}>
+                  <a href="#" onClick={(e) => { e.preventDefault(); alert('Opening Secure Document Viewer:\n\n[Procurement_Quality_Guidelines_2026.pdf]\nPublished by FCI.'); }} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '13px', color: '#166534', textDecoration: 'none', fontWeight: 'bold', background: '#f0fdf4', padding: '6px 12px', borderRadius: '6px', border: '1px solid #bbf7d0' }}>
+                    📎 Download Technical FAQ (PDF)
+                  </a>
                 </div>
               </div>
 
