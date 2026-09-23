@@ -108,6 +108,8 @@ function FarmerHome() {
 
 
   const [isDryingYardOpen, setIsDryingYardOpen] = useState(false);
+  const [isCheckedIn, setIsCheckedIn] = useState(false);
+  const [isCheckingIn, setIsCheckingIn] = useState(false);
 
   const [
     farmer,
