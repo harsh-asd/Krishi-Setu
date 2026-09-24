@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router";
+import tractorHarvest from "../../assets/backgrounds/tractor-harvest.jpg";
 import goldenOxPlowing from "../../assets/backgrounds/golden-ox-plowing.png";
 import {
   CheckCircle2,
@@ -408,9 +409,7 @@ function TransporterLogin() {
             onClick={() => navigate("/")}
             style={styles.brandButton}
           >
-            <div style={styles.logo}>
-              K
-            </div>
+            <Logo size={58} />
 
             <div>
               <div style={styles.brandName}>
@@ -465,9 +464,7 @@ function TransporterLogin() {
 
         <section style={styles.card}>
           <div style={styles.cardHeader}>
-            <div style={styles.mobileLogo}>
-              K
-            </div>
+            <Logo size={42} />
 
             <div>
               <h2 style={styles.title}>

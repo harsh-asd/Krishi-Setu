@@ -356247,7 +356247,7 @@ body header.app-header {
 /* 2. Restore beautiful solid boxes so text is always perfectly readable */
 /* Light Mode */
 :root, [data-theme="light"] {
-  --card-bg-solid: #ffffff;
+  --card-bg-solid: #d8b26f;
   --card-border: rgba(0, 0, 0, 0.05);
   --card-shadow: rgba(0, 0, 0, 0.04);
 }
@@ -356466,7 +356466,7 @@ body.dark .farmer-home-page {
 .farmer-home-page .home-month-summary-card {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    background-color: rgba(255, 255, 255, 0.9) !important;
+    background-color: #d8b26f !important;
     border: 1px solid rgba(255, 255, 255, 0.6) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
     border-radius: 16px !important;
@@ -356521,7 +356521,7 @@ body.dark .app-header {
 /* Make the buttons in the header pop slightly more against the glass */
 .app-header-actions button,
 .language-selector-button {
-    background-color: rgba(255, 255, 255, 0.9) !important;
+    background-color: #d8b26f !important;
     border: 1px solid rgba(0, 0, 0, 0.05) !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
 }
