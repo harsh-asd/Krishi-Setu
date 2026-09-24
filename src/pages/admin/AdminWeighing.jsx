@@ -2110,8 +2110,8 @@ function WeighingForm({
             <h4 style={{ margin: '0 0 16px 0', color: '#1e293b' }}>Scientific Quality Assessment</h4>
             <div className="sih-admin-quality-grid">
               <div>
-                <label style={{ display: 'block', fontSize: '13px', color: "#0f172a", marginBottom: '8px', fontWeight: 'bold' }}>Moisture Content (%)</label>
-                <div style={{ display: 'flex', alignItems: 'center', background: "#d8b26f", border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
+                <label style={{ display: 'block', fontSize: '13px', color: '#64748b', marginBottom: '8px', fontWeight: 'bold' }}>Moisture Content (%)</label>
+                <div style={{ display: 'flex', alignItems: 'center', background: '#fff', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
                   <input 
                     type="number" 
                     step="0.1" 
@@ -2127,8 +2127,8 @@ function WeighingForm({
               </div>
 
               <div>
-                <label style={{ display: 'block', fontSize: '13px', color: "#0f172a", marginBottom: '8px', fontWeight: 'bold' }}>Impurity Content (%)</label>
-                <div style={{ display: 'flex', alignItems: 'center', background: "#d8b26f", border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
+                <label style={{ display: 'block', fontSize: '13px', color: '#64748b', marginBottom: '8px', fontWeight: 'bold' }}>Impurity Content (%)</label>
+                <div style={{ display: 'flex', alignItems: 'center', background: '#fff', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
                   <input 
                     type="number" 
                     step="0.1" 

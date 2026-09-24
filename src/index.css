@@ -356247,7 +356247,7 @@ body header.app-header {
 /* 2. Restore beautiful solid boxes so text is always perfectly readable */
 /* Light Mode */
 :root, [data-theme="light"] {
-  --card-bg-solid: #d8b26f;
+  --card-bg-solid: #ffffff;
   --card-border: rgba(0, 0, 0, 0.05);
   --card-shadow: rgba(0, 0, 0, 0.04);
 }
@@ -356436,7 +356436,7 @@ body header.app-header {
 .farmer-home-page {
     /* Using a subtle white gradient overlay to keep it soft and elegant in Light Mode */
     background-image: 
-        linear-gradient(to bottom, rgba(22, 101, 52, 0.4), rgba(20, 83, 45, 0.65)),
+        linear-gradient(to bottom, rgba(248, 250, 252, 0.4), rgba(248, 250, 252, 0.8)),
         url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
     background-size: cover !important;
     background-position: center bottom !important;
@@ -356466,7 +356466,7 @@ body.dark .farmer-home-page {
 .farmer-home-page .home-month-summary-card {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    background-color: #d8b26f !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     border: 1px solid rgba(255, 255, 255, 0.6) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
     border-radius: 16px !important;
@@ -356521,7 +356521,7 @@ body.dark .app-header {
 /* Make the buttons in the header pop slightly more against the glass */
 .app-header-actions button,
 .language-selector-button {
-    background-color: #d8b26f !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     border: 1px solid rgba(0, 0, 0, 0.05) !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
 }
@@ -357160,90 +357160,6 @@ body.dark .digital-token {
 
 
 /* ========================================================
-   CLOCK OVERRIDES: Bold and outstanding
-======================================================== */
-.orbital-clock-mark {
-    font-weight: 900 !important;
-    font-size: 28px !important;
-    color: #022c22 !important; /* Very dark rich green */
-    text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,0.8) !important;
-}
-
-.clock-hour-hand {
-    width: 6px !important;
-    background: #022c22 !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4) !important;
-}
-.clock-minute-hand {
-    width: 4px !important;
-    background: #064e3b !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4) !important;
-}
-.clock-second-hand {
-    width: 3px !important;
-    background: #dc2626 !important; /* Red for pop */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4) !important;
-}
-
-.orbital-clock-dot {
-    background: #dc2626 !important;
-    transform: scale(1.6) !important;
-    box-shadow: 0 0 12px rgba(0,0,0,0.5) !important;
-    border: 2px solid white !important;
-}
-
-/* Ensure landing hero text remains readable against the bolder background */
-.landing-hero-content h1 {
-    color: #022c22 !important;
-    text-shadow: 0 0 20px rgba(255,255,255,0.9), 0 0 40px rgba(255,255,255,0.5) !important;
-}
-.landing-hero-description {
-    color: #064e3b !important;
-    font-weight: 600 !important;
-    text-shadow: 0 0 15px rgba(255,255,255,0.9) !important;
-}
-
-
-/* ========================================================
-   GLOBAL BACKGROUND IMAGES FOR ADMIN/TRANSPORTER PORTALS
-======================================================== */
-.admin-weighing-page, .at-page {
-    background-image: 
-        linear-gradient(to bottom, rgba(22, 101, 52, 0.4), rgba(20, 83, 45, 0.65)),
-        url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
-    background-size: cover !important;
-    background-position: center bottom !important;
-    background-attachment: fixed !important;
-}
-
-/* 
-   Make text standout against the dark green background images! 
-   Force headings and plain text OUTSIDE the tan details boxes to be white.
-*/
-.admin-weighing-page h1,
-.admin-weighing-page h2,
-.admin-weighing-page p,
-.admin-weighing-page .admin-page-eyebrow,
-.at-page h1,
-.at-page h2,
-.at-page .at-eyebrow,
-.at-page p {
-    color: #ffffff !important;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.4) !important;
-}
-
-/* Transporter Dashboard specific text standouts (outside the tan boxes) */
-.sih-transporter-job-main > h1,
-.sih-transporter-job-main > h2,
-.sih-transporter-job-main > p,
-.transporter-dashboard-header h1,
-.transporter-dashboard-header p {
-    color: #ffffff !important;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.4) !important;
-}
-
-
-/* ========================================================
    GLOBAL BACKGROUND IMAGES FOR ALL DASHBOARDS
 ======================================================== */
 .fl-page, .ft-page, .sih-admin-weighing-page, .admin-weighing-page, .at-page, .farmer-home-page, .page-wrapper {
@@ -357257,33 +357173,55 @@ body.dark .digital-token {
 
 /* 
    Make text standout against the dark green background images! 
-   Force headings and plain text OUTSIDE the tan details boxes to be white/bright.
+   Force headings and plain text OUTSIDE the main boxes to be white/bright.
 */
-.fl-page h1, .fl-page h2, .fl-page h3, .fl-page p, .fl-page span,
-.ft-page h1, .ft-page h2, .ft-page h3, .ft-page p, .ft-page span,
-.admin-weighing-page h1, .admin-weighing-page h2, .admin-weighing-page p, .admin-weighing-page span,
-.at-page h1, .at-page h2, .at-page p, .at-page span {
+.fl-page > h1, .fl-page > p,
+.ft-page > h1, .ft-page > p,
+.admin-weighing-page > h1, .admin-weighing-page > p, .admin-weighing-page > span,
+.at-page > h1, .at-page > p, .at-page > span {
     color: #ffffff !important;
     text-shadow: 0 1px 4px rgba(0,0,0,0.6) !important;
 }
 
-/* Ensure the tan boxes keep their dark text */
-.fl-summary *, .fl-detail-grid *, .ft-summary *, .ft-side *, .admin-weighing-container *, .at-container *, .booking-card * {
-    color: inherit; /* Reset to parent or normal cascade */
-    text-shadow: none !important;
+
+/* ========================================================
+   FRONT PAGE TEXT AND CLOCK COLOR OVERRIDES
+======================================================== */
+/* 1) from farm to market. - black colour text */
+.landing-hero-content h1 span {
+    color: #000000 !important;
 }
 
-.fl-summary, .fl-detail-grid, .ft-summary, .ft-side, .admin-weighing-container, .at-container {
-    background-color: var(--card-bg-solid, #d8b26f) !important;
-    color: #1e293b !important; /* Dark text inside boxes */
+/* 2) KrishiSetu connects the full crop journey... - white colour text */
+.landing-hero-description {
+    color: #ffffff !important;
 }
 
-/* Re-enforce dark text inside any element with background white or tan */
-[style*="background: '#ffffff'"],
-[style*='background: "#ffffff"'],
-[style*="background: '#d8b26f'"],
-[style*='background: "#d8b26f"'],
-.card, .box, .container {
-    color: #1e293b !important;
-    text-shadow: none !important;
+/* 3) Schedule your arrival, Get a digital token, Follow your payment - white colour text */
+.orbital-status-card strong {
+    color: #ffffff !important;
+}
+
+/* 4) digital clock colour to black and bold */
+.orbital-clock-mark {
+    font-weight: 900 !important;
+    font-size: 24px !important;
+    color: #000000 !important;
+}
+.clock-hour-hand {
+    width: 6px !important;
+    background: #000000 !important;
+}
+.clock-minute-hand {
+    width: 4px !important;
+    background: #000000 !important;
+}
+.clock-second-hand {
+    width: 3px !important;
+    background: #000000 !important;
+}
+.orbital-clock-dot {
+    background: #000000 !important;
+    transform: scale(1.5) !important;
+    border: 2px solid #ffffff !important;
 }

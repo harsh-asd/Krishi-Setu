@@ -1188,7 +1188,7 @@ function JobCard({
           <strong style={{...styles.jobMetaValue, color: '#0369a1', background: '#e0f2fe', padding: '2px 6px', borderRadius: '4px', fontSize: '11px', display: 'inline-block', marginTop: '2px'}}>
             {Math.ceil(Number(request.quantity_kg || request.quantityKg || 0) / 50)} Jute Bags
           </strong>
-          <div style={{fontSize: '9px', color: "#0f172a", marginTop: '2px', fontFamily: 'monospace'}}>
+          <div style={{fontSize: '9px', color: '#64748b', marginTop: '2px', fontFamily: 'monospace'}}>
             BATCH #{request.id.slice(0,6).toUpperCase()}-FCI
           </div>
         </div>
@@ -3960,7 +3960,7 @@ const styles = {
     marginTop: "16px",
     padding: "13px 15px",
     borderRadius: "16px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e0e9e3",
     boxShadow: "0 10px 25px rgba(25,65,42,.04)",
   },
@@ -4037,7 +4037,7 @@ const styles = {
     gap: "6px",
     borderRadius: "9px",
     border: "1px solid #dce6e0",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#52675b",
     fontSize: "10px",
     fontWeight: 800,
@@ -4124,7 +4124,7 @@ const styles = {
     padding: "0 9px",
     borderRadius: "8px",
     border: "1px solid #d8e4dd",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#416154",
     fontSize: "9px",
     fontWeight: 800,
@@ -4151,7 +4151,7 @@ const styles = {
     padding: "13px",
     borderRadius: "13px",
     border: "1px solid #e2ebe5",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#2c4438",
     textAlign: "left",
     cursor: "pointer",
@@ -4165,7 +4165,7 @@ const styles = {
     padding: "13px",
     borderRadius: "13px",
     border: "1px solid #e2ebe5",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#2c4438",
     textAlign: "left",
     cursor: "pointer",
@@ -4175,7 +4175,7 @@ const styles = {
     marginTop: "28px",
     padding: "22px",
     borderRadius: "22px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e1e9e3",
     boxShadow: "0 15px 36px rgba(28, 72, 46, 0.05)",
   },
@@ -4218,7 +4218,7 @@ const styles = {
     minWidth: 0,
     padding: "10px 11px",
     borderRadius: "11px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e8eee9",
   },
 
@@ -4262,7 +4262,7 @@ const styles = {
     padding: "0 10px",
     borderRadius: "9px",
     border: "1px solid #dce6e0",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#66776e",
     fontSize: "10px",
     fontWeight: 800,
@@ -4283,7 +4283,7 @@ const styles = {
     border: "1px solid #dce6e0",
     outline: "none",
     color: "#354b40",
-    background: "#d8b26f",
+    background: "#ffffff",
     fontSize: "11px",
   },
 
@@ -4403,7 +4403,7 @@ const styles = {
     padding: "5px",
     borderRadius: "12px",
     border: "1px solid #dde7df",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#66756c",
   },
 
@@ -4467,7 +4467,7 @@ const styles = {
     height: "40px",
     borderRadius: "11px",
     border: "1px solid #dde7df",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#617067",
     display: "inline-flex",
     alignItems: "center",
@@ -4549,7 +4549,7 @@ const styles = {
   statusCard: {
     padding: "22px",
     borderRadius: "20px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e4ebe6",
     boxShadow:
       "0 13px 30px rgba(26, 69, 44, 0.055)",
@@ -4692,7 +4692,7 @@ const styles = {
     gap: "12px",
     padding: "14px",
     borderRadius: "17px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e4ebe6",
   },
 
@@ -4768,7 +4768,7 @@ const styles = {
     padding: "0 12px",
     borderRadius: "10px",
     border: "1px solid #dbe6df",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#4d6256",
     textDecoration: "none",
     fontSize: "11px",
@@ -4845,7 +4845,7 @@ const styles = {
     minHeight: "260px",
     padding: "21px",
     borderRadius: "20px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e6ece8",
     overflow: "hidden",
   },
@@ -4876,7 +4876,7 @@ const styles = {
   jobCard: {
     padding: "20px",
     borderRadius: "20px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e1e9e3",
     boxShadow:
       "0 13px 28px rgba(28, 72, 46, 0.045)",
@@ -5172,7 +5172,7 @@ const styles = {
     border: "1px solid #e4cec7",
     outline: "none",
     color: "#39483f",
-    background: "#d8b26f",
+    background: "#ffffff",
     fontFamily:
       "inherit",
     fontSize: "11px",
@@ -5190,7 +5190,7 @@ const styles = {
     padding: "0 10px",
     borderRadius: "8px",
     border: "1px solid #dce4df",
-    background: "#d8b26f",
+    background: "#ffffff",
     color: "#647269",
     fontSize: "10px",
     fontWeight: 700,
@@ -5337,7 +5337,7 @@ const styles = {
     marginTop: "20px",
     padding: "15px",
     borderRadius: "14px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e6ede8",
   },
 
@@ -5412,7 +5412,7 @@ const styles = {
     marginTop: "12px",
     padding: "13px",
     borderRadius: "13px",
-    background: "#d8b26f",
+    background: "#ffffff",
     border: "1px solid #e6ede8",
   },
 
@@ -5433,7 +5433,7 @@ const styles = {
     overflow: "hidden",
     borderRadius: "18px",
     border: "1px solid #e3ebe5",
-    background: "#d8b26f",
+    background: "#ffffff",
   },
 
   historyRow: {
