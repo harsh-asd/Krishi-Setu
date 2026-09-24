@@ -357345,3 +357345,16 @@ body.dark .digital-token {
     height: 10px !important;
     margin-right: 8px !important;
 }
+
+
+/* ========================================================
+   FARMER LOGIN TEXT COLOR OVERRIDES (AS REQUESTED)
+======================================================== */
+.login-container .back-link,
+.login-intro .page-eyebrow,
+.login-intro h1,
+.login-intro h1 span,
+.login-intro > p {
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important; /* Subtle shadow to ensure perfect readability */
+}
