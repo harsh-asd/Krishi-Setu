@@ -357309,3 +357309,39 @@ body.dark .digital-token {
 .landing-hero-points span {
     color: #ffffff !important;
 }
+
+
+/* ========================================================
+   MAKE CLOCK AND LIVE INDICATOR BOLD AND OUTSTANDING
+======================================================== */
+.orbital-live-indicator, 
+.orbital-digital-time {
+    background: #ffffff !important;
+    color: #022c22 !important; /* Extremely dark green / near black */
+    font-weight: 900 !important;
+    border: 2px solid #059669 !important; /* Emerald green border */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3) !important;
+    backdrop-filter: none !important; /* Remove the frosted glass wash-out */
+    -webkit-backdrop-filter: none !important;
+    opacity: 1 !important;
+}
+
+.orbital-live-indicator {
+    padding: 8px 14px !important;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+}
+
+.orbital-digital-time {
+    font-size: 1.8rem !important;
+    padding: 12px 20px !important;
+    letter-spacing: 2px !important;
+}
+
+.orbital-live-indicator span {
+    background: #10b981 !important; /* Bright emerald dot */
+    box-shadow: 0 0 10px #10b981 !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 8px !important;
+}
