@@ -2107,11 +2107,11 @@ function WeighingForm({
 
           {/* SIH QUALITY METRICS */}
           <div className="admin-form-group" style={{ marginTop: '24px', padding: '16px', background: 'rgba(59, 130, 246, 0.05)', borderRadius: '12px', border: '1px solid rgba(59, 130, 246, 0.2)' }}>
-            <h4 style={{ margin: '0 0 16px 0', color: '#1e293b' }}>Scientific Quality Assessment</h4>
+            <h4 style={{ margin: '0 0 16px 0', color: "#1c1917" }}>Scientific Quality Assessment</h4>
             <div className="sih-admin-quality-grid">
               <div>
-                <label style={{ display: 'block', fontSize: '13px', color: "#0f172a", marginBottom: '8px', fontWeight: 'bold' }}>Moisture Content (%)</label>
-                <div style={{ display: 'flex', alignItems: 'center', background: "#d8b26f", border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
+                <label style={{ display: 'block', fontSize: '13px', color: "#1c1917", marginBottom: '8px', fontWeight: 'bold' }}>Moisture Content (%)</label>
+                <div style={{ display: 'flex', alignItems: 'center', background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
                   <input 
                     type="number" 
                     step="0.1" 
@@ -2127,8 +2127,8 @@ function WeighingForm({
               </div>
 
               <div>
-                <label style={{ display: 'block', fontSize: '13px', color: "#0f172a", marginBottom: '8px', fontWeight: 'bold' }}>Impurity Content (%)</label>
-                <div style={{ display: 'flex', alignItems: 'center', background: "#d8b26f", border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
+                <label style={{ display: 'block', fontSize: '13px', color: "#1c1917", marginBottom: '8px', fontWeight: 'bold' }}>Impurity Content (%)</label>
+                <div style={{ display: 'flex', alignItems: 'center', background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", border: '1px solid #cbd5e1', borderRadius: '8px', padding: '0 12px' }}>
                   <input 
                     type="number" 
                     step="0.1" 

@@ -2520,26 +2520,26 @@ function FarmerHome() {
 
               {/* SIH NEW FEATURE: QUALITY REPORT & DRYING YARD */}
               {(activeBooking.status === "WEIGHING" || activeBooking.status === "PROCURED" || activeBooking.status === "PAYMENT_PENDING" || activeBooking.status === "PAYMENT_SENT") && (
-                <div style={{ marginTop: '16px', background: 'rgba(255,255,255,0.4)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.5)', padding: '16px' }} className="home-dashboard-card">
+                <div style={{ marginTop: '16px', background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", borderRadius: '12px', border: '1px solid rgba(255,255,255,0.5)', padding: '16px' }} className="home-dashboard-card">
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                    <h4 style={{ margin: 0, fontSize: '14px', color: '#1e293b', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <h4 style={{ margin: 0, fontSize: '14px', color: "#1c1917", display: 'flex', alignItems: 'center', gap: '6px' }}>
                       <Wheat size={16} color="#059669" /> Scientific Quality Assessment
                     </h4>
-                    <span style={{ fontSize: '12px', background: '#dcfce7', color: '#166534', padding: '2px 8px', borderRadius: '12px', fontWeight: 'bold' }}>FAQ Passed</span>
+                    <span style={{ fontSize: '12px', background: "rgba(20, 83, 45, 0.9)", color: "#ffffff", color: "#ffffff", padding: '2px 8px', borderRadius: '12px', fontWeight: 'bold' }}>FAQ Passed</span>
                   </div>
                   
                   <div className="sih-quality-grid">
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
-                      <div style={{ fontSize: '11px', color: "#0f172a", textTransform: 'uppercase', fontWeight: 'bold' }}>Moisture</div>
-                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.moisture_content ? activeBooking.moisture_content + '%' : '14.2%'} {(!activeBooking.moisture_content || activeBooking.moisture_content <= 17) && <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'normal' }}>(&lt;17% limit)</span>}{activeBooking.moisture_content > 17 && <span style={{ fontSize: '12px', color: '#ef4444', fontWeight: 'bold' }}>(High!)</span>}</div>
+                      <div style={{ fontSize: '11px', color: "#1c1917", textTransform: 'uppercase', fontWeight: 'bold' }}>Moisture</div>
+                      <div style={{ fontSize: '16px', color: "#1c1917", fontWeight: '900', marginTop: '4px' }}>{activeBooking.moisture_content ? activeBooking.moisture_content + '%' : '14.2%'} {(!activeBooking.moisture_content || activeBooking.moisture_content <= 17) && <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: 'normal' }}>(&lt;17% limit)</span>}{activeBooking.moisture_content > 17 && <span style={{ fontSize: '12px', color: '#ef4444', fontWeight: 'bold' }}>(High!)</span>}</div>
                     </div>
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
-                      <div style={{ fontSize: '11px', color: "#0f172a", textTransform: 'uppercase', fontWeight: 'bold' }}>Impurities</div>
-                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.impurity_content ? activeBooking.impurity_content + '%' : '1.5%'}</div>
+                      <div style={{ fontSize: '11px', color: "#1c1917", textTransform: 'uppercase', fontWeight: 'bold' }}>Impurities</div>
+                      <div style={{ fontSize: '16px', color: "#1c1917", fontWeight: '900', marginTop: '4px' }}>{activeBooking.impurity_content ? activeBooking.impurity_content + '%' : '1.5%'}</div>
                     </div>
                     <div style={{ background: 'rgba(255,255,255,0.5)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.3)' }}>
-                      <div style={{ fontSize: '11px', color: "#0f172a", textTransform: 'uppercase', fontWeight: 'bold' }}>Grade</div>
-                      <div style={{ fontSize: '16px', color: '#0f172a', fontWeight: '900', marginTop: '4px' }}>{activeBooking.crop_grade ? 'Grade ' + activeBooking.crop_grade : (activeBooking.quality ? 'Grade ' + activeBooking.quality : 'Grade A')}</div>
+                      <div style={{ fontSize: '11px', color: "#1c1917", textTransform: 'uppercase', fontWeight: 'bold' }}>Grade</div>
+                      <div style={{ fontSize: '16px', color: "#1c1917", fontWeight: '900', marginTop: '4px' }}>{activeBooking.crop_grade ? 'Grade ' + activeBooking.crop_grade : (activeBooking.quality ? 'Grade ' + activeBooking.quality : 'Grade A')}</div>
                     </div>
                   </div>
                   
@@ -2555,13 +2555,13 @@ function FarmerHome() {
                   
                     {/* 5. LIVE QUEUE & DIGITAL TOKEN (Shown before procurement) */}
                     {(activeBooking.status === "SCHEDULED" || activeBooking.status === "WEIGHING") && (
-                      <div style={{ marginTop: '12px', padding: '12px', background: "#d8b26f", border: '1px solid #e2e8f0', borderRadius: '8px', display: 'flex', gap: '16px', alignItems: 'center', boxShadow: '0 2px 4px rgba(0,0,0,0.02)' }}>
+                      <div style={{ marginTop: '12px', padding: '12px', background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", border: '1px solid #e2e8f0', borderRadius: '8px', display: 'flex', gap: '16px', alignItems: 'center', boxShadow: '0 2px 4px rgba(0,0,0,0.02)' }}>
                         <div style={{ background: '#f8fafc', padding: '8px', borderRadius: '6px', border: '1px solid #e2e8f0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
                            <QRCode value={`KS-TOKEN-${activeBooking.id}`} size={70} />
-                           <span style={{ fontSize: '9px', color: "#0f172a", fontWeight: 'bold' }}>SCAN AT GATE</span>
+                           <span style={{ fontSize: '9px', color: "#1c1917", fontWeight: 'bold' }}>SCAN AT GATE</span>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', flex: 1 }}>
-                           <div style={{ fontSize: '14px', color: '#0f172a', fontWeight: 'bold', display: 'flex', justifyContent: 'space-between' }}>
+                           <div style={{ fontSize: '14px', color: "#1c1917", fontWeight: 'bold', display: 'flex', justifyContent: 'space-between' }}>
                               <span>Digital Token</span>
                               <span style={{ color: '#2563eb' }}>#KS-{activeBooking.token || activeBooking.id}</span>
                            </div>
@@ -2570,7 +2570,7 @@ function FarmerHome() {
                              <span style={{ display: 'inline-block', width: '8px', height: '8px', background: '#22c55e', borderRadius: '50%', boxShadow: '0 0 4px #22c55e' }}></span>
                              Live Queue Status
                            </div>
-                           <div style={{ fontSize: '12px', color: "#1e293b", display: 'flex', justifyContent: 'space-between' }}>
+                           <div style={{ fontSize: '12px', color: "#1c1917", display: 'flex', justifyContent: 'space-between' }}>
                              <span>Farmers Ahead: <strong>{Math.max(1, (activeBooking.id % 4) + 1)}</strong></span>
                              <span>Wait: <strong style={{ color: '#ea580c' }}>~{Math.max(1, (activeBooking.id % 4) + 1) * 15} mins</strong></span>
                            </div>
@@ -2581,8 +2581,8 @@ function FarmerHome() {
                     {/* 4. DIGITAL RECEIPT BAGGING (Only shown when done) */}
                   {(activeBooking.status === "PROCURED" || activeBooking.status === "PAYMENT_PENDING" || activeBooking.status === "PAYMENT_SENT") && (
                     <div style={{ marginTop: '12px', padding: '12px', background: 'rgba(241, 245, 249, 0.6)', border: '1px solid #cbd5e1', borderRadius: '8px' }}>
-                      <div style={{ fontSize: '12px', color: '#334155', fontWeight: 'bold', marginBottom: '4px' }}>Official Procurement Receipt</div>
-                      <div style={{ fontSize: '13px', color: "#1e293b", display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                      <div style={{ fontSize: '12px', color: "#1c1917", fontWeight: 'bold', marginBottom: '4px' }}>Official Procurement Receipt</div>
+                      <div style={{ fontSize: '13px', color: "#1c1917", display: 'flex', flexDirection: 'column', gap: '4px' }}>
                           <span><strong>Total Yield:</strong> {Number(activeBooking.actual_quantity || activeBooking.estimated_quantity || 0).toLocaleString()} kg</span>
                           <span><strong>Packaging:</strong> {Math.ceil(Number(activeBooking.actual_quantity || activeBooking.estimated_quantity || 0) / 50)} Standard Jute Bags (50kg each)</span>
                           <span><strong>Traceability Batch Tag:</strong> #KS-{activeBooking.token || activeBooking.id}-26</span>
@@ -2595,7 +2595,7 @@ function FarmerHome() {
 
                 <div className="home-detail">
 
-                  <div className="home-detail-icon" style={{ background: "#d8b26f", padding: '4px', borderRadius: '50%' }}>
+                  <div className="home-detail-icon" style={{ background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", padding: '4px', borderRadius: '50%' }}>
                       {center && center.id && center.id.startsWith("TS") ? (
                         <img src="/ts-logo.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                       ) : center && center.id && center.id.startsWith("AP") ? (
@@ -3809,7 +3809,7 @@ function FarmerHome() {
 
           <div className="home-center-main">
 
-            <div className="home-center-icon" style={{ background: "#d8b26f", padding: '4px', borderRadius: '50%' }}>
+            <div className="home-center-icon" style={{ background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", padding: '4px', borderRadius: '50%' }}>
                 {center && center.id && center.id.startsWith("TS") ? (
                   <img src="/ts-logo.svg" alt="TS Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 ) : center && center.id && center.id.startsWith("AP") ? (

@@ -356247,7 +356247,7 @@ body header.app-header {
 /* 2. Restore beautiful solid boxes so text is always perfectly readable */
 /* Light Mode */
 :root, [data-theme="light"] {
-  --card-bg-solid: #d8b26f;
+  --card-bg-solid: rgba(235, 185, 70, 0.35);
   --card-border: rgba(0, 0, 0, 0.05);
   --card-shadow: rgba(0, 0, 0, 0.04);
 }
@@ -357357,4 +357357,76 @@ body.dark .digital-token {
 .login-intro > p {
     color: #ffffff !important;
     text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important; /* Subtle shadow to ensure perfect readability */
+}
+
+
+/* ========================================================
+   GOLD TINTED GLASSMORPHISM (DASHBOARDS)
+======================================================== */
+.booking-card,
+.home-dashboard-section,
+.admin-weighing-container,
+.at-container,
+.fl-summary,
+.fl-detail-grid,
+.ft-summary,
+.ft-side,
+.sih-admin-quality-grid > div,
+.sih-transporter-job-main,
+.transporter-dashboard-command-center,
+.transporter-dashboard-command-quickbar,
+.transporter-dashboard-job-toolbar,
+.home-month-summary-card,
+.farmer-history-item,
+.transport-request-card,
+.payment-card,
+.empty-state-card {
+    background-color: rgba(235, 185, 70, 0.35) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    border: 1px solid rgba(255, 215, 0, 0.4) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Force dark warm stone for text inside the golden glass panels */
+.booking-card *,
+.home-dashboard-section *,
+.admin-weighing-container *,
+.at-container *,
+.fl-summary *,
+.fl-detail-grid *,
+.ft-summary *,
+.ft-side *,
+.sih-admin-quality-grid > div *,
+.sih-transporter-job-main *,
+.transporter-dashboard-command-center *,
+.transporter-dashboard-command-quickbar *,
+.transporter-dashboard-job-toolbar * {
+    /* Base reset */
+}
+
+.booking-card h1, .booking-card h2, .booking-card h3, .booking-card h4, .booking-card p, .booking-card span, .booking-card div, .booking-card strong,
+.home-dashboard-section h1, .home-dashboard-section h2, .home-dashboard-section h3, .home-dashboard-section h4, .home-dashboard-section p, .home-dashboard-section span, .home-dashboard-section div, .home-dashboard-section strong,
+.sih-transporter-job-main h1, .sih-transporter-job-main h2, .sih-transporter-job-main h3, .sih-transporter-job-main p, .sih-transporter-job-main span, .sih-transporter-job-main div, .sih-transporter-job-main strong {
+    color: #1c1917 !important; 
+    text-shadow: none !important; 
+}
+
+/* Fix bad visibility of green labels (FAQ passed etc) on golden glass */
+span[style*="background: '#dcfce7'"],
+span[style*='background: "#dcfce7"'] {
+    background: rgba(20, 83, 45, 0.9) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* Let the page-level text (outside panels) remain white */
+.farmer-home-page > h1, .farmer-home-page > p, .farmer-home-page > span, .farmer-home-page > div > h1, .farmer-home-page > div > p,
+.fl-page > h1, .fl-page > p,
+.ft-page > h1, .ft-page > p,
+.admin-weighing-page > h1, .admin-weighing-page > p, .admin-weighing-page > span,
+.at-page > h1, .at-page > p, .at-page > span,
+.transporter-dashboard-page > h1 {
+    color: #ffffff !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6), 0 4px 16px rgba(0,0,0,0.4) !important;
 }
