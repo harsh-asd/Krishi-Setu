@@ -746,7 +746,7 @@ const styles = {
   page: {
     minHeight: "100vh",
     background:
-      "linear-gradient(135deg, #f4faf5 0%, #eef7f1 48%, #f8fbf8 100%)",
+      "linear-gradient(135deg, #d5ecd9 0%, #cde7d3 48%, #e2f4e5 100%)",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",

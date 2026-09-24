@@ -169,7 +169,7 @@ function AdminLogin() {
 
   return (
 
-    <div className="admin-login-page" style={{ backgroundImage: `linear-gradient(rgba(244, 252, 240, 0.85), rgba(244, 252, 240, 0.95)), url(${farmerPortrait})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
+    <div className="admin-login-page" style={{ backgroundImage: `linear-gradient(rgba(215, 238, 220, 0.85), rgba(215, 238, 220, 0.95)), url(${farmerPortrait})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
 
 
       {/* =====================================================

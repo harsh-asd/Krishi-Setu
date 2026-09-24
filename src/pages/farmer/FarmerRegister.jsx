@@ -1312,7 +1312,7 @@ function FarmerRegister() {
 
   return (
 
-    <div className="farmer-register-page" style={{ backgroundImage: `linear-gradient(rgba(244, 252, 240, 0.85), rgba(244, 252, 240, 0.95)), url(${oxPlowing})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
+    <div className="farmer-register-page" style={{ backgroundImage: `linear-gradient(rgba(215, 238, 220, 0.85), rgba(215, 238, 220, 0.95)), url(${oxPlowing})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
 
       <Header
         showHelp={false}
