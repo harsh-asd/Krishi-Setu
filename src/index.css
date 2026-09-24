@@ -357287,3 +357287,22 @@ body.dark .digital-token {
     color: #1e293b !important;
     text-shadow: none !important;
 }
+
+
+/* ========================================================
+   FRONT PAGE TEXT COLOR OVERRIDES (AS REQUESTED)
+======================================================== */
+/* 1) from farm to market. - black colour text */
+.landing-hero-content h1 span {
+    color: #000000 !important;
+}
+
+/* 2) KrishiSetu connects the full crop journey... - white colour text */
+.landing-hero-description {
+    color: #ffffff !important;
+}
+
+/* 3) Schedule your arrival, Get a digital token, Follow your payment - white colour text */
+.landing-hero-points span {
+    color: #ffffff !important;
+}
