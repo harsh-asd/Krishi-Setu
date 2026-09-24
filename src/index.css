@@ -357294,7 +357294,10 @@ body.dark .digital-token {
 ======================================================== */
 /* 1) from farm to market. - black colour text */
 .landing-hero-content h1 span {
-    color: #000000 !important;
+    color: inherit !important;
+    background: none !important;
+    -webkit-text-fill-color: inherit !important;
+    text-shadow: inherit !important;
 }
 
 /* 2) KrishiSetu connects the full crop journey... - white colour text */
