@@ -6,6 +6,7 @@ import {
   useState,
 } from "react";
 import { useNavigate } from "react-router";
+import tractorHarvest from "../../assets/backgrounds/tractor-harvest.jpg";
 import {
   Activity,
   Bell,

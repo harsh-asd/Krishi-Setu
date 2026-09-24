@@ -356436,7 +356436,7 @@ body header.app-header {
 .farmer-home-page {
     /* Using a subtle white gradient overlay to keep it soft and elegant in Light Mode */
     background-image: 
-        linear-gradient(to bottom, rgba(248, 250, 252, 0.4), rgba(248, 250, 252, 0.8)),
+        linear-gradient(to bottom, rgba(22, 101, 52, 0.4), rgba(20, 83, 45, 0.65)),
         url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
     background-size: cover !important;
     background-position: center bottom !important;
@@ -357201,4 +357201,89 @@ body.dark .digital-token {
     color: #064e3b !important;
     font-weight: 600 !important;
     text-shadow: 0 0 15px rgba(255,255,255,0.9) !important;
+}
+
+
+/* ========================================================
+   GLOBAL BACKGROUND IMAGES FOR ADMIN/TRANSPORTER PORTALS
+======================================================== */
+.admin-weighing-page, .at-page {
+    background-image: 
+        linear-gradient(to bottom, rgba(22, 101, 52, 0.4), rgba(20, 83, 45, 0.65)),
+        url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-attachment: fixed !important;
+}
+
+/* 
+   Make text standout against the dark green background images! 
+   Force headings and plain text OUTSIDE the tan details boxes to be white.
+*/
+.admin-weighing-page h1,
+.admin-weighing-page h2,
+.admin-weighing-page p,
+.admin-weighing-page .admin-page-eyebrow,
+.at-page h1,
+.at-page h2,
+.at-page .at-eyebrow,
+.at-page p {
+    color: #ffffff !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4) !important;
+}
+
+/* Transporter Dashboard specific text standouts (outside the tan boxes) */
+.sih-transporter-job-main > h1,
+.sih-transporter-job-main > h2,
+.sih-transporter-job-main > p,
+.transporter-dashboard-header h1,
+.transporter-dashboard-header p {
+    color: #ffffff !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4) !important;
+}
+
+
+/* ========================================================
+   GLOBAL BACKGROUND IMAGES FOR ALL DASHBOARDS
+======================================================== */
+.fl-page, .ft-page, .sih-admin-weighing-page, .admin-weighing-page, .at-page, .farmer-home-page, .page-wrapper {
+    background-image: 
+        linear-gradient(to bottom, rgba(22, 101, 52, 0.4), rgba(20, 83, 45, 0.65)),
+        url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=2070&auto=format&fit=crop') !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-attachment: fixed !important;
+}
+
+/* 
+   Make text standout against the dark green background images! 
+   Force headings and plain text OUTSIDE the tan details boxes to be white/bright.
+*/
+.fl-page h1, .fl-page h2, .fl-page h3, .fl-page p, .fl-page span,
+.ft-page h1, .ft-page h2, .ft-page h3, .ft-page p, .ft-page span,
+.admin-weighing-page h1, .admin-weighing-page h2, .admin-weighing-page p, .admin-weighing-page span,
+.at-page h1, .at-page h2, .at-page p, .at-page span {
+    color: #ffffff !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6) !important;
+}
+
+/* Ensure the tan boxes keep their dark text */
+.fl-summary *, .fl-detail-grid *, .ft-summary *, .ft-side *, .admin-weighing-container *, .at-container *, .booking-card * {
+    color: inherit; /* Reset to parent or normal cascade */
+    text-shadow: none !important;
+}
+
+.fl-summary, .fl-detail-grid, .ft-summary, .ft-side, .admin-weighing-container, .at-container {
+    background-color: var(--card-bg-solid, #d8b26f) !important;
+    color: #1e293b !important; /* Dark text inside boxes */
+}
+
+/* Re-enforce dark text inside any element with background white or tan */
+[style*="background: '#ffffff'"],
+[style*='background: "#ffffff"'],
+[style*="background: '#d8b26f'"],
+[style*='background: "#d8b26f"'],
+.card, .box, .container {
+    color: #1e293b !important;
+    text-shadow: none !important;
 }
