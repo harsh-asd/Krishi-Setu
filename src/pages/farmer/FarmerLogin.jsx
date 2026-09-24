@@ -95,7 +95,7 @@ function FarmerLogin() {
   }
 
   return (
-    <div className="page-wrapper" style={{ backgroundImage: `linear-gradient(rgba(215, 238, 220, 0.85), rgba(215, 238, 220, 0.95)), url(${ricePlanting})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
+    <div className="page-wrapper" style={{ backgroundImage: `linear-gradient(rgba(22, 101, 52, 0.4), rgba(20, 83, 45, 0.65)), url(${ricePlanting})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <Header showHelp={false} />
       <main className="login-container">
         <div className="login-back-row">

@@ -357157,3 +357157,48 @@ body.dark .digital-token {
   border-radius: 50%;
   animation: noticePulse 1.5s infinite ease-in-out;
 }
+
+
+/* ========================================================
+   CLOCK OVERRIDES: Bold and outstanding
+======================================================== */
+.orbital-clock-mark {
+    font-weight: 900 !important;
+    font-size: 28px !important;
+    color: #022c22 !important; /* Very dark rich green */
+    text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,0.8) !important;
+}
+
+.clock-hour-hand {
+    width: 6px !important;
+    background: #022c22 !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4) !important;
+}
+.clock-minute-hand {
+    width: 4px !important;
+    background: #064e3b !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4) !important;
+}
+.clock-second-hand {
+    width: 3px !important;
+    background: #dc2626 !important; /* Red for pop */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4) !important;
+}
+
+.orbital-clock-dot {
+    background: #dc2626 !important;
+    transform: scale(1.6) !important;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5) !important;
+    border: 2px solid white !important;
+}
+
+/* Ensure landing hero text remains readable against the bolder background */
+.landing-hero-content h1 {
+    color: #022c22 !important;
+    text-shadow: 0 0 20px rgba(255,255,255,0.9), 0 0 40px rgba(255,255,255,0.5) !important;
+}
+.landing-hero-description {
+    color: #064e3b !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 15px rgba(255,255,255,0.9) !important;
+}

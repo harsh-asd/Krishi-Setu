@@ -265,7 +265,7 @@ useEffect(() => {
 
 
           <div className="landing-hero-background" style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(215, 238, 220, 0.9), rgba(215, 238, 220, 0.98)), url(${cropsSunset})`,
+            backgroundImage: `linear-gradient(to bottom, rgba(22, 101, 52, 0.45), rgba(20, 83, 45, 0.7)), url(${cropsSunset})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
