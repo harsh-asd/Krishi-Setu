@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router";
+import Logo from "../../components/Logo";
 import tractorHarvest from "../../assets/backgrounds/tractor-harvest.jpg";
 import goldenOxPlowing from "../../assets/backgrounds/golden-ox-plowing.png";
 import {
