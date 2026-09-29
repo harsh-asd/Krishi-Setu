@@ -2523,7 +2523,7 @@ function FarmerHome() {
                 <div style={{ marginTop: '16px', background: "rgba(235, 185, 70, 0.35)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", border: "1px solid rgba(255, 215, 0, 0.4)", boxShadow: "0 8px 32px rgba(0, 0, 0, 0.15)", borderRadius: '12px', border: '1px solid rgba(255,255,255,0.5)', padding: '16px' }} className="home-dashboard-card">
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
                     <h4 style={{ margin: 0, fontSize: '14px', color: "#1c1917", display: 'flex', alignItems: 'center', gap: '6px' }}>
-                      {String(activeBooking.crop).toLowerCase().includes('onion') ? <><span style={{fontSize: '16px'}}>🧅</span> AI Onion Quality Assessment</> : <><Wheat size={16} color="#059669" /> Scientific Quality Assessment</>}
+                      <Wheat size={16} color="#059669" /> Scientific Quality Assessment
                     </h4>
                     <span style={{ fontSize: '12px', background: "rgba(20, 83, 45, 0.9)", color: "#ffffff", color: "#ffffff", padding: '2px 8px', borderRadius: '12px', fontWeight: 'bold' }}>FAQ Passed</span>
                   </div>

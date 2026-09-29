@@ -321,7 +321,9 @@ useEffect(() => {
 
             <p className="landing-hero-description">
 
-              KrishiSetu connects the full crop journey — from booking to digital tokens, transport, and automated payments. Featuring our new AI-based Onion Quality Assessment module for DoCA.
+              KrishiSetu connects the full crop journey — from
+              procurement booking and digital token to vehicle
+              matching, trip tracking, center delivery and payment.
 
             </p>
 
