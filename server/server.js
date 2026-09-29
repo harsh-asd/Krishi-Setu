@@ -3895,6 +3895,8 @@ app.get(
 ========================================================= */
 app.get("/api/market/prices", (req, res) => {
   const basePrices = {
+    "Onion (Rabi)": 2200,
+    "Onion (Kharif)": 2400,
     "Wheat (गेहूँ)": 2275,
     "Paddy (धान)": 2183,
     "Maize (मक्का)": 2090,
@@ -3944,7 +3946,7 @@ app.post("/api/farmers/register",
       }
 
       const primaryCropInput = String(body.primaryCrop ?? body.primary_crop ?? "").trim();
-      const allowedCrops = ["wheat", "paddy", "maize", "cotton", ""];
+      const allowedCrops = ["wheat", "paddy", "maize", "cotton", "onion", ""];
       if (!allowedCrops.includes(primaryCropInput.toLowerCase())) {
         return res.status(400).json({
           success: false,
@@ -5027,7 +5029,7 @@ app.patch(
         ""
       ).trim();
 
-      const allowedCrops = ["wheat", "paddy", "maize", "cotton", ""];
+      const allowedCrops = ["wheat", "paddy", "maize", "cotton", "onion", ""];
       if (!allowedCrops.includes(primaryCrop.toLowerCase())) {
         return res.status(400).json({
           success: false,

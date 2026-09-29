@@ -13,7 +13,7 @@ export const demoFarmer = {
 
   preferredCenterId: "main",
 
-  primaryCrop: "wheat",
+  primaryCrop: "onion",
 
   estimatedQuantity: 250,
 };
@@ -22,6 +22,13 @@ export const demoCenters =
   procurementCenters;
 
 export const demoCrops = [
+  {
+    id: "onion",
+    name: "Onion (Rabi)",
+    icon: "🧅",
+    unit: "kg",
+    rate: 22,
+  },
   {
     id: "wheat",
     name: "Wheat",
@@ -61,7 +68,7 @@ export const demoBookings = [
     date: "2026-08-30",
     slotStart: "10:00",
     slotEnd: "10:30",
-    crop: "wheat",
+    crop: "onion",
     estimatedQuantity: 250,
     actualQuantity: null,
     status: "CONFIRMED",
@@ -242,7 +249,7 @@ export const demoBookings = [
     date: "2026-08-30",
     slotStart: "12:00",
     slotEnd: "12:30",
-    crop: "wheat",
+    crop: "onion",
     estimatedQuantity: 220,
     actualQuantity: null,
     status: "ARRIVED",
@@ -312,7 +319,7 @@ export const demoBookings = [
     date: "2026-08-30",
     slotStart: "13:00",
     slotEnd: "13:30",
-    crop: "wheat",
+    crop: "onion",
     estimatedQuantity: 275,
     actualQuantity: null,
     status: "CONFIRMED",
@@ -451,7 +458,7 @@ export const demoFarmers = [
     village: "Basantpur",
     language: "hi",
     preferredCenterId: "main",
-    primaryCrop: "wheat",
+    primaryCrop: "onion",
     estimatedQuantity: 220,
   },
 
@@ -473,7 +480,7 @@ export const demoFarmers = [
     village: "Haripur",
     language: "en",
     preferredCenterId: "main",
-    primaryCrop: "wheat",
+    primaryCrop: "onion",
     estimatedQuantity: 275,
   },
 
